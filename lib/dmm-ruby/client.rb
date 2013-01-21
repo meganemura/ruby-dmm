@@ -4,10 +4,10 @@ require 'faraday'
 require 'faraday_middleware'
 
 module DMM
-  class Client
-    API_URL     = 'http://affiliate-api.dmm.com'
-    API_VERSION = '2.00'
+  API_URL     = 'http://affiliate-api.dmm.com'
+  API_VERSION = '2.00'
 
+  class Client
     attr_reader :api_id, :affiliate_id
 
     def initialize(api_id, affiliate_id)
@@ -32,6 +32,7 @@ module DMM
         :timestamp    => Time.now,
         :site         => 'DMM.com', # Change this to 'DMM.co.jp' for R18.
       }.update(params)
+
       connection(options).get('/', default_params)
     end
   end
