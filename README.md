@@ -1,6 +1,6 @@
-# Dmm::Ruby
+# DMM::Ruby
 
-TODO: Write a gem description
+Client for the DMM Web Service API 2.0.
 
 ## Installation
 
