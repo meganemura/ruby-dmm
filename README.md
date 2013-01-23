@@ -18,8 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-    client = DMM::Client.new("your_api_key", "your_affiliate_id")
-    response = client.get({:keyword => "Ruby"})
+```ruby
+client = DMM::Client.new("your_api_key", "your_affiliate_id")
+response = client.get({:keyword => "Ruby"})
+```
 
 ## Contributing
 
