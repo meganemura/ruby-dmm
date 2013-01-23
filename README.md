@@ -1,4 +1,4 @@
-# DMM::Ruby
+# dmm-ruby [![Build Status](https://travis-ci.org/meganemura/dmm-ruby.png?branch=master)](https://travis-ci.org/meganemura/dmm-ruby)
 
 Client for the DMM Web Service API 2.0.
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    client = DMM::Client.new("your_api_key", "your_affiliate_id")
+    response = client.get({:keyword => "Ruby"})
 
 ## Contributing
 
@@ -27,3 +28,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## See also
+
+[API Reference](https://affiliate.dmm.com/api/)
