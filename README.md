@@ -1,4 +1,4 @@
-# dmm-ruby [![Build Status](https://travis-ci.org/meganemura/dmm-ruby.png?branch=master)](https://travis-ci.org/meganemura/dmm-ruby)
+# ruby-dmm [![Build Status](https://travis-ci.org/meganemura/ruby-dmm.png?branch=master)](https://travis-ci.org/meganemura/ruby-dmm)
 
 Client for the DMM Web Service API 2.0.
 
@@ -6,7 +6,7 @@ Client for the DMM Web Service API 2.0.
 
 Add this line to your application's Gemfile:
 
-    gem 'dmm-ruby'
+    gem 'ruby-dmm'
 
 And then execute:
 
@@ -14,13 +14,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install dmm-ruby
+    $ gem install ruby-dmm
 
 ## Usage
 
 ```ruby
 client = DMM::Client.new("your_api_key", "your_affiliate_id")
-response = client.get({:keyword => "Ruby"})
+response = client.item_list({:keyword => "Ruby"})
 ```
 
 ## Contributing
@@ -34,3 +34,4 @@ response = client.get({:keyword => "Ruby"})
 ## See also
 
 [API Reference](https://affiliate.dmm.com/api/)
+
