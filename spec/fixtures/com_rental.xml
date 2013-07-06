@@ -1,0 +1,2691 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<response>
+
+  <request>
+
+    <parameters>
+
+      <parameter name="api_id" value="apiaccount" />
+
+      <parameter name="affiliate_id" value="affiliate-999" />
+
+      <parameter name="operation" value="ItemList" />
+
+      <parameter name="version" value="2.00" />
+
+      <parameter name="timestamp" value="2012-12-01 00:00:00" />
+
+      <parameter name="site" value="DMM.com" />
+
+      <parameter name="service" value="rental" />
+
+      <parameter name="keyword" value="メン・イン・ブラック" />
+
+    </parameters>
+
+  </request>
+
+  <result>
+
+    <result_count>15</result_count>
+
+    <total_count>15</total_count>
+
+    <first_position>1</first_position>
+
+    <items>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_623dabr4295r</content_id>
+
+        <product_id>n_623dabr4295r</product_id>
+
+        <title>メン・イン・ブラック 3</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_623dabr4295r/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_623dabr4295r/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_623dabr4295r/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_623dabr4295r/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_623dabr4295r/n_623dabr4295rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_623dabr4295r/n_623dabr4295rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_623dabr4295r/n_623dabr4295rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2012-10-26 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ギャグ・コメディ</name>
+
+            <id>71004</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アクション</name>
+
+            <id>71002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </genre>
+
+          <series>
+
+            <name>メン・イン・ブラック</name>
+
+            <id>60032</id>
+
+          </series>
+
+          <maker>
+
+            <name>角川映画</name>
+
+            <id>60023</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ウィル・スミス</name>
+
+            <id>60058</id>
+
+          </actor>
+
+          <actor>
+
+            <name>うぃるすみす</name>
+
+            <id>60058_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トミー・リー・ジョーンズ</name>
+
+            <id>60298</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とみーりーじょーんず</name>
+
+            <id>60298_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジョシュ・ブローリン</name>
+
+            <id>61173</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じょしゅぶろーりん</name>
+
+            <id>61173_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・トンプソン</name>
+
+            <id>67063</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまとんぷそん</name>
+
+            <id>67063_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>バリー・ソネンフェルド</name>
+
+            <id>71070</id>
+
+          </director>
+
+          <director>
+
+            <name>ばりーそねんふぇるど</name>
+
+            <id>71070_ruby</id>
+
+          </director>
+
+          <label>
+
+            <name>角川エンタテインメント</name>
+
+            <id>60023</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988111842954</jancode>
+
+        <maker_product>DABP4295</maker_product>
+
+        <stock>3</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>000_1680</content_id>
+
+        <product_id>n_623daxr4295r</product_id>
+
+        <title>メン・イン・ブラック 3 （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=000_1680/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=000_1680/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_1680/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_1680/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_623daxr4295r/n_623daxr4295rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_623daxr4295r/n_623daxr4295rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_623daxr4295r/n_623daxr4295rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2012-10-26 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ギャグ・コメディ</name>
+
+            <id>71004</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アクション</name>
+
+            <id>71002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </genre>
+
+          <series>
+
+            <name>メン・イン・ブラック</name>
+
+            <id>60032</id>
+
+          </series>
+
+          <maker>
+
+            <name>角川映画</name>
+
+            <id>60023</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ウィル・スミス</name>
+
+            <id>60058</id>
+
+          </actor>
+
+          <actor>
+
+            <name>うぃるすみす</name>
+
+            <id>60058_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トミー・リー・ジョーンズ</name>
+
+            <id>60298</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とみーりーじょーんず</name>
+
+            <id>60298_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・トンプソン</name>
+
+            <id>67063</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまとんぷそん</name>
+
+            <id>67063_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジョシュ・ブローリン</name>
+
+            <id>61173</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じょしゅぶろーりん</name>
+
+            <id>61173_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>バリー・ソネンフェルド</name>
+
+            <id>71070</id>
+
+          </director>
+
+          <director>
+
+            <name>ばりーそねんふぇるど</name>
+
+            <id>71070_ruby</id>
+
+          </director>
+
+          <label>
+
+            <name>角川エンタテインメント</name>
+
+            <id>60023</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988111642950</jancode>
+
+        <maker_product>DAXP4295</maker_product>
+
+        <stock>3</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_606rdd32718</content_id>
+
+        <product_id>n_606rdd32718</product_id>
+
+        <title>メン・イン・ブラック 2</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_606rdd32718/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_606rdd32718/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_606rdd32718/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_606rdd32718/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_606rdd32718/n_606rdd32718pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_606rdd32718/n_606rdd32718ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_606rdd32718/n_606rdd32718pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2002-11-20 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ギャグ・コメディ</name>
+
+            <id>71004</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アクション</name>
+
+            <id>71002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アカデミー賞</name>
+
+            <id>71165</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>エイリアン</name>
+
+            <id>71159</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </genre>
+
+          <series>
+
+            <name>メン・イン・ブラック</name>
+
+            <id>60032</id>
+
+          </series>
+
+          <maker>
+
+            <name>ソニーピクチャーズ</name>
+
+            <id>60006</id>
+
+          </maker>
+
+          <actor>
+
+            <name>トミー・リー・ジョーンズ</name>
+
+            <id>60298</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とみーりーじょーんず</name>
+
+            <id>60298_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ウィル・スミス</name>
+
+            <id>60058</id>
+
+          </actor>
+
+          <actor>
+
+            <name>うぃるすみす</name>
+
+            <id>60058_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マーサ・スチュワート</name>
+
+            <id>189685</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まーさすちゅわーと</name>
+
+            <id>189685_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジョニー・ノックスヴィル</name>
+
+            <id>64238</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じょにーのっくすう゛ぃる</name>
+
+            <id>64238_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロザリオ・ドーソン</name>
+
+            <id>68411</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろざりおどーそん</name>
+
+            <id>68411_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マイケル・ジャクソン</name>
+
+            <id>162309</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まいけるじゃくそん</name>
+
+            <id>162309_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ララ・フリン・ボイル</name>
+
+            <id>60439</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ららふりんぼいる</name>
+
+            <id>60439_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トニー・シャルーブ</name>
+
+            <id>61423</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とにーしゃるーぶ</name>
+
+            <id>61423_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>パトリック・ウォーバートン</name>
+
+            <id>169792</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぱとりっくうぉーばーとん</name>
+
+            <id>169792_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ピーター・グレイヴス</name>
+
+            <id>169840</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぴーたーぐれいう゛す</name>
+
+            <id>169840_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>デヴィッド・クロス</name>
+
+            <id>186817</id>
+
+          </actor>
+
+          <actor>
+
+            <name>でう゛ぃっどくろす</name>
+
+            <id>186817_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ティム・ブラニー</name>
+
+            <id>189662</id>
+
+          </actor>
+
+          <actor>
+
+            <name>てぃむぶらにー</name>
+
+            <id>189662_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リップ・トーン</name>
+
+            <id>61840</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りっぷとーん</name>
+
+            <id>61840_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>バリー・ソネンフェルド</name>
+
+            <id>71070</id>
+
+          </director>
+
+          <director>
+
+            <name>ばりーそねんふぇるど</name>
+
+            <id>71070_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>ローウェル・J・カニンガム</name>
+
+            <id>242534</id>
+
+          </author>
+
+          <author>
+
+            <name>ろーうぇるじぇいかにんがむ</name>
+
+            <id>242534_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ソニーピクチャーズ</name>
+
+            <id>60006</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4547462000330</jancode>
+
+        <maker_product>RDD32718</maker_product>
+
+        <stock>2</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_606rdd24510</content_id>
+
+        <product_id>n_606rdd24510</product_id>
+
+        <title>メン・イン・ブラック</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_606rdd24510/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_606rdd24510/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_606rdd24510/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_606rdd24510/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_606rdd24510/n_606rdd24510pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_606rdd24510/n_606rdd24510ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_606rdd24510/n_606rdd24510pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2000-09-28 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>エイリアン</name>
+
+            <id>71159</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ギャグ・コメディ</name>
+
+            <id>71004</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アクション</name>
+
+            <id>71002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アカデミー賞</name>
+
+            <id>71165</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </genre>
+
+          <series>
+
+            <name>メン・イン・ブラック</name>
+
+            <id>60032</id>
+
+          </series>
+
+          <maker>
+
+            <name>ソニーピクチャーズ</name>
+
+            <id>60006</id>
+
+          </maker>
+
+          <actor>
+
+            <name>トミー・リー・ジョーンズ</name>
+
+            <id>60298</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とみーりーじょーんず</name>
+
+            <id>60298_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ウィル・スミス</name>
+
+            <id>60058</id>
+
+          </actor>
+
+          <actor>
+
+            <name>うぃるすみす</name>
+
+            <id>60058_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リンダ・フィオレンティーノ</name>
+
+            <id>61848</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りんだふぃおれんてぃーの</name>
+
+            <id>61848_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リップ・トーン</name>
+
+            <id>61840</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りっぷとーん</name>
+
+            <id>61840_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トニー・シャルーブ</name>
+
+            <id>61423</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とにーしゃるーぶ</name>
+
+            <id>61423_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>シオバン・ファロン</name>
+
+            <id>61101</id>
+
+          </actor>
+
+          <actor>
+
+            <name>しおばんふぁろん</name>
+
+            <id>61101_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヴィンセント・ドノフリオ</name>
+
+            <id>60785</id>
+
+          </actor>
+
+          <actor>
+
+            <name>う゛ぃんせんとどのふりお</name>
+
+            <id>60785_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>バリー・ソネンフェルド</name>
+
+            <id>71070</id>
+
+          </director>
+
+          <director>
+
+            <name>ばりーそねんふぇるど</name>
+
+            <id>71070_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>ローウェル・J・カニンガム</name>
+
+            <id>242534</id>
+
+          </author>
+
+          <author>
+
+            <name>ろーうぇるじぇいかにんがむ</name>
+
+            <id>242534_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ソニーピクチャーズ</name>
+
+            <id>60006</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988107158779</jancode>
+
+        <maker_product>RDD24510</maker_product>
+
+        <stock>2</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_606brr32718r</content_id>
+
+        <product_id>n_606brr32718r</product_id>
+
+        <title>メン・イン・ブラック 2 （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_606brr32718r/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_606brr32718r/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_606brr32718r/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_606brr32718r/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_606brr32718r/n_606brr32718rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_606brr32718r/n_606brr32718rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_606brr32718r/n_606brr32718rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2012-04-25 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ギャグ・コメディ</name>
+
+            <id>71004</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アカデミー賞</name>
+
+            <id>71165</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アクション</name>
+
+            <id>71002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>エイリアン</name>
+
+            <id>71159</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </genre>
+
+          <series>
+
+            <name>メン・イン・ブラック</name>
+
+            <id>60032</id>
+
+          </series>
+
+          <maker>
+
+            <name>ソニーピクチャーズ</name>
+
+            <id>60006</id>
+
+          </maker>
+
+          <actor>
+
+            <name>トミー・リー・ジョーンズ</name>
+
+            <id>60298</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とみーりーじょーんず</name>
+
+            <id>60298_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ウィル・スミス</name>
+
+            <id>60058</id>
+
+          </actor>
+
+          <actor>
+
+            <name>うぃるすみす</name>
+
+            <id>60058_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ララ・フリン・ボイル</name>
+
+            <id>60439</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ららふりんぼいる</name>
+
+            <id>60439_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トニー・シャルーブ</name>
+
+            <id>61423</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とにーしゃるーぶ</name>
+
+            <id>61423_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リップ・トーン</name>
+
+            <id>61840</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りっぷとーん</name>
+
+            <id>61840_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジョニー・ノックスヴィル</name>
+
+            <id>64238</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じょにーのっくすう゛ぃる</name>
+
+            <id>64238_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロザリオ・ドーソン</name>
+
+            <id>68411</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろざりおどーそん</name>
+
+            <id>68411_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マイケル・ジャクソン</name>
+
+            <id>162309</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まいけるじゃくそん</name>
+
+            <id>162309_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>パトリック・ウォーバートン</name>
+
+            <id>169792</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぱとりっくうぉーばーとん</name>
+
+            <id>169792_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ピーター・グレイヴス</name>
+
+            <id>169840</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぴーたーぐれいう゛す</name>
+
+            <id>169840_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>デヴィッド・クロス</name>
+
+            <id>186817</id>
+
+          </actor>
+
+          <actor>
+
+            <name>でう゛ぃっどくろす</name>
+
+            <id>186817_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ティム・ブラニー</name>
+
+            <id>189662</id>
+
+          </actor>
+
+          <actor>
+
+            <name>てぃむぶらにー</name>
+
+            <id>189662_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マーサ・スチュワート</name>
+
+            <id>189685</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まーさすちゅわーと</name>
+
+            <id>189685_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>バリー・ソネンフェルド</name>
+
+            <id>71070</id>
+
+          </director>
+
+          <director>
+
+            <name>ばりーそねんふぇるど</name>
+
+            <id>71070_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>ローウェル・J・カニンガム</name>
+
+            <id>242534</id>
+
+          </author>
+
+          <author>
+
+            <name>ろーうぇるじぇいかにんがむ</name>
+
+            <id>242534_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ソニーピクチャーズ</name>
+
+            <id>60006</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4547462081483</jancode>
+
+        <maker_product>BRR32718</maker_product>
+
+        <stock>3</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_606brr24510r</content_id>
+
+        <product_id>n_606brr24510r</product_id>
+
+        <title>メン・イン・ブラック （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_606brr24510r/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_606brr24510r/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_606brr24510r/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_606brr24510r/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_606brr24510r/n_606brr24510rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_606brr24510r/n_606brr24510rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_606brr24510r/n_606brr24510rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2008-12-19 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>エイリアン</name>
+
+            <id>71159</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ギャグ・コメディ</name>
+
+            <id>71004</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アカデミー賞</name>
+
+            <id>71165</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アクション</name>
+
+            <id>71002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>SF</name>
+
+            <id>71003</id>
+
+          </genre>
+
+          <series>
+
+            <name>メン・イン・ブラック</name>
+
+            <id>60032</id>
+
+          </series>
+
+          <maker>
+
+            <name>ソニーピクチャーズ</name>
+
+            <id>60006</id>
+
+          </maker>
+
+          <actor>
+
+            <name>トミー・リー・ジョーンズ</name>
+
+            <id>60298</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とみーりーじょーんず</name>
+
+            <id>60298_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リンダ・フィオレンティーノ</name>
+
+            <id>61848</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りんだふぃおれんてぃーの</name>
+
+            <id>61848_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リップ・トーン</name>
+
+            <id>61840</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りっぷとーん</name>
+
+            <id>61840_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トニー・シャルーブ</name>
+
+            <id>61423</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とにーしゃるーぶ</name>
+
+            <id>61423_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>シオバン・ファロン</name>
+
+            <id>61101</id>
+
+          </actor>
+
+          <actor>
+
+            <name>しおばんふぁろん</name>
+
+            <id>61101_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヴィンセント・ドノフリオ</name>
+
+            <id>60785</id>
+
+          </actor>
+
+          <actor>
+
+            <name>う゛ぃんせんとどのふりお</name>
+
+            <id>60785_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ウィル・スミス</name>
+
+            <id>60058</id>
+
+          </actor>
+
+          <actor>
+
+            <name>うぃるすみす</name>
+
+            <id>60058_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>バリー・ソネンフェルド</name>
+
+            <id>71070</id>
+
+          </director>
+
+          <director>
+
+            <name>ばりーそねんふぇるど</name>
+
+            <id>71070_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>ローウェル・J・カニンガム</name>
+
+            <id>242534</id>
+
+          </author>
+
+          <author>
+
+            <name>ろーうぇるじぇいかにんがむ</name>
+
+            <id>242534_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ソニーピクチャーズ</name>
+
+            <id>60006</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4547462054555</jancode>
+
+        <maker_product>BRR24510</maker_product>
+
+        <stock>2</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額CDレンタル</floor_name>
+
+        <category_name>月額CDレンタル</category_name>
+
+        <content_id>cd_194bacy58r</content_id>
+
+        <product_id>cd_194bacy58r</product_id>
+
+        <title>パンク・ゴーズ・クランク</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=cd_194bacy58r/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=cd_194bacy58r/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_194bacy58r/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_194bacy58r/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/music/cd_194bacy58r/cd_194bacy58rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/music/cd_194bacy58r/cd_194bacy58rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/music/cd_194bacy58r/cd_194bacy58rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2009-04-23 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ロック</name>
+
+            <id>52002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>オムニバス</name>
+
+            <id>52007</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ロック</name>
+
+            <id>52002</id>
+
+          </genre>
+
+          <maker>
+
+            <name>バッドニュース</name>
+
+            <id>80194</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <cd_info>
+
+          <kind>アルバム</kind>
+
+        </cd_info>
+
+        <jancode>4511552800810</jancode>
+
+        <maker_product>BACY58</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額CDレンタル</floor_name>
+
+        <category_name>月額CDレンタル</category_name>
+
+        <content_id>cd_009bvcm31154</content_id>
+
+        <product_id>cd_009bvcm31154</product_id>
+
+        <title>ジャジー・ジェフ＆フレッシュ・プリンス/グレイテスト・ヒッツ</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=cd_009bvcm31154/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=cd_009bvcm31154/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_009bvcm31154/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_009bvcm31154/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/music/cd_009bvcm31154/cd_009bvcm31154pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/music/cd_009bvcm31154/cd_009bvcm31154ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/music/cd_009bvcm31154/cd_009bvcm31154pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2005-02-23 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ソウル・R＆B</name>
+
+            <id>52003</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ダンス・ユーロビート</name>
+
+            <id>52112</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ベスト</name>
+
+            <id>52130</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ソウル・R＆B</name>
+
+            <id>52003</id>
+
+          </genre>
+
+          <maker>
+
+            <name>BMG JAPAN</name>
+
+            <id>80009</id>
+
+          </maker>
+
+          <artist>
+
+            <name>ジャジー・ジェフ＆フレッシュ・プリンス</name>
+
+            <id>87372</id>
+
+          </artist>
+
+          <artist>
+
+            <name>じゃじーじぇふあんどふれっしゅぷりんす</name>
+
+            <id>87372_ruby</id>
+
+          </artist>
+
+        </iteminfo>
+
+        <cd_info>
+
+          <kind>アルバム</kind>
+
+        </cd_info>
+
+        <jancode>4988017629895</jancode>
+
+        <maker_product>BVCM31154</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額CDレンタル</floor_name>
+
+        <category_name>月額CDレンタル</category_name>
+
+        <content_id>cd_033sicp298</content_id>
+
+        <product_id>cd_033sicp298</product_id>
+
+        <title>ウィル・スミス/グレイテスト・ヒッツ</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=cd_033sicp298/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=cd_033sicp298/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_033sicp298/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_033sicp298/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/cd/noimage/noimage_top_52004.jpg</list>
+
+          <small>http://pics.dmm.com/mono/cd/noimage/noimage_top_52004.jpg</small>
+
+          <large>http://pics.dmm.com/mono/cd/noimage/noimage_top_52004.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2002-12-04 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ヒップホップ・ラップ</name>
+
+            <id>52004</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ベスト</name>
+
+            <id>52130</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ヒップホップ・ラップ</name>
+
+            <id>52004</id>
+
+          </genre>
+
+          <maker>
+
+            <name>ソニー・ミュージック</name>
+
+            <id>80338</id>
+
+          </maker>
+
+          <artist>
+
+            <name>ウィル・スミス</name>
+
+            <id>85077</id>
+
+          </artist>
+
+          <artist>
+
+            <name>うぃるすみす</name>
+
+            <id>85077_ruby</id>
+
+          </artist>
+
+        </iteminfo>
+
+        <cd_info>
+
+          <kind>アルバム</kind>
+
+        </cd_info>
+
+        <jancode>4547366008975</jancode>
+
+        <maker_product>SICP298</maker_product>
+
+        <stock>4</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_631atvd10371</content_id>
+
+        <product_id>n_631atvd10371</product_id>
+
+        <title>ザ・シークレットエージェント 4</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_631atvd10371/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_631atvd10371/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_631atvd10371/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_631atvd10371/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_631atvd10371/n_631atvd10371pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_631atvd10371/n_631atvd10371ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_631atvd10371/n_631atvd10371pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2002-07-05 10:00:04</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ドラマ</name>
+
+            <id>77006</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アクション</name>
+
+            <id>77001</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>アクション</name>
+
+            <id>77001</id>
+
+          </genre>
+
+          <series>
+
+            <name>ザ・シークレットエージェント</name>
+
+            <id>60748</id>
+
+          </series>
+
+          <maker>
+
+            <name>アットエンタテインメント</name>
+
+            <id>60031</id>
+
+          </maker>
+
+          <actor>
+
+            <name>コスタス・マンディロア</name>
+
+            <id>63803</id>
+
+          </actor>
+
+          <actor>
+
+            <name>こすたすまんでぃろあ</name>
+
+            <id>63803_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ディナ・メイヤー</name>
+
+            <id>62473</id>
+
+          </actor>
+
+          <actor>
+
+            <name>でぃなめいやー</name>
+
+            <id>62473_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ミュゼッタ・バンデン</name>
+
+            <id>176397</id>
+
+          </actor>
+
+          <actor>
+
+            <name>みゅぜったばんでん</name>
+
+            <id>176397_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>D・T・ウィットフィールド</name>
+
+            <id>176371</id>
+
+          </actor>
+
+          <actor>
+
+            <name>でぃーてぃーうぃっとふぃーるど</name>
+
+            <id>176371_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ポール・ギルフォイル</name>
+
+            <id>66592</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぽーるぎるふぉいる</name>
+
+            <id>66592_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>ジェームズ・クイン</name>
+
+            <id>3171</id>
+
+          </director>
+
+          <director>
+
+            <name>じぇーむずくいん</name>
+
+            <id>3171_ruby</id>
+
+          </director>
+
+          <label>
+
+            <name>アットエンタテインメント</name>
+
+            <id>60031</id>
+
+          </label>
+
+        </iteminfo>
+
+        <maker_product>ATVD10371</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額CDレンタル</floor_name>
+
+        <category_name>月額CDレンタル</category_name>
+
+        <content_id>cd_033srcs2207</content_id>
+
+        <product_id>cd_033srcs2207</product_id>
+
+        <title>ミレニアムMAX（ムービー）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=cd_033srcs2207/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=cd_033srcs2207/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_033srcs2207/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_033srcs2207/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/cd/noimage/noimage_top_53002.jpg</list>
+
+          <small>http://pics.dmm.com/mono/cd/noimage/noimage_top_53002.jpg</small>
+
+          <large>http://pics.dmm.com/mono/cd/noimage/noimage_top_53002.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2000-03-08 10:00:01</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>洋画</name>
+
+            <id>53002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>オムニバス</name>
+
+            <id>53111</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>洋画</name>
+
+            <id>53002</id>
+
+          </genre>
+
+          <maker>
+
+            <name>ソニー・ミュージック</name>
+
+            <id>80338</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <cd_info>
+
+          <kind>アルバム</kind>
+
+        </cd_info>
+
+        <jancode>4988009220710</jancode>
+
+        <maker_product>SRCS2207</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額CDレンタル</floor_name>
+
+        <category_name>月額CDレンタル</category_name>
+
+        <content_id>cd_033srcs8902</content_id>
+
+        <product_id>cd_033srcs8902</product_id>
+
+        <title>グレイテスト・ムービー・ソングス</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=cd_033srcs8902/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=cd_033srcs8902/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_033srcs8902/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_033srcs8902/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/cd/noimage/noimage_top_52002.jpg</list>
+
+          <small>http://pics.dmm.com/mono/cd/noimage/noimage_top_52002.jpg</small>
+
+          <large>http://pics.dmm.com/mono/cd/noimage/noimage_top_52002.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>1999-03-25 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ロック</name>
+
+            <id>52002</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ロック</name>
+
+            <id>52002</id>
+
+          </genre>
+
+          <maker>
+
+            <name>ソニー・ミュージック</name>
+
+            <id>80338</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <cd_info>
+
+          <kind>アルバム</kind>
+
+        </cd_info>
+
+        <jancode>4988009890296</jancode>
+
+        <maker_product>SRCS8902</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額CDレンタル</floor_name>
+
+        <category_name>月額CDレンタル</category_name>
+
+        <content_id>cd_087avcz95104</content_id>
+
+        <product_id>cd_087avcz95104</product_id>
+
+        <title>グレイテスト・ヒッツ</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=cd_087avcz95104/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=cd_087avcz95104/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_087avcz95104/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_087avcz95104/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/music/cd_087avcz95104/cd_087avcz95104pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/music/cd_087avcz95104/cd_087avcz95104ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/music/cd_087avcz95104/cd_087avcz95104pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>1998-04-08 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ダンス・ユーロビート</name>
+
+            <id>52112</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ソウル・R＆B</name>
+
+            <id>52003</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ベスト</name>
+
+            <id>52130</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ソウル・R＆B</name>
+
+            <id>52003</id>
+
+          </genre>
+
+          <maker>
+
+            <name>エイベックス・エンタテインメント</name>
+
+            <id>80087</id>
+
+          </maker>
+
+          <artist>
+
+            <name>ジャジー・ジェフ＆フレッシュ・プリンス</name>
+
+            <id>87372</id>
+
+          </artist>
+
+          <artist>
+
+            <name>じゃじーじぇふあんどふれっしゅぷりんす</name>
+
+            <id>87372_ruby</id>
+
+          </artist>
+
+        </iteminfo>
+
+        <cd_info>
+
+          <kind>アルバム</kind>
+
+        </cd_info>
+
+        <jancode>4988064951048</jancode>
+
+        <maker_product>AVCZ95104</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額CDレンタル</floor_name>
+
+        <category_name>月額CDレンタル</category_name>
+
+        <content_id>cd_033srcs8445</content_id>
+
+        <product_id>cd_033srcs8445</product_id>
+
+        <title>ウィル・スミス/メン・イン・ブラック</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=cd_033srcs8445/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=cd_033srcs8445/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_033srcs8445/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_033srcs8445/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/cd/noimage/noimage_top_52004.jpg</list>
+
+          <small>http://pics.dmm.com/mono/cd/noimage/noimage_top_52004.jpg</small>
+
+          <large>http://pics.dmm.com/mono/cd/noimage/noimage_top_52004.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>1997-08-22 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ヒップホップ・ラップ</name>
+
+            <id>52004</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ヒップホップ・ラップ</name>
+
+            <id>52004</id>
+
+          </genre>
+
+          <maker>
+
+            <name>ソニー・ミュージック</name>
+
+            <id>80338</id>
+
+          </maker>
+
+          <artist>
+
+            <name>ウィル・スミス</name>
+
+            <id>85077</id>
+
+          </artist>
+
+          <artist>
+
+            <name>うぃるすみす</name>
+
+            <id>85077_ruby</id>
+
+          </artist>
+
+        </iteminfo>
+
+        <cd_info>
+
+          <kind>シングル</kind>
+
+        </cd_info>
+
+        <jancode>4988009844596</jancode>
+
+        <maker_product>SRCS8445</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額CDレンタル</floor_name>
+
+        <category_name>月額CDレンタル</category_name>
+
+        <content_id>cd_338srcs8411</content_id>
+
+        <product_id>cd_338srcs8411</product_id>
+
+        <title>メン・イン・ブラック</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=cd_338srcs8411/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=cd_338srcs8411/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_338srcs8411/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/cd/cid/cd_338srcs8411/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/cd/noimage/noimage_top_53002.jpg</list>
+
+          <small>http://pics.dmm.com/mono/cd/noimage/noimage_top_53002.jpg</small>
+
+          <large>http://pics.dmm.com/mono/cd/noimage/noimage_top_53002.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>1997-08-06 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>洋画</name>
+
+            <id>53002</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>洋画</name>
+
+            <id>53002</id>
+
+          </genre>
+
+          <maker>
+
+            <name>ソニー・ミュージック</name>
+
+            <id>80338</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <cd_info>
+
+          <kind>アルバム</kind>
+
+        </cd_info>
+
+        <maker_product>SRCS8411</maker_product>
+
+        <stock>4</stock>
+
+      </item>
+
+    </items>
+
+  </result>
+
+</response>

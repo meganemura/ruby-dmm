@@ -1,112 +1,71 @@
-# vim: ts=2 sts=2 et sw=2 ft=ruby
-
+# encoding: utf-8
 require 'faraday'
+require 'faraday/response/raise_dmm_error'
 require 'faraday_middleware'
 require 'faraday_middleware/response/dmm_rashify'
+require 'multi_xml_tweaks'
 require 'ruby-dmm/response'
+require 'ruby-dmm/client/item_list'
 
 module DMM
-  API_URL             = 'http://affiliate-api.dmm.com'
-  DEFAULT_API_VERSION = '2.00'
-
-  OPERATION_ITEM_LIST = 'ItemList'
-
-  SITE_DMM_CO_JP      = 'DMM.co.jp'
-  SITE_DMM_COM        = 'DMM.com'
-
-  DEFAULT_SITE        = SITE_DMM_CO_JP
-  DEFAULT_SORT        = 'rank'
+  DEFAULT_API_VERSION   = '2.00'.freeze
+  SITE_DMM_CO_JP        = 'DMM.co.jp'.freeze
+  SITE_DMM_COM          = 'DMM.com'.freeze
+  DEFAULT_SITE          = SITE_DMM_CO_JP
 
   class Client
-    attr_accessor :params, :options
+    attr_accessor(*Configuration::VALID_OPTIONS_KEYS)
+    attr_accessor :params
 
-    def initialize(api_id, affiliate_id)
+    def initialize(params={})
+      params = params.inject({}) {|hash, (key, value)| hash.merge({key.to_sym => value})}
       @params = {
-        :api_id       => api_id,
-        :affiliate_id => affiliate_id,
-        :operation    => OPERATION_ITEM_LIST,
+        :api_id       => params[:api_id],             # your own api_id
+        :affiliate_id => params[:affiliate_id],       # your own api_id
+        :operation    => nil,                         # "ItemList" is only available now.
         :version      => DEFAULT_API_VERSION,
         :timestamp    => Time.now.strftime("%F %T"),
         :site         => DEFAULT_SITE,
-      }
-      @options = {}
+        :result_only  => false,                       # Set true to get only response.result.
+      }.merge(params)
+
+      DMM.options.each {|key, value| send("#{key}=", value) }
     end
 
-    def item_list(params = {})
-      @params.update(params.merge(:operation => OPERATION_ITEM_LIST))
-      encode_params!
-
-      response = get
-      response.body.response.request.extend(DMM::Request)
-      response.body.response.result.extend(DMM::Result)
-      response.body.response
+    def operation(value)
+      self.tap {|o| o.params.update(:operation => value) }
     end
 
-    REQUIRED_KEYS = [:api_id, :affiliate_id, :operation, :version, :timestamp, :site].freeze
-    OPTIONAL_KEYS = [:service, :floor, :hits, :offset, :sort, :keyword, :mono_stock].freeze
-
-    def validate
-      @params.keys & REQUIRED_KEYS == REQUIRED_KEYS
+    def all
+      @params[:operation] ? get('/', @params) : nil
     end
 
-    # define methods for update parameters
-    (REQUIRED_KEYS + OPTIONAL_KEYS).each do |key|
-      next if method_defined?(key)
-      define_method(key) do |value|
-        dup = self.dup
-        dup.params.update(key => value)
-        dup
-      end
-    end
-    alias :limit :hits
-    alias :stock :mono_stock
-
-    # client helper method
-    def order(order_by, direction = nil)
-      order = case order_by
-      when :rank
-        'rank'
-      when :price
-        if direction =~ /desc/ then '+price' else '-price' end
-      when :date
-        'date'
-      when :review
-        'review'
-      else
-        DEFAULT_SORT
-      end
-
-      dup = self.dup
-      dup.params.update(:sort => order)
-      dup
-    end
+    include DMM::Client::ItemList
 
     private
-    def initialize_copy(source)
-      super
-      @params = @params.dup
-      @options = @options.dup
+
+    def get(path, options={})
+      encode_params!
+      response = connection.get('/', options)
+      response.body
     end
 
-    def get(params = {}, options = {})
-      @params.update(params)
-      @options.update(options)
-      connection(@options).get('/', @params)
-    end
-
-    def connection(options)
+    def connection(options={})
       # TODO: not to create on every request.
-      Faraday.new(API_URL, options) do |faraday|
-        faraday.adapter(Faraday.default_adapter)
+      Faraday.new(api_endpoint, options) do |faraday|
+        faraday.adapter(adapter)
         faraday.request(:url_encoded)
         faraday.response(:xml, :content_type => "text/xml; charset=euc-jp")
         faraday.use(FaradayMiddleware::DMMRashify)
         faraday.use(FaradayMiddleware::ParseXml)
+        faraday.use(Faraday::Response::RaiseDMMError)
       end
     end
 
     def encode_params!
-      @params.each_value {|value| value.encode!(Encoding::EUC_JP) if value.is_a?(String) }
+      @params.each do |key, value|
+        value.encode!(Encoding::EUC_JP) if value.is_a?(String) && !value.frozen?
+      end
     end
   end
 end

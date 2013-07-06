@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<response>
+
+  <request>
+
+    <parameters>
+
+      <parameter name="api_id" value="apiaccount" />
+
+      <parameter name="affiliate_id" value="affiliate-999" />
+
+      <parameter name="operation" value="ItemList" />
+
+      <parameter name="version" value="2.00" />
+
+      <parameter name="timestamp" value="2012-12-01 00:00:00" />
+
+      <parameter name="site" value="DMM.com" />
+
+      <parameter name="service" value="nandemo" />
+
+      <parameter name="floor" value="fashion_ladies" />
+
+      <parameter name="keyword" value="ルイ・ヴィトン" />
+
+    </parameters>
+
+  </request>
+
+  <result>
+
+    <result_count>20</result_count>
+
+    <total_count>88</total_count>
+
+    <first_position>1</first_position>
+
+    <items>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02372b</content_id>
+
+        <product_id>f_02372zb</product_id>
+
+        <title>ルイ・ヴィトン ポシェット・ソービー M93727 オレンジサンセット パテントレザー ハンドバッグ オレンジ</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02372b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02372b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02372/f_02372pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02372/f_02372ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02372/f_02372pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2011-08-02 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>ソブ</name>
+
+            <id>43</id>
+
+          </label>
+
+          <type>
+
+            <name>クラッチバッグ</name>
+
+            <id>1</id>
+
+          </type>
+
+          <color>
+
+            <name>オレンジ</name>
+
+            <id>1</id>
+
+          </color>
+
+          <size>
+
+            <name>縦：11cm/横：25.5cm/マチ：5cm</name>
+
+            <id>11364</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M93727 PL2059</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_00046b</content_id>
+
+        <product_id>f_00046zb</product_id>
+
+        <title>ルイ・ヴィトン モノグラム・ヴェルニ ロクスバリードライブ ハンドバッグ レッド</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00046b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00046b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_00046/f_00046pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_00046/f_00046ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_00046/f_00046pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2010-04-26 10:10:22</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>モノグラム・ヴェルニ</name>
+
+            <id>14</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>レッド</name>
+
+            <id>11</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:20cm/横:32cm/マチ:10cm/持ち手:14cm</name>
+
+            <id>11159</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M91987</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_00047b</content_id>
+
+        <product_id>f_00047zb</product_id>
+
+        <title>ルイ・ヴィトン モノグラム・ヴェルニ ロクスバリードライブ ハンドバッグ ホワイト</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00047b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00047b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_00047/f_00047pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_00047/f_00047ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_00047/f_00047pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2010-04-26 10:10:21</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>モノグラム・ヴェルニ</name>
+
+            <id>14</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>ホワイト</name>
+
+            <id>13</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:20cm/横:32cm/マチ:10cm/持ち手:14cm</name>
+
+            <id>11159</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M91374</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_00045a</content_id>
+
+        <product_id>f_00045za</product_id>
+
+        <title>ルイ・ヴィトン モノグラム・ヴェルニ ウィルシャーブルーバード ハンドバッグ レッド</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00045a/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00045a/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_00045/f_00045pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_00045/f_00045ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_00045/f_00045pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>4980〜</price>
+
+        </prices>
+
+        <date>2010-04-26 10:10:14</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>モノグラム・ヴェルニ</name>
+
+            <id>14</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>レッド</name>
+
+            <id>11</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:18cm/横:30cm/マチ:11cm/持ち手:40cm</name>
+
+            <id>11128</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M93642</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_00346a</content_id>
+
+        <product_id>f_00346za</product_id>
+
+        <title>ルイ・ヴィトン エピ ポシェット モンテーニュ ショルダーバッグ ホワイト</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00346a/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00346a/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_00346/f_00346pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_00346/f_00346ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_00346/f_00346pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>4980〜</price>
+
+        </prices>
+
+        <date>2010-04-26 10:09:55</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>エピ</name>
+
+            <id>8</id>
+
+          </label>
+
+          <type>
+
+            <name>ショルダーバッグ</name>
+
+            <id>2</id>
+
+          </type>
+
+          <color>
+
+            <name>ホワイト</name>
+
+            <id>13</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:11cm/横:26.5cm/マチ:6.5cm/持ち手:53cm-62cm</name>
+
+            <id>11034</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M 5929 J</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_00086a</content_id>
+
+        <product_id>f_00086za</product_id>
+
+        <title>ルイ・ヴィトン ダミエ ハムプステッドPM ハンドバッグ ブラウン</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00086a/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00086a/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_00086/f_00086pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_00086/f_00086ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_00086/f_00086pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2010-04-26 10:08:55</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>ダミエ</name>
+
+            <id>17</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>ブラウン</name>
+
+            <id>7</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:24cm/横:28.5cm/マチ:17.5cm/持ち手:44.5cm</name>
+
+            <id>11214</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>N51205</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02995a</content_id>
+
+        <product_id>f_02995za</product_id>
+
+        <title>【2点セット】RYZA フラワーモチーフ ミニドレス＆LOUIS VUITTON カンヌ エピ ハンドバッグ</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02995a/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02995a/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02995/f_02995pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02995/f_02995ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02995/f_02995pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>4980〜</price>
+
+        </prices>
+
+        <date>2012-11-19 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>RYZA</name>
+
+            <id>421</id>
+
+          </maker>
+
+          <type>
+
+            <name>ミニドレス</name>
+
+            <id>14</id>
+
+          </type>
+
+          <color>
+
+            <name>ベージュ</name>
+
+            <id>10</id>
+
+          </color>
+
+          <color>
+
+            <name>レッド</name>
+
+            <id>11</id>
+
+          </color>
+
+          <size>
+
+            <name>M</name>
+
+            <id>10</id>
+
+          </size>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02988b</content_id>
+
+        <product_id>f_02988zb</product_id>
+
+        <title>【2点セット】2連パールタックドレス＆LOUIS VUITTON ヴェルニ ハンドバッグ</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02988b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02988b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02988/f_02988pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02988/f_02988ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02988/f_02988pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>4980〜</price>
+
+        </prices>
+
+        <date>2012-11-19 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <type>
+
+            <name>ミニドレス</name>
+
+            <id>14</id>
+
+          </type>
+
+          <color>
+
+            <name>ブラック</name>
+
+            <id>8</id>
+
+          </color>
+
+          <color>
+
+            <name>ベージュ</name>
+
+            <id>10</id>
+
+          </color>
+
+          <size>
+
+            <name>M</name>
+
+            <id>10</id>
+
+          </size>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02969b</content_id>
+
+        <product_id>f_02969zb</product_id>
+
+        <title>ルイ・ヴィトン モノグラム・ヴェルニ アルマPM ハンドバッグ ホワイト</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02969b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02969b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02969/f_02969pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02969/f_02969ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02969/f_02969pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>6980〜</price>
+
+        </prices>
+
+        <date>2012-08-17 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>モノグラム・ヴェルニ</name>
+
+            <id>14</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>ホワイト</name>
+
+            <id>13</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:24cm×横:32cm×マチ:17cm</name>
+
+            <id>11440</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>N91445</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02968b</content_id>
+
+        <product_id>f_02968zb</product_id>
+
+        <title>ルイ・ヴィトン エピ ボンヌフ ハンドバッグ イエロー</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02968b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02968b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02968/f_02968pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02968/f_02968ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02968/f_02968pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>4980〜</price>
+
+        </prices>
+
+        <date>2012-08-17 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>エピ</name>
+
+            <id>8</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>イエロー</name>
+
+            <id>15</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:23cm×横:24.5cm×マチ:8.5cm</name>
+
+            <id>11439</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M52059</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02371b</content_id>
+
+        <product_id>f_02371zb</product_id>
+
+        <title>ルイ・ヴィトン ヴェルニ メープル・ドライブ M91377 パープル</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02371b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02371b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02371/f_02371pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02371/f_02371ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02371/f_02371pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2011-08-02 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>モノグラム・ヴェルニ</name>
+
+            <id>14</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>パープル</name>
+
+            <id>5</id>
+
+          </color>
+
+          <size>
+
+            <name>縦：27cm/横：24cm/マチ：13cm</name>
+
+            <id>11370</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M91377 LM0025</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02369b</content_id>
+
+        <product_id>f_02369zb</product_id>
+
+        <title>ルイ・ヴィトン スピーディ25 ダミエアズール ハンドバッグ ホワイト</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02369b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02369b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02369/f_02369pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02369/f_02369ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02369/f_02369pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>2980〜</price>
+
+        </prices>
+
+        <date>2011-08-02 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>ダミエ・アズール</name>
+
+            <id>11</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>ホワイト</name>
+
+            <id>13</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:18cm/横:24cm/持ち手:29cm</name>
+
+            <id>11372</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>N41534</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02368b</content_id>
+
+        <product_id>f_02368zb</product_id>
+
+        <title>ルイ・ヴィトン モット ヴェルニ ショルダーバッグ ベージュ</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02368b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02368b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02368/f_02368pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02368/f_02368ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02368/f_02368pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2011-08-02 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>ヴェルニ</name>
+
+            <id>22</id>
+
+          </label>
+
+          <type>
+
+            <name>ショルダーバッグ</name>
+
+            <id>2</id>
+
+          </type>
+
+          <color>
+
+            <name>ベージュ</name>
+
+            <id>10</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:18cm/横:16cm/持ち手:59cm</name>
+
+            <id>11371</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M91136</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02367b</content_id>
+
+        <product_id>f_02367zb</product_id>
+
+        <title>ルイ・ヴィトン サミット・ドライブ ヴェルニ ハンドバッグ レッド</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02367b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02367b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02367/f_02367pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02367/f_02367ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02367/f_02367pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>5980〜</price>
+
+        </prices>
+
+        <date>2011-08-02 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>ヴェルニ</name>
+
+            <id>22</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>レッド</name>
+
+            <id>11</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:24cm/横:32cm/持ち手:47cm</name>
+
+            <id>11374</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M93513</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02365b</content_id>
+
+        <product_id>f_02365zb</product_id>
+
+        <title>ルイ・ヴィトン カンヌ エピ ハンドバッグ イエロー</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02365b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02365b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02365/f_02365pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02365/f_02365ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02365/f_02365pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2011-08-02 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>エピ</name>
+
+            <id>8</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>イエロー</name>
+
+            <id>15</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:19cm/横:19cm/持ち手:26cm</name>
+
+            <id>11373</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M48039</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02364b</content_id>
+
+        <product_id>f_02364zb</product_id>
+
+        <title>ルイ・ヴィトン カンヌ エピ ハンドバッグ ブラック</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02364b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02364b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02364/f_02364pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02364/f_02364ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02364/f_02364pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2011-08-02 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>エピ</name>
+
+            <id>8</id>
+
+          </label>
+
+          <type>
+
+            <name>ハンドバッグ</name>
+
+            <id>4</id>
+
+          </type>
+
+          <color>
+
+            <name>ブラック</name>
+
+            <id>8</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:19cm/横:19cm/持ち手:26cm</name>
+
+            <id>11373</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M48032</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_01230b</content_id>
+
+        <product_id>f_01230zb</product_id>
+
+        <title>ルイ・ヴィトン ショルダーバッグ ブルー</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_01230b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_01230b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_01230/f_01230pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_01230/f_01230ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_01230/f_01230pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2010-06-23 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>エピ</name>
+
+            <id>8</id>
+
+          </label>
+
+          <type>
+
+            <name>ショルダーバッグ</name>
+
+            <id>2</id>
+
+          </type>
+
+          <color>
+
+            <name>ブルー</name>
+
+            <id>9</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:13.5cm/横:24cm/マチ:4.5cm/持ち手:51cm</name>
+
+            <id>11050</id>
+
+          </size>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_01051b</content_id>
+
+        <product_id>f_01051zb</product_id>
+
+        <title>ルイ・ヴィトン モノグラム キーポル45 ボストンバッグ ブラウン</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_01051b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_01051b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_01051/f_01051pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_01051/f_01051ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_01051/f_01051pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>4980〜</price>
+
+        </prices>
+
+        <date>2010-06-23 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>モノグラム</name>
+
+            <id>13</id>
+
+          </label>
+
+          <type>
+
+            <name>ボストンバッグ</name>
+
+            <id>5</id>
+
+          </type>
+
+          <color>
+
+            <name>ブラウン</name>
+
+            <id>7</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:27cm/横:45cm/マチ:20cm/持ち手:33cm</name>
+
+            <id>11265</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M41428</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_01044b</content_id>
+
+        <product_id>f_01044zb</product_id>
+
+        <title>ルイ・ヴィトン マヒナXS ショルダーバッグ ブラック</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_01044b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_01044b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_01044/f_01044pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_01044/f_01044ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_01044/f_01044pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>9800〜</price>
+
+        </prices>
+
+        <date>2010-06-23 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <type>
+
+            <name>ショルダーバッグ</name>
+
+            <id>2</id>
+
+          </type>
+
+          <color>
+
+            <name>ブラック</name>
+
+            <id>8</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:26cm/横:43cm/マチ:12cm</name>
+
+            <id>10420</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M95972</maker_product>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_00762b</content_id>
+
+        <product_id>f_00762zb</product_id>
+
+        <title>ルイ・ヴィトン ポシェット・ソブ クラッチバッグ グリーン</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00762b/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_00762b/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_00762/f_00762pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_00762/f_00762ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_00762/f_00762pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>3980〜</price>
+
+        </prices>
+
+        <date>2010-06-02 10:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>LOUIS VUITTON</name>
+
+            <id>9</id>
+
+          </maker>
+
+          <label>
+
+            <name>ソブ</name>
+
+            <id>43</id>
+
+          </label>
+
+          <type>
+
+            <name>クラッチバッグ</name>
+
+            <id>1</id>
+
+          </type>
+
+          <color>
+
+            <name>グリーン</name>
+
+            <id>2</id>
+
+          </color>
+
+          <size>
+
+            <name>縦:11cm/横:26cm/マチ:5.5cm</name>
+
+            <id>11035</id>
+
+          </size>
+
+        </iteminfo>
+
+        <maker_product>M93729</maker_product>
+
+      </item>
+
+    </items>
+
+  </result>
+
+</response>

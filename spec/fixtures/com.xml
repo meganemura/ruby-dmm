@@ -1,0 +1,5987 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<response>
+
+  <request>
+
+    <parameters>
+
+      <parameter name="api_id" value="apiaccount" />
+
+      <parameter name="affiliate_id" value="affiliate-999" />
+
+      <parameter name="operation" value="ItemList" />
+
+      <parameter name="version" value="2.00" />
+
+      <parameter name="timestamp" value="2012-12-01 00:00:00" />
+
+      <parameter name="site" value="DMM.com" />
+
+      <parameter name="keyword" value="ハリーポッター" />
+
+    </parameters>
+
+  </request>
+
+  <result>
+
+    <result_count>20</result_count>
+
+    <total_count>268</total_count>
+
+    <first_position>1</first_position>
+
+    <items>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>DVDセットレンタル</floor_name>
+
+        <category_name>DVDセットレンタル</category_name>
+
+        <content_id>set_02582</content_id>
+
+        <product_id>set_02582</product_id>
+
+        <title>ハリー・ポッターDVD全巻セット（8巻セット）</title>
+
+        <URL>http://www.dmm.com/rental/ppr/-/detail/=/cid=set_02582/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/ppr/-/detail/=/cid=set_02582/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>2184</price>
+
+        </prices>
+
+        <date>2012-10-30 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>感動</name>
+
+            <id>71140</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミステリー</name>
+
+            <id>71137</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>アラン・リックマン</name>
+
+            <id>60019</id>
+
+          </actor>
+
+          <actor>
+
+            <name>あらんりっくまん</name>
+
+            <id>60019_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレン・マックロリー</name>
+
+            <id>194611</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれんまっくろりー</name>
+
+            <id>194611_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>イバンナ・リンチ</name>
+
+            <id>224404</id>
+
+          </actor>
+
+          <actor>
+
+            <name>いばんなりんち</name>
+
+            <id>224404_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マシュー・ルイス</name>
+
+            <id>224405</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ましゅーるいす</name>
+
+            <id>224405_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トム・フェルトン</name>
+
+            <id>61437</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とむふぇるとん</name>
+
+            <id>61437_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マイケル・ガンボン</name>
+
+            <id>61693</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まいけるがんぼん</name>
+
+            <id>61693_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジェイソン・アイザックス</name>
+
+            <id>60166</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じぇいそんあいざっくす</name>
+
+            <id>60166_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレナ・ボナム・カーター</name>
+
+            <id>60368</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれなぼなむかーたー</name>
+
+            <id>60368_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マギー・スミス</name>
+
+            <id>62539</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まぎーすみす</name>
+
+            <id>62539_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジュリー・ウォルターズ</name>
+
+            <id>163963</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じゅりーうぉるたーず</name>
+
+            <id>163963_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>レイフ・ファインズ</name>
+
+            <id>60461</id>
+
+          </actor>
+
+          <actor>
+
+            <name>れいふふぁいんず</name>
+
+            <id>60461_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ワーウィック・デイヴィス</name>
+
+            <id>166672</id>
+
+          </actor>
+
+          <actor>
+
+            <name>わーうぃっくでいう゛ぃす</name>
+
+            <id>166672_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>キーラン・ハインズ</name>
+
+            <id>183235</id>
+
+          </actor>
+
+          <actor>
+
+            <name>きーらんはいんず</name>
+
+            <id>183235_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ボニー・ライト</name>
+
+            <id>221278</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぼにーらいと</name>
+
+            <id>221278_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リチャード・ハリス</name>
+
+            <id>61833</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りちゃーどはりす</name>
+
+            <id>61833_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ゲイリー・オールドマン</name>
+
+            <id>60141</id>
+
+          </actor>
+
+          <actor>
+
+            <name>げいりーおーるどまん</name>
+
+            <id>60141_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>スターニスラフ・イワネフスキー</name>
+
+            <id>180639</id>
+
+          </actor>
+
+          <actor>
+
+            <name>すたーにすらふいわねふすきー</name>
+
+            <id>180639_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ケイティ・リューング</name>
+
+            <id>180633</id>
+
+          </actor>
+
+          <actor>
+
+            <name>けいてぃりゅーんぐ</name>
+
+            <id>180633_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジム・ブロードベント</name>
+
+            <id>60195</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じむぶろーどべんと</name>
+
+            <id>60195_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>デヴィッド・シューリス</name>
+
+            <id>67743</id>
+
+          </actor>
+
+          <actor>
+
+            <name>でう゛ぃっどしゅーりす</name>
+
+            <id>67743_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ティモシー・スポール</name>
+
+            <id>61355</id>
+
+          </actor>
+
+          <actor>
+
+            <name>てぃもしーすぽーる</name>
+
+            <id>61355_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジョン・ハート</name>
+
+            <id>61207</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じょんはーと</name>
+
+            <id>61207_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>イメルダ・スタウントン</name>
+
+            <id>60759</id>
+
+          </actor>
+
+          <actor>
+
+            <name>いめるだすたうんとん</name>
+
+            <id>60759_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リス・エヴァンス</name>
+
+            <id>62569</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りすえう゛ぁんす</name>
+
+            <id>62569_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ミランダ・リチャードソン</name>
+
+            <id>61764</id>
+
+          </actor>
+
+          <actor>
+
+            <name>みらんだりちゃーどそん</name>
+
+            <id>61764_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ブレンダン・グリーソン</name>
+
+            <id>61605</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぶれんだんぐりーそん</name>
+
+            <id>61605_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ビル・ナイ</name>
+
+            <id>61545</id>
+
+          </actor>
+
+          <actor>
+
+            <name>びるない</name>
+
+            <id>61545_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <director>
+
+            <name>クリス・コロンバス</name>
+
+            <id>70427</id>
+
+          </director>
+
+          <director>
+
+            <name>くりすころんばす</name>
+
+            <id>70427_ruby</id>
+
+          </director>
+
+          <director>
+
+            <name>アルフォンソ・キュアロン</name>
+
+            <id>70090</id>
+
+          </director>
+
+          <director>
+
+            <name>あるふぉんそきゅあろん</name>
+
+            <id>70090_ruby</id>
+
+          </director>
+
+          <director>
+
+            <name>マイク・ニューウェル</name>
+
+            <id>323</id>
+
+          </director>
+
+          <director>
+
+            <name>まいくにゅーうぇる</name>
+
+            <id>323_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>通販</service_name>
+
+        <floor_name>DVD</floor_name>
+
+        <category_name>DVD通販</category_name>
+
+        <content_id>n_6161000354653</content_id>
+
+        <product_id>n_6161000354653</product_id>
+
+        <title>ハリー・ポッター ブルーレイ コンプリート セット（8枚組）【初回生産限定】 （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/mono/dvd/-/detail/=/cid=n_6161000354653/</URL>
+
+        <affiliateURL>http://www.dmm.com/mono/dvd/-/detail/=/cid=n_6161000354653/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/mono/detail/index/shop/dvd/cid/n_6161000354653/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/mono/detail/index/shop/dvd/cid/n_6161000354653/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/foreign/n_6161000354653/n_6161000354653pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/foreign/n_6161000354653/n_6161000354653ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/foreign/n_6161000354653/n_6161000354653pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>6660</price>
+
+          <list_price>9000</list_price>
+
+        </prices>
+
+        <date>2012-12-05 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>45578</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リチャード・ハリス</name>
+
+            <id>61833</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りちゃーどはりす</name>
+
+            <id>61833_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>クリス・コロンバス</name>
+
+            <id>70427</id>
+
+          </director>
+
+          <director>
+
+            <name>くりすころんばす</name>
+
+            <id>70427_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135965905</jancode>
+
+        <maker_product>10003-54653</maker_product>
+
+        <stock>reserve</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>000_1476</content_id>
+
+        <product_id>n_6161000247988r</product_id>
+
+        <title>ハリー・ポッターと死の秘宝 PART2</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=000_1476/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=000_1476/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_1476/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_1476/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_6161000247988r/n_6161000247988rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_6161000247988r/n_6161000247988rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_6161000247988r/n_6161000247988rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2011-11-16 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>アラン・リックマン</name>
+
+            <id>60019</id>
+
+          </actor>
+
+          <actor>
+
+            <name>あらんりっくまん</name>
+
+            <id>60019_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレン・マックロリー</name>
+
+            <id>194611</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれんまっくろりー</name>
+
+            <id>194611_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>イバンナ・リンチ</name>
+
+            <id>224404</id>
+
+          </actor>
+
+          <actor>
+
+            <name>いばんなりんち</name>
+
+            <id>224404_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マシュー・ルイス</name>
+
+            <id>224405</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ましゅーるいす</name>
+
+            <id>224405_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トム・フェルトン</name>
+
+            <id>61437</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とむふぇるとん</name>
+
+            <id>61437_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マイケル・ガンボン</name>
+
+            <id>61693</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まいけるがんぼん</name>
+
+            <id>61693_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジェイソン・アイザックス</name>
+
+            <id>60166</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じぇいそんあいざっくす</name>
+
+            <id>60166_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレナ・ボナム・カーター</name>
+
+            <id>60368</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれなぼなむかーたー</name>
+
+            <id>60368_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マギー・スミス</name>
+
+            <id>62539</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まぎーすみす</name>
+
+            <id>62539_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジュリー・ウォルターズ</name>
+
+            <id>163963</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じゅりーうぉるたーず</name>
+
+            <id>163963_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>レイフ・ファインズ</name>
+
+            <id>60461</id>
+
+          </actor>
+
+          <actor>
+
+            <name>れいふふぁいんず</name>
+
+            <id>60461_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ワーウィック・デイヴィス</name>
+
+            <id>166672</id>
+
+          </actor>
+
+          <actor>
+
+            <name>わーうぃっくでいう゛ぃす</name>
+
+            <id>166672_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>キーラン・ハインズ</name>
+
+            <id>183235</id>
+
+          </actor>
+
+          <actor>
+
+            <name>きーらんはいんず</name>
+
+            <id>183235_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ボニー・ライト</name>
+
+            <id>221278</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぼにーらいと</name>
+
+            <id>221278_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135879882</jancode>
+
+        <maker_product>1000247988</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>メンズ</floor_name>
+
+        <category_name>ファッションレンタル メンズ</category_name>
+
+        <content_id>f_02733a</content_id>
+
+        <product_id>f_02733za</product_id>
+
+        <title>【キッズ】「ハリー・ポッター」公式:スリザリン寮ローブ</title>
+
+        <URL>http://www.dmm.com/fashion/mens/-/detail/=/cid=f_02733a/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/mens/-/detail/=/cid=f_02733a/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02733/f_02733pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02733/f_02733ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02733/f_02733pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>1980〜</price>
+
+        </prices>
+
+        <date>2012-07-06 10:00:00</date>
+
+        <iteminfo>
+
+          <type>
+
+            <name>キッズコスプレ</name>
+
+            <id>196</id>
+
+          </type>
+
+          <color>
+
+            <name>ブラック</name>
+
+            <id>8</id>
+
+          </color>
+
+          <size>
+
+            <name>S</name>
+
+            <id>5</id>
+
+          </size>
+
+          <size>
+
+            <name>M</name>
+
+            <id>10</id>
+
+          </size>
+
+          <size>
+
+            <name>L</name>
+
+            <id>15</id>
+
+          </size>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>ファッションレンタル</service_name>
+
+        <floor_name>レディース</floor_name>
+
+        <category_name>ファッションレンタル レディース</category_name>
+
+        <content_id>f_02733a</content_id>
+
+        <product_id>f_02733za</product_id>
+
+        <title>【キッズ】「ハリー・ポッター」公式:スリザリン寮ローブ</title>
+
+        <URL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02733a/</URL>
+
+        <affiliateURL>http://www.dmm.com/fashion/ladies/-/detail/=/cid=f_02733a/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/rental/fashion/f_02733/f_02733pt.jpg</list>
+
+          <small>http://pics.dmm.com/rental/fashion/f_02733/f_02733ps.jpg</small>
+
+          <large>http://pics.dmm.com/rental/fashion/f_02733/f_02733pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>1980〜</price>
+
+        </prices>
+
+        <date>2012-07-06 10:00:00</date>
+
+        <iteminfo>
+
+          <type>
+
+            <name>キッズコスプレ</name>
+
+            <id>196</id>
+
+          </type>
+
+          <color>
+
+            <name>ブラック</name>
+
+            <id>8</id>
+
+          </color>
+
+          <size>
+
+            <name>S</name>
+
+            <id>5</id>
+
+          </size>
+
+          <size>
+
+            <name>M</name>
+
+            <id>10</id>
+
+          </size>
+
+          <size>
+
+            <name>L</name>
+
+            <id>15</id>
+
+          </size>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>DVDセットレンタル</floor_name>
+
+        <category_name>DVDセットレンタル</category_name>
+
+        <content_id>set_02583</content_id>
+
+        <product_id>set_02583</product_id>
+
+        <title>ハリー・ポッターBlu-ray全巻セット（8巻セット）</title>
+
+        <URL>http://www.dmm.com/rental/ppr/-/detail/=/cid=set_02583/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/ppr/-/detail/=/cid=set_02583/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616wbry20315r/n_616wbry20315rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616wbry20315r/n_616wbry20315rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616wbry20315r/n_616wbry20315rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>2184</price>
+
+        </prices>
+
+        <date>2012-10-30 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>感動</name>
+
+            <id>71140</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミステリー</name>
+
+            <id>71137</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>アラン・リックマン</name>
+
+            <id>60019</id>
+
+          </actor>
+
+          <actor>
+
+            <name>あらんりっくまん</name>
+
+            <id>60019_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレン・マックロリー</name>
+
+            <id>194611</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれんまっくろりー</name>
+
+            <id>194611_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジェイソン・アイザックス</name>
+
+            <id>60166</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じぇいそんあいざっくす</name>
+
+            <id>60166_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレナ・ボナム・カーター</name>
+
+            <id>60368</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれなぼなむかーたー</name>
+
+            <id>60368_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>レイフ・ファインズ</name>
+
+            <id>60461</id>
+
+          </actor>
+
+          <actor>
+
+            <name>れいふふぁいんず</name>
+
+            <id>60461_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ボニー・ライト</name>
+
+            <id>221278</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぼにーらいと</name>
+
+            <id>221278_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジュリー・ウォルターズ</name>
+
+            <id>163963</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じゅりーうぉるたーず</name>
+
+            <id>163963_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トム・フェルトン</name>
+
+            <id>61437</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とむふぇるとん</name>
+
+            <id>61437_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マイケル・ガンボン</name>
+
+            <id>61693</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まいけるがんぼん</name>
+
+            <id>61693_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マギー・スミス</name>
+
+            <id>62539</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まぎーすみす</name>
+
+            <id>62539_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マシュー・ルイス</name>
+
+            <id>224405</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ましゅーるいす</name>
+
+            <id>224405_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>イバンナ・リンチ</name>
+
+            <id>224404</id>
+
+          </actor>
+
+          <actor>
+
+            <name>いばんなりんち</name>
+
+            <id>224404_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>キーラン・ハインズ</name>
+
+            <id>183235</id>
+
+          </actor>
+
+          <actor>
+
+            <name>きーらんはいんず</name>
+
+            <id>183235_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ワーウィック・デイヴィス</name>
+
+            <id>166672</id>
+
+          </actor>
+
+          <actor>
+
+            <name>わーうぃっくでいう゛ぃす</name>
+
+            <id>166672_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>スターニスラフ・イワネフスキー</name>
+
+            <id>180639</id>
+
+          </actor>
+
+          <actor>
+
+            <name>すたーにすらふいわねふすきー</name>
+
+            <id>180639_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ケイティ・リューング</name>
+
+            <id>180633</id>
+
+          </actor>
+
+          <actor>
+
+            <name>けいてぃりゅーんぐ</name>
+
+            <id>180633_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ゲイリー・オールドマン</name>
+
+            <id>60141</id>
+
+          </actor>
+
+          <actor>
+
+            <name>げいりーおーるどまん</name>
+
+            <id>60141_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リチャード・ハリス</name>
+
+            <id>61833</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りちゃーどはりす</name>
+
+            <id>61833_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジム・ブロードベント</name>
+
+            <id>60195</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じむぶろーどべんと</name>
+
+            <id>60195_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジョン・ハート</name>
+
+            <id>61207</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じょんはーと</name>
+
+            <id>61207_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>イメルダ・スタウントン</name>
+
+            <id>60759</id>
+
+          </actor>
+
+          <actor>
+
+            <name>いめるだすたうんとん</name>
+
+            <id>60759_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ティモシー・スポール</name>
+
+            <id>61355</id>
+
+          </actor>
+
+          <actor>
+
+            <name>てぃもしーすぽーる</name>
+
+            <id>61355_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>デヴィッド・シューリス</name>
+
+            <id>67743</id>
+
+          </actor>
+
+          <actor>
+
+            <name>でう゛ぃっどしゅーりす</name>
+
+            <id>67743_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リス・エヴァンス</name>
+
+            <id>62569</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りすえう゛ぁんす</name>
+
+            <id>62569_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ミランダ・リチャードソン</name>
+
+            <id>61764</id>
+
+          </actor>
+
+          <actor>
+
+            <name>みらんだりちゃーどそん</name>
+
+            <id>61764_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ブレンダン・グリーソン</name>
+
+            <id>61605</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぶれんだんぐりーそん</name>
+
+            <id>61605_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ビル・ナイ</name>
+
+            <id>61545</id>
+
+          </actor>
+
+          <actor>
+
+            <name>びるない</name>
+
+            <id>61545_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <director>
+
+            <name>マイク・ニューウェル</name>
+
+            <id>323</id>
+
+          </director>
+
+          <director>
+
+            <name>まいくにゅーうぇる</name>
+
+            <id>323_ruby</id>
+
+          </director>
+
+          <director>
+
+            <name>アルフォンソ・キュアロン</name>
+
+            <id>70090</id>
+
+          </director>
+
+          <director>
+
+            <name>あるふぉんそきゅあろん</name>
+
+            <id>70090_ruby</id>
+
+          </director>
+
+          <director>
+
+            <name>クリス・コロンバス</name>
+
+            <id>70427</id>
+
+          </director>
+
+          <director>
+
+            <name>くりすころんばす</name>
+
+            <id>70427_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+        <stock>3</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>000_1477</content_id>
+
+        <product_id>n_616dlry30273r</product_id>
+
+        <title>ハリー・ポッターと死の秘宝 PART1</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=000_1477/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=000_1477/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_1477/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_1477/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616dlry30273r/n_616dlry30273rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616dlry30273r/n_616dlry30273rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616dlry30273r/n_616dlry30273rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2011-04-21 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>アラン・リックマン</name>
+
+            <id>60019</id>
+
+          </actor>
+
+          <actor>
+
+            <name>あらんりっくまん</name>
+
+            <id>60019_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>デヴィッド・シューリス</name>
+
+            <id>67743</id>
+
+          </actor>
+
+          <actor>
+
+            <name>でう゛ぃっどしゅーりす</name>
+
+            <id>67743_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジェイソン・アイザックス</name>
+
+            <id>60166</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じぇいそんあいざっくす</name>
+
+            <id>60166_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トム・フェルトン</name>
+
+            <id>61437</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とむふぇるとん</name>
+
+            <id>61437_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ティモシー・スポール</name>
+
+            <id>61355</id>
+
+          </actor>
+
+          <actor>
+
+            <name>てぃもしーすぽーる</name>
+
+            <id>61355_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジョン・ハート</name>
+
+            <id>61207</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じょんはーと</name>
+
+            <id>61207_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>イメルダ・スタウントン</name>
+
+            <id>60759</id>
+
+          </actor>
+
+          <actor>
+
+            <name>いめるだすたうんとん</name>
+
+            <id>60759_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレナ・ボナム・カーター</name>
+
+            <id>60368</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれなぼなむかーたー</name>
+
+            <id>60368_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ボニー・ライト</name>
+
+            <id>221278</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぼにーらいと</name>
+
+            <id>221278_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>キーラン・ハインズ</name>
+
+            <id>183235</id>
+
+          </actor>
+
+          <actor>
+
+            <name>きーらんはいんず</name>
+
+            <id>183235_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ワーウィック・デイヴィス</name>
+
+            <id>166672</id>
+
+          </actor>
+
+          <actor>
+
+            <name>わーうぃっくでいう゛ぃす</name>
+
+            <id>166672_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジュリー・ウォルターズ</name>
+
+            <id>163963</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じゅりーうぉるたーず</name>
+
+            <id>163963_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リス・エヴァンス</name>
+
+            <id>62569</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りすえう゛ぁんす</name>
+
+            <id>62569_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マギー・スミス</name>
+
+            <id>62539</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まぎーすみす</name>
+
+            <id>62539_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ミランダ・リチャードソン</name>
+
+            <id>61764</id>
+
+          </actor>
+
+          <actor>
+
+            <name>みらんだりちゃーどそん</name>
+
+            <id>61764_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ブレンダン・グリーソン</name>
+
+            <id>61605</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぶれんだんぐりーそん</name>
+
+            <id>61605_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ビル・ナイ</name>
+
+            <id>61545</id>
+
+          </actor>
+
+          <actor>
+
+            <name>びるない</name>
+
+            <id>61545_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>レイフ・ファインズ</name>
+
+            <id>60461</id>
+
+          </actor>
+
+          <actor>
+
+            <name>れいふふぁいんず</name>
+
+            <id>60461_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135850782</jancode>
+
+        <maker_product>DLRY30273</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>通販</service_name>
+
+        <floor_name>DVD</floor_name>
+
+        <category_name>DVD通販</category_name>
+
+        <content_id>n_6161000354652</content_id>
+
+        <product_id>n_6161000354652</product_id>
+
+        <title>ハリー・ポッター DVD コンプリート セット（8枚組）【初回生産限定】</title>
+
+        <URL>http://www.dmm.com/mono/dvd/-/detail/=/cid=n_6161000354652/</URL>
+
+        <affiliateURL>http://www.dmm.com/mono/dvd/-/detail/=/cid=n_6161000354652/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/mono/detail/index/shop/dvd/cid/n_6161000354652/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/mono/detail/index/shop/dvd/cid/n_6161000354652/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/foreign/n_6161000354652/n_6161000354652pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/foreign/n_6161000354652/n_6161000354652ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/foreign/n_6161000354652/n_6161000354652pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>6660</price>
+
+          <list_price>9000</list_price>
+
+        </prices>
+
+        <date>2012-12-05 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>45578</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リチャード・ハリス</name>
+
+            <id>61833</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りちゃーどはりす</name>
+
+            <id>61833_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>クリス・コロンバス</name>
+
+            <id>70427</id>
+
+          </director>
+
+          <director>
+
+            <name>くりすころんばす</name>
+
+            <id>70427_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135964199</jancode>
+
+        <maker_product>10003-54652</maker_product>
+
+        <stock>reserve</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>通販</service_name>
+
+        <floor_name>DVD</floor_name>
+
+        <category_name>DVD通販</category_name>
+
+        <content_id>n_6161000336241</content_id>
+
+        <product_id>n_6161000336241</product_id>
+
+        <title>ハリー・ポッター ウィザード・コレクション【1000セット限定生産】 （ブルーレイディスク＋DVD）</title>
+
+        <URL>http://www.dmm.com/mono/dvd/-/detail/=/cid=n_6161000336241/</URL>
+
+        <affiliateURL>http://www.dmm.com/mono/dvd/-/detail/=/cid=n_6161000336241/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/mono/detail/index/shop/dvd/cid/n_6161000336241/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/mono/detail/index/shop/dvd/cid/n_6161000336241/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/foreign/n_6161000336241/n_6161000336241pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/foreign/n_6161000336241/n_6161000336241ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/foreign/n_6161000336241/n_6161000336241pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>36851</price>
+
+          <list_price>49800</list_price>
+
+        </prices>
+
+        <date>2012-12-05 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>3D</name>
+
+            <id>71172</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>45578</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リチャード・ハリス</name>
+
+            <id>61833</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りちゃーどはりす</name>
+
+            <id>61833_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>クリス・コロンバス</name>
+
+            <id>70427</id>
+
+          </director>
+
+          <director>
+
+            <name>くりすころんばす</name>
+
+            <id>70427_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135946690</jancode>
+
+        <maker_product>1000-336241</maker_product>
+
+        <stock>empty</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>000_612</content_id>
+
+        <product_id>n_616dlry22513r</product_id>
+
+        <title>ハリー・ポッターと謎のプリンス</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=000_612/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=000_612/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_612/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_612/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616dlry22513r/n_616dlry22513rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616dlry22513r/n_616dlry22513rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616dlry22513r/n_616dlry22513rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2009-12-02 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミステリー</name>
+
+            <id>71137</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレン・マックロリー</name>
+
+            <id>194611</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれんまっくろりー</name>
+
+            <id>194611_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジム・ブロードベント</name>
+
+            <id>60195</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じむぶろーどべんと</name>
+
+            <id>60195_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135717849</jancode>
+
+        <maker_product>DLRY22513</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_6161000247993r</content_id>
+
+        <product_id>n_6161000247993r</product_id>
+
+        <title>ハリー・ポッターと死の秘宝 PART2 （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_6161000247993r/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_6161000247993r/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_6161000247993r/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_6161000247993r/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_6161000247993r/n_6161000247993rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_6161000247993r/n_6161000247993rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_6161000247993r/n_6161000247993rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2011-11-16 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>アラン・リックマン</name>
+
+            <id>60019</id>
+
+          </actor>
+
+          <actor>
+
+            <name>あらんりっくまん</name>
+
+            <id>60019_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレン・マックロリー</name>
+
+            <id>194611</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれんまっくろりー</name>
+
+            <id>194611_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジェイソン・アイザックス</name>
+
+            <id>60166</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じぇいそんあいざっくす</name>
+
+            <id>60166_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレナ・ボナム・カーター</name>
+
+            <id>60368</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれなぼなむかーたー</name>
+
+            <id>60368_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>レイフ・ファインズ</name>
+
+            <id>60461</id>
+
+          </actor>
+
+          <actor>
+
+            <name>れいふふぁいんず</name>
+
+            <id>60461_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ボニー・ライト</name>
+
+            <id>221278</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぼにーらいと</name>
+
+            <id>221278_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジュリー・ウォルターズ</name>
+
+            <id>163963</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じゅりーうぉるたーず</name>
+
+            <id>163963_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トム・フェルトン</name>
+
+            <id>61437</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とむふぇるとん</name>
+
+            <id>61437_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マイケル・ガンボン</name>
+
+            <id>61693</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まいけるがんぼん</name>
+
+            <id>61693_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マギー・スミス</name>
+
+            <id>62539</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まぎーすみす</name>
+
+            <id>62539_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マシュー・ルイス</name>
+
+            <id>224405</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ましゅーるいす</name>
+
+            <id>224405_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>イバンナ・リンチ</name>
+
+            <id>224404</id>
+
+          </actor>
+
+          <actor>
+
+            <name>いばんなりんち</name>
+
+            <id>224404_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>キーラン・ハインズ</name>
+
+            <id>183235</id>
+
+          </actor>
+
+          <actor>
+
+            <name>きーらんはいんず</name>
+
+            <id>183235_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ワーウィック・デイヴィス</name>
+
+            <id>166672</id>
+
+          </actor>
+
+          <actor>
+
+            <name>わーうぃっくでいう゛ぃす</name>
+
+            <id>166672_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135879936</jancode>
+
+        <maker_product>1000247993</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>通販</service_name>
+
+        <floor_name>本・コミック</floor_name>
+
+        <category_name>本・コミック通販</category_name>
+
+        <content_id>bkt32508497</content_id>
+
+        <product_id>bkt32508497</product_id>
+
+        <title>ハリー・ポッターのホントの魔法事典 妖精、幻獣から、アイテム、魔法使いまで完全解説！！</title>
+
+        <URL>http://www.dmm.com/mono/book/-/detail/=/cid=bkt32508497/</URL>
+
+        <affiliateURL>http://www.dmm.com/mono/book/-/detail/=/cid=bkt32508497/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/mono/detail/index/shop/book/cid/bkt32508497/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/mono/detail/index/shop/book/cid/bkt32508497/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/book/literary/bkt32508497/bkt32508497pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/book/literary/bkt32508497/bkt32508497ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/book/literary/bkt32508497/bkt32508497pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>500</price>
+
+          <list_price>500</list_price>
+
+        </prices>
+
+        <date>2010-11-16 16:24:39</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>海外文学</name>
+
+            <id>22510</id>
+
+          </keyword>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>廣済堂あかつき株式会社出版事業部</name>
+
+            <id>97765</id>
+
+          </maker>
+
+          <author>
+
+            <name>七会静</name>
+
+            <id>193828</id>
+
+          </author>
+
+          <author>
+
+            <name>ななえしずか</name>
+
+            <id>193828_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>廣済堂ペーパーバックス</name>
+
+            <id>114375</id>
+
+          </label>
+
+        </iteminfo>
+
+        <isbn>4331514994</isbn>
+
+        <stock>stock</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>映画・ドラマ</floor_name>
+
+        <category_name>映画・ドラマ (動画)</category_name>
+
+        <content_id>5256wbo00059</content_id>
+
+        <product_id>5256wbo00059</product_id>
+
+        <title>ハリー・ポッターと賢者の石</title>
+
+        <URL>http://www.dmm.com/digital/cinema/-/detail/=/cid=5256wbo00059/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/cinema/-/detail/=/cid=5256wbo00059/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>240〜</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>stream</type>
+
+              <price>240</price>
+
+            </delivery>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>240</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2012-03-06 09:59:57</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>67022</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>2000年代</name>
+
+            <id>67029</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>洋画</name>
+
+            <id>65011</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ブラザース</name>
+
+            <id>66077</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リチャード・ハリス</name>
+
+            <id>61833</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りちゃーどはりす</name>
+
+            <id>61833_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マギー・スミス</name>
+
+            <id>62539</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まぎーすみす</name>
+
+            <id>62539_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>クリス・コロンバス</name>
+
+            <id>70427</id>
+
+          </director>
+
+          <director>
+
+            <name>くりすころんばす</name>
+
+            <id>70427_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J.K.ローリング</name>
+
+            <id>128045</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>128045_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>通販</service_name>
+
+        <floor_name>本・コミック</floor_name>
+
+        <category_name>本・コミック通販</category_name>
+
+        <content_id>bkt32314723</content_id>
+
+        <product_id>bkt32314723</product_id>
+
+        <title>ハリー・ポッター裏話</title>
+
+        <URL>http://www.dmm.com/mono/book/-/detail/=/cid=bkt32314723/</URL>
+
+        <affiliateURL>http://www.dmm.com/mono/book/-/detail/=/cid=bkt32314723/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/mono/detail/index/shop/book/cid/bkt32314723/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/mono/detail/index/shop/book/cid/bkt32314723/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/book/library/bkt32314723/bkt32314723pt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/book/library/bkt32314723/bkt32314723ps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/book/library/bkt32314723/bkt32314723pl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>600</price>
+
+          <list_price>600</list_price>
+
+        </prices>
+
+        <date>2009-10-31 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>雑学文庫</name>
+
+            <id>22009</id>
+
+          </keyword>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>静山社</name>
+
+            <id>93912</id>
+
+          </maker>
+
+          <author>
+
+            <name>J.K.ローリング</name>
+
+            <id>128045</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>128045_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+        <isbn>4863890079</isbn>
+
+        <stock>stock</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_616wbry28807r</content_id>
+
+        <product_id>n_616wbry28807r</product_id>
+
+        <title>ハリー・ポッターと死の秘宝 PART1 （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_616wbry28807r/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_616wbry28807r/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_616wbry28807r/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_616wbry28807r/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616wbry28807r/n_616wbry28807rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616wbry28807r/n_616wbry28807rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616wbry28807r/n_616wbry28807rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2011-04-21 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>アドベンチャー</name>
+
+            <id>71008</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>アラン・リックマン</name>
+
+            <id>60019</id>
+
+          </actor>
+
+          <actor>
+
+            <name>あらんりっくまん</name>
+
+            <id>60019_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジョン・ハート</name>
+
+            <id>61207</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じょんはーと</name>
+
+            <id>61207_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>イメルダ・スタウントン</name>
+
+            <id>60759</id>
+
+          </actor>
+
+          <actor>
+
+            <name>いめるだすたうんとん</name>
+
+            <id>60759_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ボニー・ライト</name>
+
+            <id>221278</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぼにーらいと</name>
+
+            <id>221278_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>レイフ・ファインズ</name>
+
+            <id>60461</id>
+
+          </actor>
+
+          <actor>
+
+            <name>れいふふぁいんず</name>
+
+            <id>60461_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレナ・ボナム・カーター</name>
+
+            <id>60368</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれなぼなむかーたー</name>
+
+            <id>60368_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジェイソン・アイザックス</name>
+
+            <id>60166</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じぇいそんあいざっくす</name>
+
+            <id>60166_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ティモシー・スポール</name>
+
+            <id>61355</id>
+
+          </actor>
+
+          <actor>
+
+            <name>てぃもしーすぽーる</name>
+
+            <id>61355_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トム・フェルトン</name>
+
+            <id>61437</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とむふぇるとん</name>
+
+            <id>61437_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>キーラン・ハインズ</name>
+
+            <id>183235</id>
+
+          </actor>
+
+          <actor>
+
+            <name>きーらんはいんず</name>
+
+            <id>183235_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ワーウィック・デイヴィス</name>
+
+            <id>166672</id>
+
+          </actor>
+
+          <actor>
+
+            <name>わーうぃっくでいう゛ぃす</name>
+
+            <id>166672_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジュリー・ウォルターズ</name>
+
+            <id>163963</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じゅりーうぉるたーず</name>
+
+            <id>163963_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>デヴィッド・シューリス</name>
+
+            <id>67743</id>
+
+          </actor>
+
+          <actor>
+
+            <name>でう゛ぃっどしゅーりす</name>
+
+            <id>67743_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リス・エヴァンス</name>
+
+            <id>62569</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りすえう゛ぁんす</name>
+
+            <id>62569_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マギー・スミス</name>
+
+            <id>62539</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まぎーすみす</name>
+
+            <id>62539_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ミランダ・リチャードソン</name>
+
+            <id>61764</id>
+
+          </actor>
+
+          <actor>
+
+            <name>みらんだりちゃーどそん</name>
+
+            <id>61764_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ブレンダン・グリーソン</name>
+
+            <id>61605</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ぶれんだんぐりーそん</name>
+
+            <id>61605_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ビル・ナイ</name>
+
+            <id>61545</id>
+
+          </actor>
+
+          <actor>
+
+            <name>びるない</name>
+
+            <id>61545_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135850799</jancode>
+
+        <maker_product>WBRY28807</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>000_112</content_id>
+
+        <product_id>n_616dlr59326r</product_id>
+
+        <title>ハリー・ポッターと不死鳥の騎士団</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=000_112/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=000_112/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_112/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/000_112/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616dlr59326r/n_616dlr59326rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616dlr59326r/n_616dlr59326rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616dlr59326r/n_616dlr59326rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2007-11-21 10:00:02</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>感動</name>
+
+            <id>71140</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミステリー</name>
+
+            <id>71137</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>アラン・リックマン</name>
+
+            <id>60019</id>
+
+          </actor>
+
+          <actor>
+
+            <name>あらんりっくまん</name>
+
+            <id>60019_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ゲイリー・オールドマン</name>
+
+            <id>60141</id>
+
+          </actor>
+
+          <actor>
+
+            <name>げいりーおーるどまん</name>
+
+            <id>60141_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレナ・ボナム・カーター</name>
+
+            <id>60368</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれなぼなむかーたー</name>
+
+            <id>60368_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>レイフ・ファインズ</name>
+
+            <id>60461</id>
+
+          </actor>
+
+          <actor>
+
+            <name>れいふふぁいんず</name>
+
+            <id>60461_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マイケル・ガンボン</name>
+
+            <id>61693</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まいけるがんぼん</name>
+
+            <id>61693_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ワーウィック・デイヴィス</name>
+
+            <id>166672</id>
+
+          </actor>
+
+          <actor>
+
+            <name>わーうぃっくでいう゛ぃす</name>
+
+            <id>166672_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135704931</jancode>
+
+        <maker_product>DLR59326</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_616wbry26579r</content_id>
+
+        <product_id>n_616wbry26579r</product_id>
+
+        <title>ハリー・ポッターと謎のプリンス （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_616wbry26579r/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_616wbry26579r/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_616wbry26579r/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_616wbry26579r/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616wbry26579r/n_616wbry26579rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616wbry26579r/n_616wbry26579rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616wbry26579r/n_616wbry26579rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2009-12-02 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミステリー</name>
+
+            <id>71137</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ヘレン・マックロリー</name>
+
+            <id>194611</id>
+
+          </actor>
+
+          <actor>
+
+            <name>へれんまっくろりー</name>
+
+            <id>194611_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ジム・ブロードベント</name>
+
+            <id>60195</id>
+
+          </actor>
+
+          <actor>
+
+            <name>じむぶろーどべんと</name>
+
+            <id>60195_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>デビッド・イェーツ</name>
+
+            <id>5729</id>
+
+          </director>
+
+          <director>
+
+            <name>でびっどいぇーつ</name>
+
+            <id>5729_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135717832</jancode>
+
+        <maker_product>WBRY26579</maker_product>
+
+        <stock>5</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_616wbbay15692</content_id>
+
+        <product_id>n_616wbry15692r</product_id>
+
+        <title>ハリー・ポッターと炎のゴブレット （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_616wbbay15692/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_616wbbay15692/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_616wbbay15692/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_616wbbay15692/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616wbry15692r/n_616wbry15692rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616wbry15692r/n_616wbry15692rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616wbry15692r/n_616wbry15692rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2008-04-04 10:00:04</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>感動</name>
+
+            <id>71140</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミステリー</name>
+
+            <id>71137</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トム・フェルトン</name>
+
+            <id>61437</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とむふぇるとん</name>
+
+            <id>61437_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>アラン・リックマン</name>
+
+            <id>60019</id>
+
+          </actor>
+
+          <actor>
+
+            <name>あらんりっくまん</name>
+
+            <id>60019_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>スターニスラフ・イワネフスキー</name>
+
+            <id>180639</id>
+
+          </actor>
+
+          <actor>
+
+            <name>すたーにすらふいわねふすきー</name>
+
+            <id>180639_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ケイティ・リューング</name>
+
+            <id>180633</id>
+
+          </actor>
+
+          <actor>
+
+            <name>けいてぃりゅーんぐ</name>
+
+            <id>180633_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>マイク・ニューウェル</name>
+
+            <id>323</id>
+
+          </director>
+
+          <director>
+
+            <name>まいくにゅーうぇる</name>
+
+            <id>323_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135598493</jancode>
+
+        <maker_product>CWBRY15692</maker_product>
+
+        <stock>3</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>DVD/CDレンタル</service_name>
+
+        <floor_name>月額DVDレンタル</floor_name>
+
+        <category_name>月額DVDレンタル</category_name>
+
+        <content_id>n_616wbbay15697</content_id>
+
+        <product_id>n_616wbry15697r</product_id>
+
+        <title>ハリー・ポッターとアズカバンの囚人 （ブルーレイディスク）</title>
+
+        <URL>http://www.dmm.com/rental/-/detail/=/cid=n_616wbbay15697/</URL>
+
+        <affiliateURL>http://www.dmm.com/rental/-/detail/=/cid=n_616wbbay15697/affiliate-999</affiliateURL>
+
+        <URLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_616wbbay15697/floor/monthly/</URLsp>
+
+        <affiliateURLsp>http://sp.dmm.com/rental/detail/index/media/dvd/cid/n_616wbbay15697/floor/monthly/affiliate-999</affiliateURLsp>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/mono/movie/n_616wbry15697r/n_616wbry15697rpt.jpg</list>
+
+          <small>http://pics.dmm.com/mono/movie/n_616wbry15697r/n_616wbry15697rps.jpg</small>
+
+          <large>http://pics.dmm.com/mono/movie/n_616wbry15697r/n_616wbry15697rpl.jpg</large>
+
+        </imageURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2008-04-04 10:00:03</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サンプル動画</name>
+
+            <id>6102</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>Blu-ray（ブルーレイ）</name>
+
+            <id>73160</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>感動</name>
+
+            <id>71140</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミステリー</name>
+
+            <id>71137</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>話題作</name>
+
+            <id>71118</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>ファンタジー</name>
+
+            <id>71009</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>トム・フェルトン</name>
+
+            <id>61437</id>
+
+          </actor>
+
+          <actor>
+
+            <name>とむふぇるとん</name>
+
+            <id>61437_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マイケル・ガンボン</name>
+
+            <id>61693</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まいけるがんぼん</name>
+
+            <id>61693_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>アルフォンソ・キュアロン</name>
+
+            <id>70090</id>
+
+          </director>
+
+          <director>
+
+            <name>あるふぉんそきゅあろん</name>
+
+            <id>70090_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J・K・ローリング</name>
+
+            <id>241046</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>241046_ruby</id>
+
+          </author>
+
+          <label>
+
+            <name>ワーナー・ホーム・ビデオ</name>
+
+            <id>60016</id>
+
+          </label>
+
+        </iteminfo>
+
+        <jancode>4988135598523</jancode>
+
+        <maker_product>CWBRY15697</maker_product>
+
+        <stock>3</stock>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>映画・ドラマ</floor_name>
+
+        <category_name>映画・ドラマ (動画)</category_name>
+
+        <content_id>5256wbo00064</content_id>
+
+        <product_id>5256wbo00064</product_id>
+
+        <title>ハリー・ポッターと秘密の部屋</title>
+
+        <URL>http://www.dmm.com/digital/cinema/-/detail/=/cid=5256wbo00064/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/cinema/-/detail/=/cid=5256wbo00064/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>240〜</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>stream</type>
+
+              <price>240</price>
+
+            </delivery>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>240</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2012-02-10 09:59:59</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>67022</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>2000年代</name>
+
+            <id>67029</id>
+
+          </keyword>
+
+          <genre>
+
+            <name>洋画</name>
+
+            <id>65011</id>
+
+          </genre>
+
+          <series>
+
+            <name>ハリー・ポッター</name>
+
+            <id>60029</id>
+
+          </series>
+
+          <maker>
+
+            <name>ワーナー・ブラザース</name>
+
+            <id>66077</id>
+
+          </maker>
+
+          <actor>
+
+            <name>ダニエル・ラドクリフ</name>
+
+            <id>60257</id>
+
+          </actor>
+
+          <actor>
+
+            <name>だにえるらどくりふ</name>
+
+            <id>60257_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ルパート・グリント</name>
+
+            <id>60458</id>
+
+          </actor>
+
+          <actor>
+
+            <name>るぱーとぐりんと</name>
+
+            <id>60458_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>エマ・ワトソン</name>
+
+            <id>60074</id>
+
+          </actor>
+
+          <actor>
+
+            <name>えまわとそん</name>
+
+            <id>60074_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>リチャード・ハリス</name>
+
+            <id>61833</id>
+
+          </actor>
+
+          <actor>
+
+            <name>りちゃーどはりす</name>
+
+            <id>61833_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>マギー・スミス</name>
+
+            <id>62539</id>
+
+          </actor>
+
+          <actor>
+
+            <name>まぎーすみす</name>
+
+            <id>62539_ruby</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ロビー・コルトレーン</name>
+
+            <id>60476</id>
+
+          </actor>
+
+          <actor>
+
+            <name>ろびーこるとれーん</name>
+
+            <id>60476_ruby</id>
+
+          </actor>
+
+          <director>
+
+            <name>クリス・コロンバス</name>
+
+            <id>70427</id>
+
+          </director>
+
+          <director>
+
+            <name>くりすころんばす</name>
+
+            <id>70427_ruby</id>
+
+          </director>
+
+          <author>
+
+            <name>J.K.ローリング</name>
+
+            <id>128045</id>
+
+          </author>
+
+          <author>
+
+            <name>じぇいけーろーりんぐ</name>
+
+            <id>128045_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+    </items>
+
+  </result>
+
+</response>

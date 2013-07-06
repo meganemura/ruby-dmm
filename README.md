@@ -19,9 +19,30 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-client = DMM::Client.new("your_api_key", "your_affiliate_id")
-response = client.item_list({:keyword => "Ruby"})
+client = DMM.new(:api_id => "your_api_id", :affiliate_id => "your_affiliate_id", :result_only => true)
+response = client.order("date").limit(5).item_list("妄想")
+response.items.map {|item| item.title }
+# => ["ココロ@ファンクション！",
+#     "やらせてっ！てぃーちゃー学園旅行〜やらてぃーが学園を飛び出したァ！？〜（DVDPG）",
+#     "彫刻ボディ 瀧川花音",
+#     "目が奪われる瞬間 vol.02",
+#     "彫刻ボディ 瀧川花音"]
 ```
+
+### Choose your favorite XML Parser
+
+You can use `ox`, `libxml`, `nokogiri` through `multi_xml`.
+
+Add 'ox' and 'nokogiri' to your Gemfile, then it works below.
+
+```ruby
+> require 'ruby-dmm'
+> MultiXml.parser # => MultiXml::Parsers::Ox
+> MultiXml.parser = :nokogiri
+> MultiXml.parser # => MultiXml::Parsers::Nokogiri
+```
+
+See [multi_xml documents](http://rdoc.info/gems/multi_xml).
 
 ## Contributing
 
