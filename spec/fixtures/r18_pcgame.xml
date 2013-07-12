@@ -1,0 +1,3373 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<response>
+
+  <request>
+
+    <parameters>
+
+      <parameter name="api_id" value="apiaccount" />
+
+      <parameter name="affiliate_id" value="affiliate-999" />
+
+      <parameter name="operation" value="ItemList" />
+
+      <parameter name="version" value="2.00" />
+
+      <parameter name="timestamp" value="2012-12-01 00:00:00" />
+
+      <parameter name="site" value="DMM.co.jp" />
+
+      <parameter name="service" value="pcgame" />
+
+      <parameter name="floor" value="pcgame" />
+
+      <parameter name="keyword" value="ミンク" />
+
+    </parameters>
+
+  </request>
+
+  <result>
+
+    <result_count>20</result_count>
+
+    <total_count>40</total_count>
+
+    <first_position>1</first_position>
+
+    <items>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>minkm_0014</content_id>
+
+        <product_id>minkm_0014</product_id>
+
+        <title>真・夜勤病棟</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=minkm_0014/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=minkm_0014/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0014/minkm_0014js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>6800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>6800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2011-06-24 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>DMM独占販売</name>
+
+            <id>7409</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>レイプ・強姦</name>
+
+            <id>7222</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>母乳</name>
+
+            <id>7248</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>縛り・緊縛</name>
+
+            <id>7244</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+          <author>
+
+            <name>佐々木良和</name>
+
+            <id>238797</id>
+
+          </author>
+
+          <author>
+
+            <name>ささきよしかず</name>
+
+            <id>238797_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggsm_0001</content_id>
+
+        <product_id>ggsm_0001</product_id>
+
+        <title>夜勤病棟 復刻版＋</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0001/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0001/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0001/ggsm_0001js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2008-05-30 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アニメーション</name>
+
+            <id>7402</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>調教・奴隷</name>
+
+            <id>7231</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>女医</name>
+
+            <id>7016</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggsm_0010</content_id>
+
+        <product_id>ggsm_0010</product_id>
+
+        <title>しすたー・すきーむ〜お姉ちゃんとのシかたについて〜</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0010/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0010/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0010/ggsm_0010js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2008-11-21 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>姉・妹</name>
+
+            <id>7041</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>3P・4P</name>
+
+            <id>7245</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>7213</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>学園もの</name>
+
+            <id>7502</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ツンデレ</name>
+
+            <id>7040</id>
+
+          </keyword>
+
+          <series>
+
+            <name>しすたー・すきーむ</name>
+
+            <id>80294</id>
+
+          </series>
+
+          <maker>
+
+            <name>M de Pink</name>
+
+            <id>30425</id>
+
+          </maker>
+
+          <author>
+
+            <name>M</name>
+
+            <id>50540</id>
+
+          </author>
+
+          <author>
+
+            <name>えむ</name>
+
+            <id>50540_ruby</id>
+
+          </author>
+
+          <author>
+
+            <name>INO</name>
+
+            <id>24744</id>
+
+          </author>
+
+          <author>
+
+            <name>いの</name>
+
+            <id>24744_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggsm_0002</content_id>
+
+        <product_id>ggsm_0002</product_id>
+
+        <title>夜勤病棟・弐</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0002/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0002/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0002/ggsm_0002js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2008-06-20 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>調教・奴隷</name>
+
+            <id>7231</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ふたなり</name>
+
+            <id>7002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>輪姦</name>
+
+            <id>7205</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>MINK / M no VIOLET</name>
+
+            <id>30536</id>
+
+          </maker>
+
+          <author>
+
+            <name>M</name>
+
+            <id>50540</id>
+
+          </author>
+
+          <author>
+
+            <name>えむ</name>
+
+            <id>50540_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggsm_0004</content_id>
+
+        <product_id>ggsm_0004</product_id>
+
+        <title>夜勤雀棟</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0004/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0004/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0004/ggsm_0004js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2008-10-10 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アニメーション</name>
+
+            <id>7402</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>麻雀</name>
+
+            <id>7108</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>調教・奴隷</name>
+
+            <id>7231</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggsm_0003</content_id>
+
+        <product_id>ggsm_0003</product_id>
+
+        <title>夜勤病棟・参</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0003/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0003/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0003/ggsm_0003js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2008-07-18 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>調教・奴隷</name>
+
+            <id>7231</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>輪姦</name>
+
+            <id>7205</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アニメーション</name>
+
+            <id>7402</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>MINK / M no VIOLET</name>
+
+            <id>30536</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>minkm_0002</content_id>
+
+        <product_id>minkm_0002</product_id>
+
+        <title>恋の恋 アニメーション追加版</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=minkm_0002/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=minkm_0002/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0002/minkm_0002js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>3400</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>3400</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-05-26 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>和服・浴衣</name>
+
+            <id>7305</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>年上</name>
+
+            <id>7049</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>学園もの</name>
+
+            <id>7502</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>7213</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アニメーション</name>
+
+            <id>7402</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>M ni AQUA</name>
+
+            <id>30863</id>
+
+          </maker>
+
+          <author>
+
+            <name>さんた☆まりあ</name>
+
+            <id>236829</id>
+
+          </author>
+
+          <author>
+
+            <name>さんたまりあ</name>
+
+            <id>236829_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggsm_0007</content_id>
+
+        <product_id>ggsm_0007</product_id>
+
+        <title>風間愛（かざままな）</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0007/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0007/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0007/ggsm_0007js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-09-01 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>シミュレーション</name>
+
+            <id>7110</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>調教・奴隷</name>
+
+            <id>7231</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>MINK / M no VIOLET</name>
+
+            <id>30536</id>
+
+          </maker>
+
+          <author>
+
+            <name>M</name>
+
+            <id>50540</id>
+
+          </author>
+
+          <author>
+
+            <name>えむ</name>
+
+            <id>50540_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggsm_0013</content_id>
+
+        <product_id>ggsm_0013</product_id>
+
+        <title>ソドムの島 〜Night of Blind〜</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0013/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggsm_0013/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggsm_0013/ggsm_0013js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-07-28 09:59:58</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ふたなり</name>
+
+            <id>7002</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サスペンス</name>
+
+            <id>7214</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>7213</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>MINK / M no VIOLET</name>
+
+            <id>30536</id>
+
+          </maker>
+
+          <author>
+
+            <name>中村錦</name>
+
+            <id>25090</id>
+
+          </author>
+
+          <author>
+
+            <name>なかむらにしき</name>
+
+            <id>25090_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0387</content_id>
+
+        <product_id>ggs_0387</product_id>
+
+        <title>魔性の貌</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0387/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0387/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0387/ggs_0387js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>1800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>1800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2010-10-08 09:59:50</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>淫乱</name>
+
+            <id>7232</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>幼なじみ</name>
+
+            <id>7035</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>姉・妹</name>
+
+            <id>7041</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>SM</name>
+
+            <id>7220</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>学園もの</name>
+
+            <id>7502</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+          <author>
+
+            <name>中村錦</name>
+
+            <id>25090</id>
+
+          </author>
+
+          <author>
+
+            <name>なかむらにしき</name>
+
+            <id>25090_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>minkm_0010</content_id>
+
+        <product_id>minkm_0010</product_id>
+
+        <title>恋の恋 Others〜れんのこい・あざーず〜</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=minkm_0010/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=minkm_0010/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/minkm_0010/minkm_0010js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2900</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2900</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2010-03-19 09:59:59</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>7213</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アクセサリー</name>
+
+            <id>7105</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>DMM独占販売</name>
+
+            <id>7409</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>M ni AQUA</name>
+
+            <id>30863</id>
+
+          </maker>
+
+          <author>
+
+            <name>さんた☆まりあ</name>
+
+            <id>236829</id>
+
+          </author>
+
+          <author>
+
+            <name>さんたまりあ</name>
+
+            <id>236829_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0160</content_id>
+
+        <product_id>ggs_0160</product_id>
+
+        <title>夜勤雀棟 壱・弐 復刻版＋</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0160/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0160/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0160/ggs_0160js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2010-01-19 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>麻雀</name>
+
+            <id>7108</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>女医</name>
+
+            <id>7016</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アニメーション</name>
+
+            <id>7402</id>
+
+          </keyword>
+
+          <series>
+
+            <name>夜勤病棟</name>
+
+            <id>30014</id>
+
+          </series>
+
+          <maker>
+
+            <name>MINK / M no VIOLET</name>
+
+            <id>30536</id>
+
+          </maker>
+
+          <author>
+
+            <name>雛咲</name>
+
+            <id>236804</id>
+
+          </author>
+
+          <author>
+
+            <name>ひなさき</name>
+
+            <id>236804_ruby</id>
+
+          </author>
+
+          <author>
+
+            <name>M</name>
+
+            <id>50540</id>
+
+          </author>
+
+          <author>
+
+            <name>えむ</name>
+
+            <id>50540_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0154</content_id>
+
+        <product_id>ggs_0154</product_id>
+
+        <title>Lovely Angels ぺろぺろCandy2</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0154/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0154/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0154/ggs_0154js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-11-17 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>3P・4P</name>
+
+            <id>7245</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>コスプレ</name>
+
+            <id>7233</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ロリ系</name>
+
+            <id>7039</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>キャバ嬢・風俗嬢</name>
+
+            <id>7050</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <series>
+
+            <name>ぺろぺろCandy</name>
+
+            <id>80129</id>
+
+          </series>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+          <author>
+
+            <name>INO</name>
+
+            <id>24744</id>
+
+          </author>
+
+          <author>
+
+            <name>いの</name>
+
+            <id>24744_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0161</content_id>
+
+        <product_id>ggs_0161</product_id>
+
+        <title>美学 YURIKA＆ASUNA</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0161/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0161/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0161/ggs_0161js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-10-20 09:59:59</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>学園もの</name>
+
+            <id>7502</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>レズ</name>
+
+            <id>7227</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>乱交</name>
+
+            <id>7224</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>お嬢様・令嬢</name>
+
+            <id>7007</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>SM</name>
+
+            <id>7220</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>MINK / M no VIOLET</name>
+
+            <id>30536</id>
+
+          </maker>
+
+          <author>
+
+            <name>SAHYA</name>
+
+            <id>236806</id>
+
+          </author>
+
+          <author>
+
+            <name>さーや</name>
+
+            <id>236806_ruby</id>
+
+          </author>
+
+          <author>
+
+            <name>HIDE18</name>
+
+            <id>236805</id>
+
+          </author>
+
+          <author>
+
+            <name>ひでじゅうはち</name>
+
+            <id>236805_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0158</content_id>
+
+        <product_id>ggs_0158</product_id>
+
+        <title>破談屋</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0158/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0158/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0158/ggs_0158js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-10-13 09:59:58</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>レズ</name>
+
+            <id>7227</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>看護婦・ナース</name>
+
+            <id>7014</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>女教師</name>
+
+            <id>7017</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アイドル</name>
+
+            <id>7011</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+          <author>
+
+            <name>おおのつとむ（大野勉・弥生ヒロアキ）</name>
+
+            <id>24981</id>
+
+          </author>
+
+          <author>
+
+            <name>おおのつとむ</name>
+
+            <id>24981_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0155</content_id>
+
+        <product_id>ggs_0155</product_id>
+
+        <title>Princess Knights</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0155/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0155/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0155/ggs_0155js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-10-06 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>7213</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アニメーション</name>
+
+            <id>7402</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>シミュレーション</name>
+
+            <id>7110</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>女戦士</name>
+
+            <id>7034</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>輪姦</name>
+
+            <id>7205</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>7501</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0157</content_id>
+
+        <product_id>ggs_0157</product_id>
+
+        <title>Danger Angel 〜異常進化〜</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0157/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0157/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0157/ggs_0157js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-10-05 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>RPG</name>
+
+            <id>7114</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>触手</name>
+
+            <id>7208</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ファンタジー</name>
+
+            <id>7501</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アニメーション</name>
+
+            <id>7402</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>7213</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+          <author>
+
+            <name>佐々木良和</name>
+
+            <id>238797</id>
+
+          </author>
+
+          <author>
+
+            <name>ささきよしかず</name>
+
+            <id>238797_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0151</content_id>
+
+        <product_id>ggs_0151</product_id>
+
+        <title>MISSION OF MURDER</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0151/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0151/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0151/ggs_0151js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-09-29 09:59:58</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>カードゲーム</name>
+
+            <id>7112</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>サスペンス</name>
+
+            <id>7214</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>触手</name>
+
+            <id>7208</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>輪姦</name>
+
+            <id>7205</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0153</content_id>
+
+        <product_id>ggs_0153</product_id>
+
+        <title>Mi・da・ra</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0153/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0153/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0153/ggs_0153js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-09-15 09:59:58</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>姉・妹</name>
+
+            <id>7041</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>7213</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>SM</name>
+
+            <id>7220</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>メイド</name>
+
+            <id>7012</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>レズ</name>
+
+            <id>7227</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アニメーション</name>
+
+            <id>7402</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>デモ・体験版あり</name>
+
+            <id>7405</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>凌辱</name>
+
+            <id>7203</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+          <author>
+
+            <name>福永ユミ</name>
+
+            <id>238480</id>
+
+          </author>
+
+          <author>
+
+            <name>ふくながゆみ</name>
+
+            <id>238480_ruby</id>
+
+          </author>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>美少女ゲーム</service_name>
+
+        <floor_name>美少女ゲーム</floor_name>
+
+        <category_name>美少女ゲーム (美少女ゲーム)</category_name>
+
+        <content_id>ggs_0156</content_id>
+
+        <product_id>ggs_0156</product_id>
+
+        <title>Touch me 〜恋のおくすり〜</title>
+
+        <URL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0156/</URL>
+
+        <affiliateURL>http://www.dmm.co.jp/digital/pcgame/-/detail/=/cid=ggs_0156/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156pt.jpg</list>
+
+          <small>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156ps.jpg</small>
+
+          <large>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-001.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-002.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-003.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-004.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-005.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-006.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-007.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-008.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-009.jpg</image>
+
+            <image>http://pics.dmm.co.jp/digital/pcgame/ggs_0156/ggs_0156js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>2800</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>2800</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2009-09-07 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>ラブコメ</name>
+
+            <id>7218</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>ミンク</name>
+
+            <id>7416</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>競泳・スクール水着</name>
+
+            <id>7309</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>メガネっ娘</name>
+
+            <id>7038</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>女教師</name>
+
+            <id>7017</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>巨乳</name>
+
+            <id>7037</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>学園もの</name>
+
+            <id>7502</id>
+
+          </keyword>
+
+          <maker>
+
+            <name>ミンク</name>
+
+            <id>30010</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+    </items>
+
+  </result>
+
+</response>

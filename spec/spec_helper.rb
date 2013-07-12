@@ -19,6 +19,27 @@ RSpec.configure do |config|
   config.order = 'random'
 end
 
+def fixture_path
+  File.expand_path(File.dirname(__FILE__) + "/fixtures/")
+end
+
 def fixture(file)
-  File.new(File.expand_path(File.dirname(__FILE__) + "/fixtures/" + file))
+  File.new(fixture_path + '/' + file, "rb")
+end
+
+def fixtures
+  fixtures = Dir.glob("*.xml").map {|x| File.basename(x) }[0, 2]
+end
+
+def xml_response(file)
+  {
+    :body => fixture(file),
+    :headers => {
+      :content_yype => 'text/xml; charset=euc-jp'
+    }
+  }
+end
+
+def stub_get
+  stub_request(:get, Regexp.compile(Regexp.escape(DMM::Configuration::DEFAULT_API_ENDPOINT)))
 end

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<response>
+
+  <request>
+
+    <parameters>
+
+      <parameter name="api_id" value="apiaccount" />
+
+      <parameter name="affiliate_id" value="affiliate-999" />
+
+      <parameter name="operation" value="ItemList" />
+
+      <parameter name="version" value="2.00" />
+
+      <parameter name="timestamp" value="2012-12-01 00:00:00" />
+
+      <parameter name="site" value="DMM.com" />
+
+      <parameter name="service" value="lod" />
+
+      <parameter name="floor" value="akb48" />
+
+      <parameter name="keyword" value="篠田 麻里子" />
+
+    </parameters>
+
+  </request>
+
+  <result>
+
+    <result_count>2</result_count>
+
+    <total_count>2</total_count>
+
+    <first_position>1</first_position>
+
+    <items>
+
+      <item>
+
+        <service_name>AKB48グループ</service_name>
+
+        <floor_name>AKB48</floor_name>
+
+        <category_name>AKB48 LIVE!! ON DEMAND (AKB48グループ)</category_name>
+
+        <content_id>akb48a12110201</content_id>
+
+        <product_id>akb48a12110201</product_id>
+
+        <title>11月2日（金）「篠田チームA」公演</title>
+
+        <URL>http://www.dmm.com/lod/akb48/-/detail/=/cid=akb48a12110201/</URL>
+
+        <affiliateURL>http://www.dmm.com/lod/akb48/-/detail/=/cid=akb48a12110201/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2012-11-02 23:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>AKB48 LIVE！！ ON DEMAND</name>
+
+            <id>66226</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>AKB48グループ</service_name>
+
+        <floor_name>AKB48</floor_name>
+
+        <category_name>AKB48 LIVE!! ON DEMAND (AKB48グループ)</category_name>
+
+        <content_id>akb48a12110601</content_id>
+
+        <product_id>akb48a12110601</product_id>
+
+        <title>11月6日（火）「篠田チームA」公演</title>
+
+        <URL>http://www.dmm.com/lod/akb48/-/detail/=/cid=akb48a12110601/</URL>
+
+        <affiliateURL>http://www.dmm.com/lod/akb48/-/detail/=/cid=akb48a12110601/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2012-11-06 23:00:00</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>AKB48 LIVE！！ ON DEMAND</name>
+
+            <id>66226</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+    </items>
+
+  </result>
+
+</response>

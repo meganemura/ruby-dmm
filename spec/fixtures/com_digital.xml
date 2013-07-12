@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<response>
+
+  <request>
+
+    <parameters>
+
+      <parameter name="api_id" value="apiaccount" />
+
+      <parameter name="affiliate_id" value="affiliate-999" />
+
+      <parameter name="operation" value="ItemList" />
+
+      <parameter name="version" value="2.00" />
+
+      <parameter name="timestamp" value="2012-12-01 00:00:00" />
+
+      <parameter name="site" value="DMM.com" />
+
+      <parameter name="service" value="digital" />
+
+      <parameter name="keyword" value="ガンダム" />
+
+    </parameters>
+
+  </request>
+
+  <result>
+
+    <result_count>20</result_count>
+
+    <total_count>1321</total_count>
+
+    <first_position>1</first_position>
+
+    <items>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900100130</content_id>
+
+        <product_id>bch1011000000011900100130</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-01</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2009-08-28 11:58:44</date>
+
+        <iteminfo>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900200210</content_id>
+
+        <product_id>bch1011000000011900200210</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-02</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:29</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900300310</content_id>
+
+        <product_id>bch1011000000011900300310</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-03</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:28</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900400400</content_id>
+
+        <product_id>bch1011000000011900400400</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-04</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:27</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900500500</content_id>
+
+        <product_id>bch1011000000011900500500</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-05</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:26</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900600600</content_id>
+
+        <product_id>bch1011000000011900600600</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-06</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:25</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900700700</content_id>
+
+        <product_id>bch1011000000011900700700</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-07</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:24</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900800800</content_id>
+
+        <product_id>bch1011000000011900800800</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-08</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:23</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011900900900</content_id>
+
+        <product_id>bch1011000000011900900900</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-09</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:22</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901001000</content_id>
+
+        <product_id>bch1011000000011901001000</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-10</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:21</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901101100</content_id>
+
+        <product_id>bch1011000000011901101100</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-11</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:20</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901201200</content_id>
+
+        <product_id>bch1011000000011901201200</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-12</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:19</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901301300</content_id>
+
+        <product_id>bch1011000000011901301300</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-13</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:18</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901401400</content_id>
+
+        <product_id>bch1011000000011901401400</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-14</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:17</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901501500</content_id>
+
+        <product_id>bch1011000000011901501500</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-15</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:16</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901601600</content_id>
+
+        <product_id>bch1011000000011901601600</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-16</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:15</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901701700</content_id>
+
+        <product_id>bch1011000000011901701700</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-17</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:14</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901801800</content_id>
+
+        <product_id>bch1011000000011901801800</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-18</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:13</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011901901900</content_id>
+
+        <product_id>bch1011000000011901901900</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-19</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:12</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+      <item>
+
+        <service_name>動画</service_name>
+
+        <floor_name>バンダイチャンネル</floor_name>
+
+        <category_name>バンダイチャンネル (動画)</category_name>
+
+        <content_id>bch1011000000011902002000</content_id>
+
+        <product_id>bch1011000000011902002000</product_id>
+
+        <title>機動戦士ガンダムSEED PHASE-20</title>
+
+        <URL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/bandai/-/title/=/title_code=119/affiliate-999</affiliateURL>
+
+        <prices>
+
+          <price>-</price>
+
+        </prices>
+
+        <date>2004-12-20 11:58:11</date>
+
+        <iteminfo>
+
+          <series>
+
+            <name>機動戦士ガンダムSEED</name>
+
+            <id>60167</id>
+
+          </series>
+
+          <maker>
+
+            <name>バンダイチャンネル</name>
+
+            <id>66024</id>
+
+          </maker>
+
+        </iteminfo>
+
+        <bandai_info>
+
+          <title_code>119</title_code>
+
+        </bandai_info>
+
+      </item>
+
+    </items>
+
+  </result>
+
+</response>
