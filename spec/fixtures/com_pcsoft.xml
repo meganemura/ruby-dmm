@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<response>
+
+  <request>
+
+    <parameters>
+
+      <parameter name="api_id" value="apiaccount" />
+
+      <parameter name="affiliate_id" value="affiliate-999" />
+
+      <parameter name="operation" value="ItemList" />
+
+      <parameter name="version" value="2.00" />
+
+      <parameter name="timestamp" value="2012-12-01 00:00:00" />
+
+      <parameter name="site" value="DMM.com" />
+
+      <parameter name="service" value="pcsoft" />
+
+      <parameter name="floor" value="pcgame" />
+
+      <parameter name="keyword" value="アマガミ" />
+
+    </parameters>
+
+  </request>
+
+  <result>
+
+    <result_count>6</result_count>
+
+    <total_count>6</total_count>
+
+    <first_position>1</first_position>
+
+    <items>
+
+      <item>
+
+        <service_name>PCソフト</service_name>
+
+        <floor_name>PCゲーム</floor_name>
+
+        <category_name>PCゲーム (PCソフト)</category_name>
+
+        <content_id>itech_0001</content_id>
+
+        <product_id>itech_0001</product_id>
+
+        <title>アマガミ ちょっとおまけ劇場 EX1</title>
+
+        <URL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0001/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0001/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001pt.jpg</list>
+
+          <small>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001ps.jpg</small>
+
+          <large>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-001.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-002.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-003.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-004.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-005.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-006.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-007.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-008.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-009.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0001/itech_0001js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>1500</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>1500</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2011-12-09 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>100121</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>110124</id>
+
+          </keyword>
+
+          <series>
+
+            <name>アマガミ ちょっとおまけ劇場</name>
+
+            <id>55518</id>
+
+          </series>
+
+          <maker>
+
+            <name>TECH GIANアーカイブ</name>
+
+            <id>58194</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>PCソフト</service_name>
+
+        <floor_name>PCゲーム</floor_name>
+
+        <category_name>PCゲーム (PCソフト)</category_name>
+
+        <content_id>itech_0004</content_id>
+
+        <product_id>itech_0004</product_id>
+
+        <title>アマガミ ちょっとおまけ劇場 EX4</title>
+
+        <URL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0004/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0004/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004pt.jpg</list>
+
+          <small>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004ps.jpg</small>
+
+          <large>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-001.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-002.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-003.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-004.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-005.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-006.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-007.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-008.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-009.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0004/itech_0004js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>1500</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>1500</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2011-12-22 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>110124</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>100121</id>
+
+          </keyword>
+
+          <series>
+
+            <name>アマガミ ちょっとおまけ劇場</name>
+
+            <id>55518</id>
+
+          </series>
+
+          <maker>
+
+            <name>TECH GIANアーカイブ</name>
+
+            <id>58194</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>PCソフト</service_name>
+
+        <floor_name>PCゲーム</floor_name>
+
+        <category_name>PCゲーム (PCソフト)</category_name>
+
+        <content_id>itech_0006</content_id>
+
+        <product_id>itech_0006</product_id>
+
+        <title>アマガミ ちょっとおまけ劇場 EX6</title>
+
+        <URL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0006/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0006/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006pt.jpg</list>
+
+          <small>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006ps.jpg</small>
+
+          <large>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-001.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-002.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-003.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-004.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-005.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-006.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-007.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-008.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-009.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0006/itech_0006js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>1500</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>1500</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2012-01-06 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>110124</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>100121</id>
+
+          </keyword>
+
+          <series>
+
+            <name>アマガミ ちょっとおまけ劇場</name>
+
+            <id>55518</id>
+
+          </series>
+
+          <maker>
+
+            <name>TECH GIANアーカイブ</name>
+
+            <id>58194</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>PCソフト</service_name>
+
+        <floor_name>PCゲーム</floor_name>
+
+        <category_name>PCゲーム (PCソフト)</category_name>
+
+        <content_id>itech_0003</content_id>
+
+        <product_id>itech_0003</product_id>
+
+        <title>アマガミ ちょっとおまけ劇場 EX3</title>
+
+        <URL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0003/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0003/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003pt.jpg</list>
+
+          <small>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003ps.jpg</small>
+
+          <large>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-001.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-002.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-003.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-004.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-005.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-006.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-007.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-008.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-009.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0003/itech_0003js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>1500</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>1500</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2011-12-16 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>110124</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>100121</id>
+
+          </keyword>
+
+          <series>
+
+            <name>アマガミ ちょっとおまけ劇場</name>
+
+            <id>55518</id>
+
+          </series>
+
+          <maker>
+
+            <name>TECH GIANアーカイブ</name>
+
+            <id>58194</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>PCソフト</service_name>
+
+        <floor_name>PCゲーム</floor_name>
+
+        <category_name>PCゲーム (PCソフト)</category_name>
+
+        <content_id>itech_0002</content_id>
+
+        <product_id>itech_0002</product_id>
+
+        <title>アマガミ ちょっとおまけ劇場 EX2</title>
+
+        <URL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0002/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0002/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002pt.jpg</list>
+
+          <small>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002ps.jpg</small>
+
+          <large>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-001.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-002.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-003.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-004.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-005.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-006.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-007.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-008.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-009.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0002/itech_0002js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>1500</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>1500</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2011-12-16 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>110124</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>100121</id>
+
+          </keyword>
+
+          <series>
+
+            <name>アマガミ ちょっとおまけ劇場</name>
+
+            <id>55518</id>
+
+          </series>
+
+          <maker>
+
+            <name>TECH GIANアーカイブ</name>
+
+            <id>58194</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+      <item>
+
+        <service_name>PCソフト</service_name>
+
+        <floor_name>PCゲーム</floor_name>
+
+        <category_name>PCゲーム (PCソフト)</category_name>
+
+        <content_id>itech_0005</content_id>
+
+        <product_id>itech_0005</product_id>
+
+        <title>アマガミ ちょっとおまけ劇場 EX5</title>
+
+        <URL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0005/</URL>
+
+        <affiliateURL>http://www.dmm.com/digital/pcgame/-/detail/=/cid=itech_0005/affiliate-999</affiliateURL>
+
+        <imageURL>
+
+          <list>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005pt.jpg</list>
+
+          <small>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005ps.jpg</small>
+
+          <large>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005pl.jpg</large>
+
+        </imageURL>
+
+        <sampleImageURL>
+
+          <sample_s>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-001.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-002.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-003.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-004.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-005.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-006.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-007.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-008.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-009.jpg</image>
+
+            <image>http://pics.dmm.com/digital/pcgame/itech_0005/itech_0005js-010.jpg</image>
+
+          </sample_s>
+
+        </sampleImageURL>
+
+        <prices>
+
+          <price>1500</price>
+
+          <deliveries>
+
+            <delivery>
+
+              <type>download</type>
+
+              <price>1500</price>
+
+            </delivery>
+
+          </deliveries>
+
+        </prices>
+
+        <date>2011-12-22 10:00:00</date>
+
+        <iteminfo>
+
+          <keyword>
+
+            <name>恋愛</name>
+
+            <id>100121</id>
+
+          </keyword>
+
+          <keyword>
+
+            <name>アドベンチャー</name>
+
+            <id>110124</id>
+
+          </keyword>
+
+          <series>
+
+            <name>アマガミ ちょっとおまけ劇場</name>
+
+            <id>55518</id>
+
+          </series>
+
+          <maker>
+
+            <name>TECH GIANアーカイブ</name>
+
+            <id>58194</id>
+
+          </maker>
+
+        </iteminfo>
+
+      </item>
+
+    </items>
+
+  </result>
+
+</response>
