@@ -16,6 +16,8 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+  gem.licenses      = ["MIT"]
+  gem.homepage      = 'https://github.com/meganemura/ruby-dmm'
 
   gem.add_dependency('faraday', '~> 0.8')
   gem.add_dependency('faraday_middleware')
