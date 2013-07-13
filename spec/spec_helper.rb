@@ -28,14 +28,14 @@ def fixture(file)
 end
 
 def fixtures
-  fixtures = Dir.glob("*.xml").map {|x| File.basename(x) }[0, 2]
+  fixtures = Dir.glob(fixture_path + '/' + "*.xml").map {|x| File.basename(x) }
 end
 
 def xml_response(file)
   {
     :body => fixture(file),
     :headers => {
-      :content_yype => 'text/xml; charset=euc-jp'
+      :content_type => 'text/xml; charset=euc-jp'
     }
   }
 end
