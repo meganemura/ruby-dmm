@@ -52,7 +52,7 @@ module DMM
 
     def connection(options={})
       # TODO: not to create on every request.
-      Faraday.new(api_endpoint, options) do |faraday|
+      connection = Faraday.new(api_endpoint, options) do |faraday|
         faraday.adapter(adapter)
         faraday.request(:url_encoded)
         faraday.response(:xml, :content_type => "text/xml; charset=euc-jp")
@@ -60,6 +60,8 @@ module DMM
         faraday.use(FaradayMiddleware::ParseXml)
         faraday.use(Faraday::Response::RaiseDMMError)
       end
+      connection.headers[:user_agent] = user_agent
+      connection
     end
 
     def encode_params!

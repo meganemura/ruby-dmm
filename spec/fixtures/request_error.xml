@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="euc-jp"?>
+<response>
+	<request>
+		<parameters>
+			<parameter name="api_id" value="XXXXXXXXXXXXXXXXXXXX" />
+			<parameter name="affiliate_id" value="xxxxx-990" />
+			<parameter name="operation" value="ItemList" />
+			<parameter name="version" value="2.00" />
+			<parameter name="timestamp" value="2013-01-01 00:00:00 +0900" />
+			<parameter name="site" value="DMM.co.jp" />
+			<parameter name="keyword" value="key" />
+			<parameter name="sort" value="unknown" />
+		</parameters>
+	</request>
+	<result>
+		<message>REQUEST ERROR</message>
+		<errors>
+			<error>
+				<name>sort</name>
+				<value>PARAMETER ILLEGAL</value>
+			</error>
+		</errors>
+	</result>
+</response>
