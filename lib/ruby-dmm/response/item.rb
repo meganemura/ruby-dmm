@@ -4,7 +4,7 @@ require 'ruby-dmm/response/item_info'
 module DMM
   class Response
     class Item
-      ITEM_KEYS  = [
+      KEYS  = [
         :title,
         :service_name,
         :floor_name,
@@ -22,7 +22,7 @@ module DMM
         :cdinfo,
         :isbn,
       ]
-      attr_reader *ITEM_KEYS
+      attr_reader *KEYS
       attr_reader *[
         :iteminfo,
         :price,
@@ -38,26 +38,33 @@ module DMM
       alias :cd_info      :cdinfo
 
       def initialize(item)
-        ITEM_KEYS.each do |key|
+        KEYS.each do |key|
           instance_variable_set("@#{key}", item[key])
         end
-        @date   = Time.parse(item[:date])
-
-        if item[:prices]
-          @price        = item[:prices][:price]
-          @list_prices  = item[:prices][:list_price]
-          @price_all    = item[:prices][:price_all]
-          @prices       = item[:prices][:deliveries] && [item[:prices][:deliveries][:delivery]].flatten.inject({}) do |hash, params|
-            hash.merge(params[:type] => params[:price].to_i)
-          end
-        end
-
-        if item[:sample_image_url]
-          @small_images = item[:sample_image_url][:sample_s][:image]
-          @large_images = @small_images.map {|image| image.gsub(/(-[0-9]+\.jpg)/, 'jp\1') }
-        end
-
+        @date = Time.parse(item[:date])
         @iteminfo = ItemInfo.new(item[:iteminfo])
+
+        setup_prices(item[:prices])
+        setup_sample_image_url(item[:sample_image_url])
+      end
+
+      private
+      def setup_prices(prices)
+        return unless prices
+
+        @price        = prices[:price]
+        @list_prices  = prices[:list_price]
+        @price_all    = prices[:price_all]
+        @prices       = prices[:deliveries] && [prices[:deliveries][:delivery]].flatten.inject({}) do |hash, params|
+          hash.merge(params[:type] => params[:price].to_i)
+        end
+      end
+
+      def setup_sample_image_url(images)
+        return unless images
+
+        @small_images = images[:sample_s][:image]
+        @large_images = @small_images.map {|image| image.gsub(/(-[0-9]+\.jpg)/, 'jp\1') }
       end
     end
   end

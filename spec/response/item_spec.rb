@@ -9,7 +9,7 @@ describe DMM::Response::Item do
 
   describe 'methods which returns integer' do
     subject { @item }
-    DMM::Response::Item::ITEM_KEYS.each do |key|
+    DMM::Response::Item::KEYS.each do |key|
       it { should respond_to(key) }
     end
   end
