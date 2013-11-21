@@ -20,13 +20,13 @@ module DMM
     def initialize(params={})
       params = params.inject({}) {|hash, (key, value)| hash.merge({key.to_sym => value})}
       @params = {
-        :api_id       => params[:api_id],             # your own api_id
-        :affiliate_id => params[:affiliate_id],       # your own api_id
-        :operation    => nil,                         # "ItemList" is only available now.
+        :api_id       => ENV['DMM_API_ID']        || params[:api_id],       # your own api_id
+        :affiliate_id => ENV['DMM_AFFILIATE_ID']  || params[:affiliate_id], # your own affiliate_id
+        :operation    => nil,
         :version      => DEFAULT_API_VERSION,
         :timestamp    => Time.now.strftime("%F %T"),
         :site         => DEFAULT_SITE,
-        :result_only  => false,                       # Set true to get only response.result.
+        :result_only  => false, # Set true to get response.result only.
       }.merge(params)
 
       DMM.options.each {|key, value| send("#{key}=", value) }
