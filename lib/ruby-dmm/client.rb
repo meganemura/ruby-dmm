@@ -8,6 +8,7 @@ require 'ruby-dmm/response'
 require 'ruby-dmm/client/item_list'
 
 module DMM
+
   DEFAULT_API_VERSION   = '2.00'.freeze
   SITE_DMM_CO_JP        = 'DMM.co.jp'.freeze
   SITE_DMM_COM          = 'DMM.com'.freeze
@@ -18,7 +19,10 @@ module DMM
     attr_accessor :params
 
     def initialize(params={})
-      params = params.inject({}) {|hash, (key, value)| hash.merge({key.to_sym => value})}
+      params = params.inject({}) do |hash, (key, value)|
+        hash.merge(key.to_sym => value)
+      end
+
       @params = {
         :api_id       => ENV['DMM_API_ID']        || params[:api_id],       # your own api_id
         :affiliate_id => ENV['DMM_AFFILIATE_ID']  || params[:affiliate_id], # your own affiliate_id
@@ -29,11 +33,13 @@ module DMM
         :result_only  => false, # Set true to get response.result only.
       }.merge(params)
 
-      DMM.options.each {|key, value| send("#{key}=", value) }
+      DMM.options.each do |key, value|
+        send("#{key}=", value)
+      end
     end
 
     def operation(value)
-      self.tap {|o| o.params.update(:operation => value) }
+      @params.update(:operation => value)
     end
 
     def all

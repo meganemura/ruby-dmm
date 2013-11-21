@@ -14,18 +14,24 @@ module DMM
       end
       alias :items :item_list
 
-      [:service,
-       :floor,
-       :hits,
-       :offset,
-       :sort,
-       :keyword,
-       :mono_stock].each do |key|
+      PARAMETERS = [
+        :service,
+        :floor,
+        :hits,
+        :offset,
+        :sort,
+        :keyword,
+        :mono_stock
+      ].freeze
+
+      PARAMETERS.each do |key|
         next if method_defined?(key)
+
         define_method(key) do |value|
-          self.tap {|o| o.params.update(key => value) }
+          @params.update(key => value)
         end
       end
+
       alias :limit :hits
       alias :order :sort
       alias :stock :mono_stock
