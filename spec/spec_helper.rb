@@ -31,7 +31,7 @@ def fixture(file)
 end
 
 def fixtures
-  fixtures = Dir.glob(fixture_path + '/' + "*.xml").map {|x| File.basename(x) }
+  Dir.glob(fixture_path + '/' + "*.xml").map {|x| File.basename(x) }
 end
 
 def xml_response(file)
