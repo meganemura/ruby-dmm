@@ -41,14 +41,24 @@ module DMM
         KEYS.each do |key|
           instance_variable_set("@#{key}", item[key])
         end
-        @date = Time.parse(item[:date])
-        @iteminfo = ItemInfo.new(item[:iteminfo])
+        @date = Time.parse(item[:date]) if item[:date]
+        @iteminfo = ItemInfo.new(item[:iteminfo]) if item[:iteminfo]
 
         setup_prices(item[:prices])
-        setup_sample_image_url(item[:sample_image_url])
+
+        if images = item[:sample_image_url]
+          @small_images = images[:sample_s][:image]
+        end
+      end
+
+      def large_images
+        @small_images && @small_images.map do |image|
+          image.gsub(/(-[0-9]+\.jpg)/, 'jp\1')
+        end
       end
 
       private
+
       def setup_prices(prices)
         return unless prices
 
@@ -58,13 +68,6 @@ module DMM
         @prices       = prices[:deliveries] && [prices[:deliveries][:delivery]].flatten.inject({}) do |hash, params|
           hash.merge(params[:type] => params[:price].to_i)
         end
-      end
-
-      def setup_sample_image_url(images)
-        return unless images
-
-        @small_images = images[:sample_s][:image]
-        @large_images = @small_images.map {|image| image.gsub(/(-[0-9]+\.jpg)/, 'jp\1') }
       end
     end
   end

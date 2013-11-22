@@ -13,4 +13,18 @@ describe DMM::Response::Item do
       it { should respond_to(key) }
     end
   end
+
+  describe '#large_images' do
+    subject do
+      item = {
+        :sample_image_url => {
+          :sample_s => {
+            :image => ["http://pics.dmm.co.jp/digital/video/aaa00000/aaa00000-9.jpg"],
+          },
+        }
+      }
+      DMM::Response::Item.new(item)
+    end
+    its(:large_images) { should == ["http://pics.dmm.co.jp/digital/video/aaa00000/aaa00000jp-9.jpg"] }
+  end
 end
