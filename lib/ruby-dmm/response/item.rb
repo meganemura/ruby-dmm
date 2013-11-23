@@ -43,12 +43,9 @@ module DMM
         end
         @date = Time.parse(item[:date]) if item[:date]
         @iteminfo = ItemInfo.new(item[:iteminfo]) if item[:iteminfo]
+        @small_images = item[:sample_image_url][:sample_s][:image] rescue []
 
         setup_prices(item[:prices])
-
-        if images = item[:sample_image_url]
-          @small_images = images[:sample_s][:image]
-        end
       end
 
       def large_images
