@@ -2,24 +2,24 @@
 module DMM
   class Response
     class ItemInfo
-      ATTRIBUTE_SINGLE   = [:series, :maker, :label, :director, :author, :type, :size, :genre, :color]
-      ATTRIBUTE_MULTIPLE = {
+      SINGLE_VALUE_ATTRIBUTES   = [:series, :maker, :label, :director, :author, :type, :size, :genre, :color]
+      MULTIPLE_VALUES_ATTRIBUTES = {
         :keywords   => :keyword,
         :actresses  => :actress,
         :actors     => :actor,
         :artists    => :artist,
         :fighters   => :fighter,
       }
-      attr_reader *ATTRIBUTE_SINGLE
-      attr_reader *ATTRIBUTE_MULTIPLE.keys
+      attr_reader *SINGLE_VALUE_ATTRIBUTES
+      attr_reader *MULTIPLE_VALUES_ATTRIBUTES.keys
 
       def initialize(item_info)
-        ATTRIBUTE_SINGLE.inject({}) {|h,k| h.merge(k => k)}.merge({}).each do |attribute, key|
+        SINGLE_VALUE_ATTRIBUTES.inject({}) {|h,k| h.merge(k => k)}.merge({}).each do |attribute, key|
           value = self.class.integrate(item_info[key])
           value = value.first if value
           instance_variable_set("@#{attribute}", value)
         end
-        ATTRIBUTE_MULTIPLE.each do |attribute, key|
+        MULTIPLE_VALUES_ATTRIBUTES.each do |attribute, key|
           value = self.class.integrate(item_info[key])
           instance_variable_set("@#{attribute}", value)
         end
