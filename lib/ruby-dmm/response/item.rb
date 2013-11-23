@@ -38,14 +38,20 @@ module DMM
       alias :cd_info      :cdinfo
 
       def initialize(item)
-        KEYS.each do |key|
-          instance_variable_set("@#{key}", item[key])
+        item.each do |key, value|
+          case key
+          when :date
+            @date = Time.parse(value) if value
+          when :iteminfo
+            @iteminfo = ItemInfo.new(value) if value
+          when :sample_image_url
+            @small_images = value[:sample_s][:image] if value
+          when :prices
+            setup_prices(value) if value
+          else
+            instance_variable_set("@#{key}", item[key])
+          end
         end
-        @date = Time.parse(item[:date]) if item[:date]
-        @iteminfo = ItemInfo.new(item[:iteminfo]) if item[:iteminfo]
-        @small_images = item[:sample_image_url][:sample_s][:image] rescue []
-
-        setup_prices(item[:prices])
       end
 
       def large_images
@@ -57,8 +63,6 @@ module DMM
       private
 
       def setup_prices(prices)
-        return unless prices
-
         @price        = prices[:price]
         @list_prices  = prices[:list_price]
         @price_all    = prices[:price_all]

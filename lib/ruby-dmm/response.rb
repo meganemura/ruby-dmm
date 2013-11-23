@@ -19,12 +19,15 @@ module DMM
       attr_reader *RESULT_KEYS
 
       def initialize(result)
-        (RESULT_KEYS - [:items]).each do |key|
-          instance_variable_set("@#{key}", result[key].to_i)
-        end
-
-        @items = [result[:items][:item]].flatten.map do |item|
-          DMM::Response::Item.new(item)
+        RESULT_KEYS.each do |key|
+          case key
+          when :items
+            @items = [result[:items][:item]].flatten.map do |item|
+              DMM::Response::Item.new(item)
+            end
+          else
+            instance_variable_set("@#{key}", result[key].to_i)
+          end
         end
       end
     end
