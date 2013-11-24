@@ -11,4 +11,16 @@ describe DMM::Client do
       end
     end
   end
+
+  describe "#last_response" do
+    before do
+      stub_get.to_return(xml_response(random_fixture))
+      @client = DMM::Client.new(:result_only => false)
+      @item_list = @client.item_list
+    end
+
+    it "returns last response" do
+      @client.last_response.should_not be_nil
+    end
+  end
 end

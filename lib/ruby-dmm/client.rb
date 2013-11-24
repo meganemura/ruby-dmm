@@ -49,12 +49,16 @@ module DMM
       @params[:operation] ? get('/', @params) : nil
     end
 
+    def last_response
+      @last_response
+    end
+
     private
 
     def get(path, options={})
       encode_params!
-      response = connection.get('/', options)
-      response.body
+      @last_response = connection.get('/', options)
+      @last_response.body
     end
 
     def connection(options={})
