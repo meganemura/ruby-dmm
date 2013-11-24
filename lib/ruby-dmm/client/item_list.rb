@@ -1,5 +1,6 @@
 # encoding: utf-8
 module DMM
+
   OPERATION_ITEM_LIST = 'ItemList'
 
   class Client
@@ -14,7 +15,7 @@ module DMM
       end
       alias :items :item_list
 
-      PARAMETERS = [
+      ITEM_LIST_PARAMETERS = [
         :floor,
         :hits,
         :keyword,
@@ -24,7 +25,7 @@ module DMM
         :sort,
       ].freeze
 
-      PARAMETERS.each do |key|
+      ITEM_LIST_PARAMETERS.each do |key|
         next if method_defined?(key)
 
         define_method(key) do |value|
@@ -36,5 +37,6 @@ module DMM
       alias :order :sort
       alias :stock :mono_stock
     end
+
   end
 end

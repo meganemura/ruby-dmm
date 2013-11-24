@@ -15,6 +15,9 @@ module DMM
   DEFAULT_SITE          = SITE_DMM_CO_JP
 
   class Client
+
+    include DMM::Client::ItemList
+
     attr_accessor(*Configuration::VALID_OPTIONS_KEYS)
     attr_accessor :params
 
@@ -45,8 +48,6 @@ module DMM
     def all
       @params[:operation] ? get('/', @params) : nil
     end
-
-    include DMM::Client::ItemList
 
     private
 
