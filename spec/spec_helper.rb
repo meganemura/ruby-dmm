@@ -31,7 +31,7 @@ def fixture(file)
 end
 
 def all_fixtures
-  Dir.glob(fixture_path + '/' + "*.xml").map {|x| File.basename(x) }
+  Dir.glob(fixture_path + '/' + "*.xml").map {|x| File.basename(x) }.sort
 end
 
 def fixtures
