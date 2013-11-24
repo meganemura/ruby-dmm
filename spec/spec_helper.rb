@@ -30,8 +30,20 @@ def fixture(file)
   File.new(fixture_path + '/' + file, "rb")
 end
 
-def fixtures
+def all_fixtures
   Dir.glob(fixture_path + '/' + "*.xml").map {|x| File.basename(x) }
+end
+
+def fixtures
+  if ENV['GUARD_TEST']
+    all_fixtures.shuffle.pop(2)
+  else
+    all_fixtures
+  end
+end
+
+def random_fixture
+  all_fixtures.shuffle.first
 end
 
 def xml_response(file)
