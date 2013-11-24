@@ -15,13 +15,13 @@ module DMM
       alias :items :item_list
 
       PARAMETERS = [
-        :service,
         :floor,
         :hits,
-        :offset,
-        :sort,
         :keyword,
-        :mono_stock
+        :mono_stock,
+        :offset,
+        :service,
+        :sort,
       ].freeze
 
       PARAMETERS.each do |key|

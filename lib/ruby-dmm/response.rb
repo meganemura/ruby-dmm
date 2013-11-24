@@ -15,7 +15,12 @@ module DMM
     end
 
     class Result
-      RESULT_KEYS = [:result_count, :total_count, :first_position, :items]
+      RESULT_KEYS = [
+        :first_position,
+        :items,
+        :result_count,
+        :total_count,
+      ]
       attr_reader *RESULT_KEYS
 
       def initialize(result)

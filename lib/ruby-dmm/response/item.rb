@@ -5,37 +5,37 @@ module DMM
   class Response
     class Item
       KEYS  = [
-        :title,
-        :service_name,
-        :floor_name,
-        :category_name,
-        :content_id,
-        :product_id,
-        :url,
         :affiliate_url,
         :affiliate_url_sp,
-        :url_sp,
+        :bandaiinfo,
+        :category_name,
+        :cdinfo,
+        :content_id,
+        :floor_name,
+        :isbn,
         :jancode,
         :maker_product,
+        :product_id,
+        :service_name,
         :stock,
-        :bandaiinfo,
-        :cdinfo,
-        :isbn,
+        :title,
+        :url,
+        :url_sp,
       ]
       attr_reader *KEYS
       attr_reader *[
-        :iteminfo,
-        :price,
-        :prices,
-        :price_all,
-        :list_price,
         :date,
-        :small_images,
+        :iteminfo,
         :large_images,
+        :list_price,
+        :price,
+        :price_all,
+        :prices,
+        :small_images,
       ]
-      alias :item_info    :iteminfo
       alias :bandai_info  :bandaiinfo
       alias :cd_info      :cdinfo
+      alias :item_info    :iteminfo
 
       def initialize(item)
         item.each do |key, value|

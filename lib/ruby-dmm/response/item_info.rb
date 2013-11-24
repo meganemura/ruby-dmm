@@ -2,13 +2,23 @@
 module DMM
   class Response
     class ItemInfo
-      SINGLE_VALUE_ATTRIBUTES   = [:series, :maker, :label, :director, :author, :type, :size, :genre, :color]
+      SINGLE_VALUE_ATTRIBUTES   = [
+        :author,
+        :color,
+        :director,
+        :genre,
+        :label,
+        :maker,
+        :series,
+        :size,
+        :type,
+      ]
       MULTIPLE_VALUES_ATTRIBUTES = {
-        :keywords   => :keyword,
-        :actresses  => :actress,
         :actors     => :actor,
+        :actresses  => :actress,
         :artists    => :artist,
         :fighters   => :fighter,
+        :keywords   => :keyword,
       }
       attr_reader *SINGLE_VALUE_ATTRIBUTES
       attr_reader *MULTIPLE_VALUES_ATTRIBUTES.keys
