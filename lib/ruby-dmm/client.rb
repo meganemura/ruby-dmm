@@ -18,10 +18,16 @@ module DMM
 
     include DMM::Client::ItemList
 
-    attr_accessor(*Configuration::VALID_OPTIONS_KEYS)
+    attr_accessor *Configuration::VALID_OPTIONS_KEYS
     attr_accessor :params
 
     def initialize(params={})
+      DMM.options.each do |key, value|
+        # fall back to `DMM::Configuration` module defaults
+        send("#{key}=", params[key] || value)
+      end
+
+      # Symbolize keys
       params = params.inject({}) do |hash, (key, value)|
         hash.merge(key.to_sym => value)
       end
@@ -35,10 +41,6 @@ module DMM
         :site         => DEFAULT_SITE,
         :result_only  => false, # Set true to get response.result only.
       }.merge(params)
-
-      DMM.options.each do |key, value|
-        send("#{key}=", value)
-      end
     end
 
     def operation(value)
