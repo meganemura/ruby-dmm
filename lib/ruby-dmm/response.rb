@@ -29,7 +29,8 @@ module DMM
           when :items
             @items = [result[:items][:item]].flatten.map do |item|
               DMM::Response::Item.new(item)
-            end
+            end if result.key?(:items)
+            @items ||= []
           else
             instance_variable_set("@#{key}", result[key].to_i)
           end

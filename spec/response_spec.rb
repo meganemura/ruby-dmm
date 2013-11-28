@@ -6,7 +6,7 @@ describe DMM::Response do
     stub_get.to_return(xml_response("com.xml"))
     @response = DMM::new.item_list
   end
-  
+
   describe "Response" do
     subject { @response }
     it { should respond_to(:request) }
@@ -38,7 +38,7 @@ describe DMM::Response::Result do
         stub_get.to_return(xml_response("zero_items.xml"))
         @result = DMM::new.item_list.result
       end
-      
+
       subject { @result }
       its(:items) { should be_an(Array) }
       specify do
