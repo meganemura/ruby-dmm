@@ -6,7 +6,7 @@ describe DMM::Response do
     stub_get.to_return(xml_response("com.xml"))
     @response = DMM::new.item_list
   end
-
+  
   describe "Response" do
     subject { @response }
     it { should respond_to(:request) }
@@ -17,17 +17,32 @@ describe DMM::Response do
 end
 
 describe DMM::Response::Result do
-  before :all do
+  before :each do
     stub_get.to_return(xml_response("com.xml"))
     @result = DMM::new.item_list.result
   end
 
   describe '#items' do
-    subject { @result }
-    its(:items) { should be_an(Array) }
-    specify do
-      subject.items.each do |item|
-        item.should be_a(DMM::Response::Item)
+    context "items.size > 0" do
+      subject { @result }
+      its(:items) { should be_an(Array) }
+      specify do
+        subject.items.each do |item|
+          item.should be_a(DMM::Response::Item)
+        end
+      end
+    end
+
+    context "items.size == 0" do
+      before do
+        stub_get.to_return(xml_response("zero_items.xml"))
+        @result = DMM::new.item_list.result
+      end
+      
+      subject { @result }
+      its(:items) { should be_an(Array) }
+      specify do
+        subject.items.size.should == 0
       end
     end
   end

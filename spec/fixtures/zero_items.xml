@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="euc-jp"?>
+
+<response>
+
+  <request>
+
+    <parameters>
+
+      <parameter name="api_id" value="apiaccount" />
+
+      <parameter name="affiliate_id" value="affiliate-999" />
+
+      <parameter name="operation" value="ItemList" />
+
+      <parameter name="version" value="2.00" />
+
+      <parameter name="timestamp" value="2012-12-01 00:00:00" />
+
+      <parameter name="site" value="DMM.com" />
+
+      <parameter name="keyword" value="item_not_found" />
+
+    </parameters>
+
+  </request>
+
+  <result>
+
+    <result_count>0</result_count>
+
+    <total_count>0</total_count>
+
+    <first_position>0</first_position>
+
+  </result>
+
+</response>
