@@ -41,6 +41,7 @@ module DMM
 
       def initialize(item)
         item.each do |key, value|
+          key = key.to_sym
           case key
           when :date
             @date = Time.parse(value) if value
