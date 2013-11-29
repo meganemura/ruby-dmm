@@ -24,13 +24,19 @@ module DMM
       attr_reader *MULTIPLE_VALUES_ATTRIBUTES.keys
 
       def initialize(item_info)
+        item_info.each do |key, value|
+          key = key.to_sym
+          if attribute = MULTIPLE_VALUES_ATTRIBUTES.invert[key]
+            value = self.class.integrate(value)
+            instance_variable_set("@#{attribute}", value)
+          else
+
+          end
+        end
+
         SINGLE_VALUE_ATTRIBUTES.inject({}) {|h,k| h.merge(k => k)}.merge({}).each do |attribute, key|
           value = self.class.integrate(item_info[key.to_s])
           value = value.first if value
-          instance_variable_set("@#{attribute}", value)
-        end
-        MULTIPLE_VALUES_ATTRIBUTES.each do |attribute, key|
-          value = self.class.integrate(item_info[key.to_s])
           instance_variable_set("@#{attribute}", value)
         end
       end
