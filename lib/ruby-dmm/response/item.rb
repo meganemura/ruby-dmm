@@ -39,9 +39,7 @@ module DMM
           else
             self.class.class_eval do
               unless method_defined?(key)
-                define_method "#{key}" do
-                  instance_variable_get("@#{key}")
-                end
+                attr_reader key
                 if name = ALIAS_METHOD_MAP[key.to_sym]
                   alias_method name, key.to_sym
                 end
