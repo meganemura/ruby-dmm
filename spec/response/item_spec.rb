@@ -35,4 +35,14 @@ describe DMM::Response::Item do
     end
     its(:large_images) { should == ["http://pics.dmm.co.jp/digital/video/aaa00000/aaa00000jp-9.jpg"] }
   end
+
+  describe 'define method for any keys' do
+    subject do
+      item = {
+        :not_defined_key => true,
+      }
+      DMM::Response::Item.new(item)
+    end
+    it { should respond_to(:not_defined_key) }
+  end
 end

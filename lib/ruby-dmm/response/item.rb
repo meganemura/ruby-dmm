@@ -54,6 +54,13 @@ module DMM
             setup_prices(value) if value
           else
             instance_variable_set("@#{key}", item[key])
+            self.class.class_eval do
+              unless method_defined?(key)
+                define_method "#{key}" do
+                  instance_variable_get("@#{key}")
+                end
+              end
+            end
           end
         end
       end
