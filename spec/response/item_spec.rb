@@ -7,19 +7,22 @@ describe DMM::Response::Item do
     @item = DMM::new.item_list.result.items.first
   end
 
-  describe 'methods which returns integer' do
-    subject { @item }
-    DMM::Response::Item::KEYS.each do |key|
-      it { should respond_to(key) }
-    end
-  end
-
   describe '#images' do
     subject { @item.images }
     it { should be }
     its([:list])  { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pt.jpg' }
     its([:small]) { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659ps.jpg' }
     its([:large]) { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pl.jpg' }
+  end
+
+  describe 'define alias methods' do
+    subject do
+      item = DMM::Response::Item::ALIAS_METHOD_MAP.keys.inject({}) {|h, key| h.merge(key => 1) }
+      DMM::Response::Item.new(item)
+    end
+    DMM::Response::Item::ALIAS_METHOD_MAP.values.each do |name|
+      it { should respond_to(name) }
+    end
   end
 
   describe '#large_images' do

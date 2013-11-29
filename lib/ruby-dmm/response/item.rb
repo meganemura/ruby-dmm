@@ -4,41 +4,25 @@ require 'ruby-dmm/response/item_info'
 module DMM
   class Response
     class Item
-      KEYS  = [
-        :affiliate_url,
-        :affiliate_url_sp,
-        :bandaiinfo,
-        :category_name,
-        :cdinfo,
-        :content_id,
-        :floor_name,
-        :image_url,
-        :isbn,
-        :jancode,
-        :maker_product,
-        :product_id,
-        :service_name,
-        :stock,
-        :title,
-        :url,
-        :url_sp,
-      ]
-      attr_reader *KEYS
-      alias :bandai_info  :bandaiinfo
-      alias :cd_info      :cdinfo
-      alias :images       :image_url
 
-      attr_reader *[
+      PREDEFINED_KEYS = [
         :date,
         :iteminfo,
-        :large_images,
         :list_price,
         :price,
         :price_all,
         :prices,
         :small_images,
       ]
-      alias :item_info    :iteminfo
+      attr_reader *PREDEFINED_KEYS
+      alias_method :item_info,  :iteminfo
+      alias_method :info,       :iteminfo
+
+      ALIAS_METHOD_MAP = {
+        :bandaiinfo => :bandai_info,
+        :cdinfo     => :cd_info,
+        :image_url  => :images,
+      }
 
       def initialize(item)
         item.each do |key, value|
@@ -53,14 +37,17 @@ module DMM
           when :prices
             setup_prices(value) if value
           else
-            instance_variable_set("@#{key}", item[key])
             self.class.class_eval do
               unless method_defined?(key)
                 define_method "#{key}" do
                   instance_variable_get("@#{key}")
                 end
+                if name = ALIAS_METHOD_MAP[key.to_sym]
+                  alias_method name, key.to_sym
+                end
               end
             end
+            instance_variable_set("@#{key}", item[key])
           end
         end
       end
