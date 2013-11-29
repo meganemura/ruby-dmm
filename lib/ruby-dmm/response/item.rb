@@ -21,6 +21,7 @@ module DMM
         :title,
         :url,
         :url_sp,
+        :image_url,
       ]
       attr_reader *KEYS
       attr_reader *[
@@ -36,6 +37,7 @@ module DMM
       alias :bandai_info  :bandaiinfo
       alias :cd_info      :cdinfo
       alias :item_info    :iteminfo
+      alias :images       :image_url
 
       def initialize(item)
         item.each do |key, value|

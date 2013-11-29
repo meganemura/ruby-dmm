@@ -14,6 +14,23 @@ describe DMM::Response::Item do
     end
   end
 
+  describe '#images' do
+    describe ':list' do
+      subject { @item.images[:list] }
+      it { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pt.jpg' }
+    end
+    
+    describe ':small' do
+      subject { @item.images[:small] }
+      it { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659ps.jpg' }
+    end
+
+    describe ':large' do
+      subject { @item.images[:large] }
+      it { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pl.jpg' }
+    end
+  end
+  
   describe '#large_images' do
     subject do
       item = {
