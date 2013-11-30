@@ -2,42 +2,36 @@
 module DMM
   class Response
     class ItemInfo
-      SINGLE_VALUE_ATTRIBUTES   = [
-        :author,
-        :color,
-        :director,
-        :genre,
-        :label,
-        :maker,
-        :series,
-        :size,
-        :type,
-      ]
-      MULTIPLE_VALUES_ATTRIBUTES = {
-        :actors     => :actor,
-        :actresses  => :actress,
-        :artists    => :artist,
-        :fighters   => :fighter,
-        :keywords   => :keyword,
+
+      # for defining
+      #   alias_method :actors, :actor
+      PLURAL_MAP = {
+        :actor    => :actors,
+        :actress  => :actresses,
+        :artist   => :artists,
+        :author   => :authors,
+        :color    => :colors,
+        :director => :directors,
+        :fighter  => :fighters,
+        :genre    => :genres,
+        :keyword  => :keywords,
+        :label    => :labels,
+        :maker    => :makers,
       }
-      attr_reader *SINGLE_VALUE_ATTRIBUTES
-      attr_reader *MULTIPLE_VALUES_ATTRIBUTES.keys
 
       def initialize(item_info)
         item_info.each do |key, value|
-          key = key.to_sym
-          if attribute = MULTIPLE_VALUES_ATTRIBUTES.invert[key]
-            value = self.class.integrate(value)
-            instance_variable_set("@#{attribute}", value)
-          else
-
+          key = key.to_s
+          value = self.class.integrate(value)
+          self.class.class_eval do
+            unless method_defined?(key)
+              attr_reader key
+              if plural = PLURAL_MAP[key.to_sym]
+                alias_method plural, key.to_sym
+              end
+            end
           end
-        end
-
-        SINGLE_VALUE_ATTRIBUTES.inject({}) {|h,k| h.merge(k => k)}.merge({}).each do |attribute, key|
-          value = self.class.integrate(item_info[key.to_s])
-          value = value.first if value
-          instance_variable_set("@#{attribute}", value)
+          instance_variable_set("@#{key}", value)
         end
       end
 
