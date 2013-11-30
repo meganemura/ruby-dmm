@@ -30,6 +30,7 @@ module DMM
 
         define_method(key) do |value|
           @params.update(key => value)
+          self
         end
       end
 
