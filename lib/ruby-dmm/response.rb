@@ -22,6 +22,8 @@ module DMM
         :total_count,
       ]
       attr_reader *RESULT_KEYS
+      alias_method :offset,     :first_position
+      alias_method :per_result, :result_count
 
       def initialize(result)
         RESULT_KEYS.each do |key|
