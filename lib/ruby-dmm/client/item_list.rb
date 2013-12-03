@@ -1,7 +1,7 @@
 # encoding: utf-8
 module DMM
 
-  OPERATION_ITEM_LIST = 'ItemList'
+  OPERATION_ITEM_LIST = 'ItemList'.freeze
 
   class Client
     module ItemList
