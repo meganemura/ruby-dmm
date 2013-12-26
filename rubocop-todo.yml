@@ -27,7 +27,7 @@ Documentation:
   Enabled: false
 
 DotPosition:
-  Enabled: false
+  Enabled: true
 
 EmptyLines:
   Enabled: false
