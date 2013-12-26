@@ -12,7 +12,7 @@ AssignmentInCondition:
   Enabled: false
 
 Blocks:
-  Enabled: false
+  Enabled: true
 
 CollectionMethods:
   Enabled: false
