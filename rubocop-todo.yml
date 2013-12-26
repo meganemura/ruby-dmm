@@ -75,7 +75,7 @@ SpaceAroundEqualsInParameterDefault:
   Enabled: true
 
 SpaceAroundOperators:
-  Enabled: false
+  Enabled: true
 
 SpaceInsideHashLiteralBraces:
   Enabled: false

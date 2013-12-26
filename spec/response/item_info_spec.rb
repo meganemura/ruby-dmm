@@ -5,7 +5,7 @@ describe DMM::Response::ItemInfo do
 
   def complex_hash
     {
-      "actor"=> [
+      "actor" => [
         {"name" => "ダニエル・ラドクリフ",  "id" => "60257"},
         {"name" => "だにえるらどくりふ",    "id" => "60257_ruby"},
         {"name" => "メガネ君",              "id" => "60257_classify"},
