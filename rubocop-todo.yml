@@ -66,7 +66,7 @@ SignalException:
   Enabled: false
 
 SpaceAfterComma:
-  Enabled: false
+  Enabled: true
 
 SpaceAroundBlockBraces:
   Enabled: false
