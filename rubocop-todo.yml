@@ -2,38 +2,17 @@
 # The point is for the user to remove these configuration records
 # one by one as the offences are removed from the code base.
 
-AccessControl:
-  Enabled: true
-
-Alias:
-  Enabled: true
-
 AssignmentInCondition:
   Enabled: false
 
-Blocks:
-  Enabled: true
-
 CollectionMethods:
   Enabled: false
-
-ColonMethodCall:
-  Enabled: true
 
 ConstantName:
   Enabled: false
 
 Documentation:
   Enabled: false
-
-DotPosition:
-  Enabled: true
-
-EmptyLines:
-  Enabled: true
-
-HashMethods:
-  Enabled: true
 
 HashSyntax:
   Enabled: false
@@ -50,32 +29,11 @@ RaiseArgs:
 ReduceArguments:
   Enabled: false
 
-RedundantReturn:
-  Enabled: true
-
 RegexpLiteral:
   Enabled: false
 
-Semicolon:
-  Enabled: true
-
-ShadowingOuterLocalVariable:
-  Enabled: true
-
 SignalException:
   Enabled: false
-
-SpaceAfterComma:
-  Enabled: true
-
-SpaceAroundBlockBraces:
-  Enabled: true
-
-SpaceAroundEqualsInParameterDefault:
-  Enabled: true
-
-SpaceAroundOperators:
-  Enabled: true
 
 SpaceInsideHashLiteralBraces:
   Enabled: false
@@ -88,9 +46,6 @@ StringLiterals:
 
 Syntax:
   Enabled: false
-
-TrivialAccessors:
-  Enabled: true
 
 Void:
   Enabled: false
