@@ -6,7 +6,7 @@ module DMM
     attr_reader :request, :result
 
     def initialize(response)
-      @request = response[:request][:parameters][:parameter].inject({}) {|hash, params| hash.merge(params[:name].to_sym => params[:value]) }
+      @request = response[:request][:parameters][:parameter].inject({}) { |hash, params| hash.merge(params[:name].to_sym => params[:value]) }
       if response[:result][:message] && response[:result][:errors]
         @result  = response[:result]
       else

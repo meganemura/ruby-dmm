@@ -13,7 +13,7 @@ module MultiXml
       when String
         params.encode(encoding)
       when Array
-        params.map {|v| encoding_values(v) }
+        params.map { |v| encoding_values(v) }
       else
         params
       end

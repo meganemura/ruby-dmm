@@ -69,7 +69,7 @@ SpaceAfterComma:
   Enabled: true
 
 SpaceAroundBlockBraces:
-  Enabled: false
+  Enabled: true
 
 SpaceAroundEqualsInParameterDefault:
   Enabled: false

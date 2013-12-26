@@ -32,7 +32,7 @@ describe DMM::Response::ItemInfo do
     context 'simple_hash' do
       subject { DMM::Response::ItemInfo.integrate(complex_hash["actor"]) }
       it 'integrates name and ruby and more (classify etc...) by id' do
-        actor = subject.find {|a| a["id"] == "60257" }
+        actor = subject.find { |a| a["id"] == "60257" }
         actor["name"].should     == "ダニエル・ラドクリフ"
         actor["ruby"].should     == "だにえるらどくりふ"
         actor["classify"].should == "メガネ君"
@@ -55,12 +55,12 @@ describe DMM::Response::ItemInfo do
       its(:actors) { should_not be_empty }
       describe 'actors' do
         it 'integrates name and ruby by id' do
-          actor = subject.actors.find {|a| a["id"] == "60257" }
+          actor = subject.actors.find { |a| a["id"] == "60257" }
           actor["name"].should     == "ダニエル・ラドクリフ"
           actor["ruby"].should     == "だにえるらどくりふ"
           actor["classify"].should == "メガネ君"
 
-          actor = subject.actors.find {|a| a["id"] == "60074" }
+          actor = subject.actors.find { |a| a["id"] == "60074" }
           actor["name"].should == "エマ・ワトソン"
           actor["ruby"].should == "えまわとそん"
         end

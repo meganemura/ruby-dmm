@@ -17,7 +17,7 @@ describe DMM::Response::Item do
 
   describe 'define alias methods' do
     subject do
-      item = DMM::Response::Item::ALIAS_METHOD_MAP.keys.inject({}) {|h, key| h.merge(key => 1) }
+      item = DMM::Response::Item::ALIAS_METHOD_MAP.keys.inject({}) { |h, key| h.merge(key => 1) }
       DMM::Response::Item.new(item)
     end
     DMM::Response::Item::ALIAS_METHOD_MAP.values.each do |name|
