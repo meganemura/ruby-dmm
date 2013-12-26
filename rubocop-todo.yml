@@ -57,7 +57,7 @@ RegexpLiteral:
   Enabled: false
 
 Semicolon:
-  Enabled: false
+  Enabled: true
 
 ShadowingOuterLocalVariable:
   Enabled: false
