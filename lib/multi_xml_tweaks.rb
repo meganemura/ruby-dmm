@@ -22,7 +22,7 @@ module MultiXml
     alias_method :original_parse, :parse
     def parse(xml, options={})
       hash = original_parse(xml, options)
-      return encoding_values(hash)
+      encoding_values(hash)
     end
 
   end

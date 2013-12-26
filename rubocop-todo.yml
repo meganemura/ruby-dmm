@@ -51,7 +51,7 @@ ReduceArguments:
   Enabled: false
 
 RedundantReturn:
-  Enabled: false
+  Enabled: true
 
 RegexpLiteral:
   Enabled: false
