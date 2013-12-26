@@ -18,7 +18,7 @@ CollectionMethods:
   Enabled: false
 
 ColonMethodCall:
-  Enabled: false
+  Enabled: true
 
 ConstantName:
   Enabled: false

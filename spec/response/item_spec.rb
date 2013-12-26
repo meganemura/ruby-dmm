@@ -4,7 +4,7 @@ require "spec_helper"
 describe DMM::Response::Item do
   before :all do
     stub_get.to_return(xml_response("com.xml"))
-    @item = DMM::new.item_list.result.items.first
+    @item = DMM.new.item_list.result.items.first
   end
 
   describe '#images' do
