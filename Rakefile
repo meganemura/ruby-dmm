@@ -26,5 +26,6 @@ if RUBY_VERSION >= '1.9.0'
       Guardfile
       ruby-dmm.gemspec
     )
+    task.fail_on_error = false
   end
 end
