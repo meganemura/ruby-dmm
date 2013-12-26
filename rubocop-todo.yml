@@ -3,7 +3,7 @@
 # one by one as the offences are removed from the code base.
 
 AccessControl:
-  Enabled: false
+  Enabled: true
 
 Alias:
   Enabled: false

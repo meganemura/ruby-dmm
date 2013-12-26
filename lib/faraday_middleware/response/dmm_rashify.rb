@@ -4,7 +4,9 @@ require 'rash'
 
 module DMM
   class Rash < ::Hashie::Rash
+
     protected
+
     def underscore_string(str)
       str.to_s.strip.
         gsub(' ', '_').
