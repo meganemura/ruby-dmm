@@ -72,7 +72,7 @@ SpaceAroundBlockBraces:
   Enabled: true
 
 SpaceAroundEqualsInParameterDefault:
-  Enabled: false
+  Enabled: true
 
 SpaceAroundOperators:
   Enabled: false

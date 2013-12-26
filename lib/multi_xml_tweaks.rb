@@ -4,7 +4,7 @@ require 'multi_xml'
 module MultiXml
   class << self
 
-    def encoding_values(params, encoding=Encoding::UTF_8)
+    def encoding_values(params, encoding = Encoding::UTF_8)
       case params
       when Hash
         params.inject({}) do |result, (key, value)|
@@ -20,7 +20,7 @@ module MultiXml
     end
 
     alias_method :original_parse, :parse
-    def parse(xml, options={})
+    def parse(xml, options = {})
       hash = original_parse(xml, options)
       encoding_values(hash)
     end
