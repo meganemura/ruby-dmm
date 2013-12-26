@@ -90,7 +90,7 @@ Syntax:
   Enabled: false
 
 TrivialAccessors:
-  Enabled: false
+  Enabled: true
 
 Void:
   Enabled: false
