@@ -18,7 +18,7 @@ module Faraday
 
     def on_complete(response)
       key = response[:status].to_i
-      raise ERROR_MAP[key].new(response) if ERROR_MAP.has_key? key
+      raise ERROR_MAP[key].new(response) if ERROR_MAP.key? key
     end
   end
 end

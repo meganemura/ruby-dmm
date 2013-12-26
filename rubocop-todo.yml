@@ -33,7 +33,7 @@ EmptyLines:
   Enabled: true
 
 HashMethods:
-  Enabled: false
+  Enabled: true
 
 HashSyntax:
   Enabled: false
