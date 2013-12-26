@@ -9,12 +9,14 @@ end
 
 task :default => :rspec
 
-task :travis => [:rspec, 'coveralls:push']
+task :travis  => [:rspec, :quality, 'coveralls:push']
+task :quality => []
 
 Coveralls::RakeTask.new
 
 if RUBY_VERSION >= '1.9.0'
   require 'rubocop/rake_task'
+  task :quality => :rubocop
   Rubocop::RakeTask.new do |task|
     task.patterns = %w(
       lib/**/*.rb
