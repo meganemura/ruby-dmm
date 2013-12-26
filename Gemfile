@@ -7,6 +7,7 @@ group :development, :test do
   gem 'pry'
   gem 'guard-rspec'
   gem 'ox'
+  gem 'rubocop', '~> 0.14.1' if RUBY_VERSION >= '1.9.0'
 end
 
 group :test do

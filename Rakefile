@@ -7,3 +7,17 @@ RSpec::Core::RakeTask.new(:rspec) do |spec|
 end
 
 task :default => :rspec
+
+if RUBY_VERSION >= '1.9.0'
+  require 'rubocop/rake_task'
+  Rubocop::RakeTask.new do |task|
+    task.patterns = %w(
+      lib/**/*.rb
+      spec/**/*.rb
+      Rakefile
+      Gemfile
+      Guardfile
+      ruby-dmm.gemspec
+    )
+  end
+end
