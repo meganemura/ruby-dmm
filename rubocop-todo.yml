@@ -60,7 +60,7 @@ Semicolon:
   Enabled: true
 
 ShadowingOuterLocalVariable:
-  Enabled: false
+  Enabled: true
 
 SignalException:
   Enabled: false
