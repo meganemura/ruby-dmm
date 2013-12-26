@@ -13,7 +13,7 @@ module DMM
         item_list = DMM::Response.new(response[:response])
         @params[:result_only] ? item_list.result : item_list
       end
-      alias :items :item_list
+      alias_method :items, :item_list
 
       ITEM_LIST_PARAMETERS = [
         :floor,
@@ -34,9 +34,9 @@ module DMM
         end
       end
 
-      alias :limit :hits
-      alias :order :sort
-      alias :stock :mono_stock
+      alias_method :limit, :hits
+      alias_method :order, :sort
+      alias_method :stock, :mono_stock
     end
 
   end

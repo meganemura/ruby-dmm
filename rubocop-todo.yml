@@ -6,7 +6,7 @@ AccessControl:
   Enabled: true
 
 Alias:
-  Enabled: false
+  Enabled: true
 
 AssignmentInCondition:
   Enabled: false
