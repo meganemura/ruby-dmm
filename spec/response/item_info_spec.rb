@@ -49,7 +49,6 @@ describe DMM::Response::ItemInfo do
     end
   end
 
-
   describe 'define method for any keys' do
     context 'complex_hash' do
       subject { DMM::Response::ItemInfo.new(complex_hash) }

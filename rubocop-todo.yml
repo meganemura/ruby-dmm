@@ -30,7 +30,7 @@ DotPosition:
   Enabled: true
 
 EmptyLines:
-  Enabled: false
+  Enabled: true
 
 HashMethods:
   Enabled: false
