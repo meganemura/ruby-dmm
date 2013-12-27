@@ -5,7 +5,7 @@ describe DMM::Response::ItemInfo do
 
   def complex_hash
     {
-      "actor"=> [
+      "actor" => [
         {"name" => "ダニエル・ラドクリフ",  "id" => "60257"},
         {"name" => "だにえるらどくりふ",    "id" => "60257_ruby"},
         {"name" => "メガネ君",              "id" => "60257_classify"},
@@ -32,7 +32,7 @@ describe DMM::Response::ItemInfo do
     context 'simple_hash' do
       subject { DMM::Response::ItemInfo.integrate(complex_hash["actor"]) }
       it 'integrates name and ruby and more (classify etc...) by id' do
-        actor = subject.find {|actor| actor["id"] == "60257" }
+        actor = subject.find { |a| a["id"] == "60257" }
         actor["name"].should     == "ダニエル・ラドクリフ"
         actor["ruby"].should     == "だにえるらどくりふ"
         actor["classify"].should == "メガネ君"
@@ -49,19 +49,18 @@ describe DMM::Response::ItemInfo do
     end
   end
 
-
   describe 'define method for any keys' do
     context 'complex_hash' do
       subject { DMM::Response::ItemInfo.new(complex_hash) }
       its(:actors) { should_not be_empty }
       describe 'actors' do
         it 'integrates name and ruby by id' do
-          actor = subject.actors.find {|actor| actor["id"] == "60257" }
+          actor = subject.actors.find { |a| a["id"] == "60257" }
           actor["name"].should     == "ダニエル・ラドクリフ"
           actor["ruby"].should     == "だにえるらどくりふ"
           actor["classify"].should == "メガネ君"
 
-          actor = subject.actors.find {|actor| actor["id"] == "60074" }
+          actor = subject.actors.find { |a| a["id"] == "60074" }
           actor["name"].should == "エマ・ワトソン"
           actor["ruby"].should == "えまわとそん"
         end

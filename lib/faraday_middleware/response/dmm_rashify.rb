@@ -4,17 +4,19 @@ require 'rash'
 
 module DMM
   class Rash < ::Hashie::Rash
+
     protected
+
     def underscore_string(str)
-      str.to_s.strip.
-        gsub(' ', '_').
-        gsub(/::/, '/').
-        gsub(/(URL)([a-z])/, '\1_\2').
-        gsub(/([A-Z]+)([A-Z][a-z])/,'\1_\2').
-        gsub(/([a-z\d])([A-Z])/,'\1_\2').
-        tr("-", "_").
-        squeeze("_").
-        downcase
+      str.to_s.strip
+        .gsub(' ', '_')
+        .gsub(/::/, '/')
+        .gsub(/(URL)([a-z])/, '\1_\2')
+        .gsub(/([A-Z]+)([A-Z][a-z])/, '\1_\2')
+        .gsub(/([a-z\d])([A-Z])/, '\1_\2')
+        .tr("-", "_")
+        .squeeze("_")
+        .downcase
     end
   end
 end

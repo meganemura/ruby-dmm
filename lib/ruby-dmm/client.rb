@@ -20,8 +20,9 @@ module DMM
 
     attr_accessor *Configuration::VALID_OPTIONS_KEYS
     attr_accessor :params
+    attr_reader   :last_response
 
-    def initialize(params={})
+    def initialize(params = {})
       DMM.options.each do |key, value|
         # fall back to `DMM::Configuration` module defaults
         send("#{key}=", params[key] || value)
@@ -51,19 +52,15 @@ module DMM
       @params[:operation] ? get('/', @params) : nil
     end
 
-    def last_response
-      @last_response
-    end
-
     private
 
-    def get(path, options={})
+    def get(path, options = {})
       encode_params!
       @last_response = connection.get('/', options)
       @last_response.body
     end
 
-    def connection(options={})
+    def connection(options = {})
       # TODO: not to create on every request.
       connection = Faraday.new(api_endpoint, options) do |faraday|
         faraday.adapter(adapter)

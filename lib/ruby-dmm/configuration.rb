@@ -26,7 +26,7 @@ module DMM
     end
 
     def options
-      VALID_OPTIONS_KEYS.inject({}) {|h, k| h.merge(k => send(k)) };
+      VALID_OPTIONS_KEYS.inject({}) { |h, k| h.merge(k => send(k)) }
     end
 
     def api_endpoint=(value)

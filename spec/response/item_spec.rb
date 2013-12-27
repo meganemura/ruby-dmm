@@ -4,7 +4,7 @@ require "spec_helper"
 describe DMM::Response::Item do
   before :all do
     stub_get.to_return(xml_response("com.xml"))
-    @item = DMM::new.item_list.result.items.first
+    @item = DMM.new.item_list.result.items.first
   end
 
   describe '#images' do
@@ -17,7 +17,7 @@ describe DMM::Response::Item do
 
   describe 'define alias methods' do
     subject do
-      item = DMM::Response::Item::ALIAS_METHOD_MAP.keys.inject({}) {|h, key| h.merge(key => 1) }
+      item = DMM::Response::Item::ALIAS_METHOD_MAP.keys.inject({}) { |h, key| h.merge(key => 1) }
       DMM::Response::Item.new(item)
     end
     DMM::Response::Item::ALIAS_METHOD_MAP.values.each do |name|

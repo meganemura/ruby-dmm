@@ -4,7 +4,7 @@ require "spec_helper"
 describe DMM::Response do
   before :all do
     stub_get.to_return(xml_response("com.xml"))
-    @response = DMM::new.item_list
+    @response = DMM.new.item_list
   end
 
   describe "Response" do
@@ -19,7 +19,7 @@ end
 describe DMM::Response::Result do
   before :each do
     stub_get.to_return(xml_response("com.xml"))
-    @result = DMM::new.item_list.result
+    @result = DMM.new.item_list.result
   end
 
   describe '#items' do
@@ -36,7 +36,7 @@ describe DMM::Response::Result do
     context "items.size == 0" do
       before do
         stub_get.to_return(xml_response("zero_items.xml"))
-        @result = DMM::new.item_list.result
+        @result = DMM.new.item_list.result
       end
 
       subject { @result }

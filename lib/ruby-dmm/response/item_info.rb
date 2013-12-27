@@ -36,7 +36,9 @@ module DMM
       end
 
       def self.integrate(h)
-        h && [h].flatten.inject({}) {|hash, params|
+        return nil unless h
+
+        hashes = [h].flatten.inject({}) do |hash, params|
           id, key = params["id"].split('_')
           hash[id] ||= {"id" => id}
           if key
@@ -45,7 +47,9 @@ module DMM
             hash[id].merge!("name" => params["name"])
           end
           hash
-        }.values
+        end
+
+        hashes.values
       end
     end
   end
