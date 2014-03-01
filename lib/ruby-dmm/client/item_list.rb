@@ -11,7 +11,12 @@ module DMM
         @params[:operation] = OPERATION_ITEM_LIST
         response = get('/', @params)
         item_list = DMM::Response.new(response[:response])
-        @params[:result_only] ? item_list.result : item_list
+
+        if @result_only
+          item_list.result
+        else
+          item_list
+        end
       end
       alias_method :items, :item_list
 
