@@ -33,6 +33,7 @@ module DMM
         hash.merge(key.to_sym => value)
       end
 
+      @result_only = !!params.delete(:result_only)  # Set true to get response.result only.
       @params = {
         :api_id       => ENV['DMM_API_ID']        || params[:api_id],       # your own api_id
         :affiliate_id => ENV['DMM_AFFILIATE_ID']  || params[:affiliate_id], # your own affiliate_id
@@ -40,7 +41,6 @@ module DMM
         :version      => DEFAULT_API_VERSION,
         :timestamp    => Time.now.strftime("%F %T"),
         :site         => DEFAULT_SITE,
-        :result_only  => false, # Set true to get response.result only.
       }.merge(params)
     end
 

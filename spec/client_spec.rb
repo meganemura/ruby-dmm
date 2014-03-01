@@ -22,5 +22,11 @@ describe DMM::Client do
     it "returns last response" do
       @client.last_response.should_not be_nil
     end
+
+    describe 'request params' do
+      subject { @client.params }
+      it { should_not have_key(:result_only) }
+    end
+
   end
 end
