@@ -1,7 +1,7 @@
 # encoding: utf-8
-require "ruby-dmm/configuration"
+require 'ruby-dmm/configuration'
 require 'ruby-dmm/error'
-require "ruby-dmm/client"
+require 'ruby-dmm/client'
 
 module DMM
   extend Configuration

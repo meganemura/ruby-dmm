@@ -1,6 +1,6 @@
 # encoding: utf-8
 require 'faraday'
-require "ruby-dmm/version"
+require 'ruby-dmm/version'
 
 module DMM
 
