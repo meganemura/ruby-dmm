@@ -18,7 +18,7 @@ module DMM
 
     attr_accessor *Configuration::VALID_OPTIONS_KEYS
     attr_accessor :params
-    attr_reader   :last_response
+    attr_reader :last_response
 
     def initialize(params = {})
       DMM.options.each do |key, value|

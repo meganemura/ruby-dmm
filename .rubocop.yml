@@ -22,4 +22,7 @@ Style/SignalException:
   Enabled: true
   EnforcedStyle: only_raise
 
+Style/SingleSpaceBeforeFirstArg:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml

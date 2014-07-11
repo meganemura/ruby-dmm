@@ -33,8 +33,8 @@ describe DMM::Response::ItemInfo do
       subject { DMM::Response::ItemInfo.integrate(complex_hash["actor"]) }
       it 'integrates name and ruby and more (classify etc...) by id' do
         actor = subject.find { |a| a["id"] == "60257" }
-        expect(actor["name"]).to     eq("ダニエル・ラドクリフ")
-        expect(actor["ruby"]).to     eq("だにえるらどくりふ")
+        expect(actor["name"]).to eq("ダニエル・ラドクリフ")
+        expect(actor["ruby"]).to eq("だにえるらどくりふ")
         expect(actor["classify"]).to eq("メガネ君")
       end
     end
@@ -43,8 +43,8 @@ describe DMM::Response::ItemInfo do
       subject { DMM::Response::ItemInfo.integrate(simple_hash["label"]) }
       it 'runs collectry' do
         label = subject.first
-        expect(label["id"]).to    eq("60016")
-        expect(label["name"]).to  eq("ワーナー・ホーム・ビデオ")
+        expect(label["id"]).to eq("60016")
+        expect(label["name"]).to eq("ワーナー・ホーム・ビデオ")
       end
     end
   end
@@ -60,8 +60,8 @@ describe DMM::Response::ItemInfo do
       describe 'actors' do
         it 'integrates name and ruby by id' do
           actor = subject.actors.find { |a| a["id"] == "60257" }
-          expect(actor["name"]).to     eq("ダニエル・ラドクリフ")
-          expect(actor["ruby"]).to     eq("だにえるらどくりふ")
+          expect(actor["name"]).to eq("ダニエル・ラドクリフ")
+          expect(actor["ruby"]).to eq("だにえるらどくりふ")
           expect(actor["classify"]).to eq("メガネ君")
 
           actor = subject.actors.find { |a| a["id"] == "60074" }
