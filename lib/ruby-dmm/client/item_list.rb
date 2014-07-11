@@ -4,7 +4,7 @@ module DMM
 
   class Client
     module ItemList
-      def item_list(keyword = "", options = {})
+      def item_list(keyword = '', options = {})
         @params = @params.merge(:keyword => keyword).merge(options)
         @params[:operation] = OPERATION_ITEM_LIST
         response = get('/', @params)

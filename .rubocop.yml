@@ -31,4 +31,7 @@ Style/SpaceInsideHashLiteralBraces:
 Style/SpecialGlobalVars:
   Enabled: true
 
+Style/StringLiterals:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml

@@ -1,6 +1,6 @@
 # encoding: utf-8
-require "ruby-dmm"
-require "webmock/rspec"
+require 'ruby-dmm'
+require 'webmock/rspec'
 
 require 'coveralls'
 Coveralls.wear!
@@ -23,15 +23,15 @@ RSpec.configure do |config|
 end
 
 def fixture_path
-  File.expand_path(File.dirname(__FILE__) + "/fixtures/")
+  File.expand_path(File.dirname(__FILE__) + '/fixtures/')
 end
 
 def fixture(file)
-  File.new(fixture_path + '/' + file, "rb")
+  File.new(fixture_path + '/' + file, 'rb')
 end
 
 def all_fixtures
-  Dir.glob(fixture_path + '/' + "*.xml").map { |x| File.basename(x) }.sort
+  Dir.glob(fixture_path + '/' + '*.xml').map { |x| File.basename(x) }.sort
 end
 
 def fixtures

@@ -37,7 +37,7 @@ module DMM
         :affiliate_id => ENV['DMM_AFFILIATE_ID']  || params[:affiliate_id], # your own affiliate_id
         :operation    => nil,
         :version      => DEFAULT_API_VERSION,
-        :timestamp    => Time.now.strftime("%F %T"),
+        :timestamp    => Time.now.strftime('%F %T'),
         :site         => DEFAULT_SITE,
       }.merge(params)
     end
@@ -63,7 +63,7 @@ module DMM
       connection = Faraday.new(api_endpoint, options) do |faraday|
         faraday.adapter(adapter)
         faraday.request(:url_encoded)
-        faraday.response(:xml, :content_type => "text/xml; charset=euc-jp")
+        faraday.response(:xml, :content_type => 'text/xml; charset=euc-jp')
         faraday.use(FaradayMiddleware::DMMRashify)
         faraday.use(FaradayMiddleware::ParseXml)
         faraday.use(Faraday::Response::RaiseDMMError)

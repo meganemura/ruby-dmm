@@ -38,12 +38,12 @@ module DMM
         return nil unless h
 
         hashes = [h].flatten.inject({}) do |hash, params|
-          id, key = params["id"].split('_')
-          hash[id] ||= { "id" => id }
+          id, key = params['id'].split('_')
+          hash[id] ||= { 'id' => id }
           if key
-            hash[id].merge!(key => params["name"])
+            hash[id].merge!(key => params['name'])
           else
-            hash[id].merge!("name" => params["name"])
+            hash[id].merge!('name' => params['name'])
           end
           hash
         end

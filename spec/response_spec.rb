@@ -1,13 +1,13 @@
 # vim: ts=2 sts=2 et sw=2 ft=ruby fileencoding=utf-8
-require "spec_helper"
+require 'spec_helper'
 
 describe DMM::Response do
   before :all do
-    stub_get.to_return(xml_response("com.xml"))
+    stub_get.to_return(xml_response('com.xml'))
     @response = DMM.new.item_list
   end
 
-  describe "Response" do
+  describe 'Response' do
     subject { @response }
     it { is_expected.to respond_to(:request) }
     it { is_expected.to respond_to(:result) }
@@ -26,12 +26,12 @@ end
 
 describe DMM::Response::Result do
   before :each do
-    stub_get.to_return(xml_response("com.xml"))
+    stub_get.to_return(xml_response('com.xml'))
     @result = DMM.new.item_list.result
   end
 
   describe '#items' do
-    context "items.size > 0" do
+    context 'items.size > 0' do
       subject { @result }
 
       describe '#items' do
@@ -45,9 +45,9 @@ describe DMM::Response::Result do
       end
     end
 
-    context "items.size == 0" do
+    context 'items.size == 0' do
       before do
-        stub_get.to_return(xml_response("zero_items.xml"))
+        stub_get.to_return(xml_response('zero_items.xml'))
         @result = DMM.new.item_list.result
       end
 

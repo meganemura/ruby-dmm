@@ -1,50 +1,50 @@
 # vim: ts=2 sts=2 et sw=2 ft=ruby fileencoding=utf-8
-require "spec_helper"
+require 'spec_helper'
 
 describe DMM::Response::ItemInfo do
 
   def complex_hash
     {
-      "actor" => [
-        { "name" => "ダニエル・ラドクリフ",  "id" => "60257" },
-        { "name" => "だにえるらどくりふ",    "id" => "60257_ruby" },
-        { "name" => "メガネ君",              "id" => "60257_classify" },
-        { "name" => "ルパート・グリント",    "id" => "60458" },
-        { "name" => "るぱーとぐりんと",      "id" => "60458_ruby" },
-        { "name" => "リチャード・ハリス",    "id" => "61833" },
-        { "name" => "りちゃーどはりす",      "id" => "61833_ruby" },
-        { "name" => "エマ・ワトソン",        "id" => "60074" },
-        { "name" => "えまわとそん",          "id" => "60074_ruby" },
+      'actor' => [
+        { 'name' => 'ダニエル・ラドクリフ',  'id' => '60257' },
+        { 'name' => 'だにえるらどくりふ',    'id' => '60257_ruby' },
+        { 'name' => 'メガネ君',              'id' => '60257_classify' },
+        { 'name' => 'ルパート・グリント',    'id' => '60458' },
+        { 'name' => 'るぱーとぐりんと',      'id' => '60458_ruby' },
+        { 'name' => 'リチャード・ハリス',    'id' => '61833' },
+        { 'name' => 'りちゃーどはりす',      'id' => '61833_ruby' },
+        { 'name' => 'エマ・ワトソン',        'id' => '60074' },
+        { 'name' => 'えまわとそん',          'id' => '60074_ruby' },
       ],
     }
   end
 
   def simple_hash
     {
-      "label"  => { "name" => "ワーナー・ホーム・ビデオ",  "id" => "60016" },
-      "genre"  => { "name" => "ファンタジー",              "id" => "71009" },
-      "series" => { "name" => "ハリー・ポッター",          "id" => "60029" },
-      "maker"  => { "name" => "ワーナー・ホーム・ビデオ",  "id" => "45578" },
+      'label'  => { 'name' => 'ワーナー・ホーム・ビデオ',  'id' => '60016' },
+      'genre'  => { 'name' => 'ファンタジー',              'id' => '71009' },
+      'series' => { 'name' => 'ハリー・ポッター',          'id' => '60029' },
+      'maker'  => { 'name' => 'ワーナー・ホーム・ビデオ',  'id' => '45578' },
     }
   end
 
   describe '.integrate' do
     context 'simple_hash' do
-      subject { DMM::Response::ItemInfo.integrate(complex_hash["actor"]) }
+      subject { DMM::Response::ItemInfo.integrate(complex_hash['actor']) }
       it 'integrates name and ruby and more (classify etc...) by id' do
-        actor = subject.find { |a| a["id"] == "60257" }
-        expect(actor["name"]).to eq("ダニエル・ラドクリフ")
-        expect(actor["ruby"]).to eq("だにえるらどくりふ")
-        expect(actor["classify"]).to eq("メガネ君")
+        actor = subject.find { |a| a['id'] == '60257' }
+        expect(actor['name']).to eq('ダニエル・ラドクリフ')
+        expect(actor['ruby']).to eq('だにえるらどくりふ')
+        expect(actor['classify']).to eq('メガネ君')
       end
     end
 
     context 'simple_hash' do
-      subject { DMM::Response::ItemInfo.integrate(simple_hash["label"]) }
+      subject { DMM::Response::ItemInfo.integrate(simple_hash['label']) }
       it 'runs collectry' do
         label = subject.first
-        expect(label["id"]).to eq("60016")
-        expect(label["name"]).to eq("ワーナー・ホーム・ビデオ")
+        expect(label['id']).to eq('60016')
+        expect(label['name']).to eq('ワーナー・ホーム・ビデオ')
       end
     end
   end
@@ -59,14 +59,14 @@ describe DMM::Response::ItemInfo do
       end
       describe 'actors' do
         it 'integrates name and ruby by id' do
-          actor = subject.actors.find { |a| a["id"] == "60257" }
-          expect(actor["name"]).to eq("ダニエル・ラドクリフ")
-          expect(actor["ruby"]).to eq("だにえるらどくりふ")
-          expect(actor["classify"]).to eq("メガネ君")
+          actor = subject.actors.find { |a| a['id'] == '60257' }
+          expect(actor['name']).to eq('ダニエル・ラドクリフ')
+          expect(actor['ruby']).to eq('だにえるらどくりふ')
+          expect(actor['classify']).to eq('メガネ君')
 
-          actor = subject.actors.find { |a| a["id"] == "60074" }
-          expect(actor["name"]).to eq("エマ・ワトソン")
-          expect(actor["ruby"]).to eq("えまわとそん")
+          actor = subject.actors.find { |a| a['id'] == '60074' }
+          expect(actor['name']).to eq('エマ・ワトソン')
+          expect(actor['ruby']).to eq('えまわとそん')
         end
       end
     end

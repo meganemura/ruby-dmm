@@ -29,7 +29,7 @@ module DMM
     end
 
     def api_endpoint=(value)
-      @api_endpoint = File.join(value, "")
+      @api_endpoint = File.join(value, '')
     end
 
     def reset
