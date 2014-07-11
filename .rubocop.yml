@@ -31,6 +31,9 @@ Style/SignalException:
   Enabled: true
   EnforcedStyle: only_raise
 
+Style/SingleLineBlockParams:
+  Enabled: false
+
 Style/SingleSpaceBeforeFirstArg:
   Enabled: true
 

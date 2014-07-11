@@ -44,8 +44,3 @@ Style/RaiseArgs:
 # Offense count: 2
 Style/RegexpLiteral:
   MaxSlashes: 0
-
-# Offense count: 3
-# Configuration parameters: Methods.
-Style/SingleLineBlockParams:
-  Enabled: false
