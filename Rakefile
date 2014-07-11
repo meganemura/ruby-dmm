@@ -17,7 +17,7 @@ Coveralls::RakeTask.new
 if RUBY_VERSION >= '1.9.0'
   require 'rubocop/rake_task'
   task :quality => :rubocop
-  Rubocop::RakeTask.new do |task|
+  RuboCop::RakeTask.new do |task|
     task.patterns = %w(
       lib/**/*.rb
       spec/**/*.rb
