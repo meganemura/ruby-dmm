@@ -25,7 +25,7 @@ module DMM
           self.class.class_eval do
             unless method_defined?(key)
               attr_reader key
-              if plural = PLURAL_MAP[key.to_sym]
+              if (plural = PLURAL_MAP[key.to_sym])
                 alias_method plural, key.to_sym
               end
             end

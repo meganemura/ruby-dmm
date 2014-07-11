@@ -4,6 +4,9 @@ Style/HashSyntax:
 Lint/AmbiguousOperator:
   Enabled: true
 
+Lint/AssignmentInCondition:
+  Enabled: true
+
 Lint/UnusedBlockArgument:
   Enabled: true
 
