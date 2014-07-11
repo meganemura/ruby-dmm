@@ -7,4 +7,9 @@ Lint/UnusedBlockArgument:
 Lint/UnusedMethodArgument:
   Enabled: true
 
+Style/CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    reduce: 'inject'
+
 inherit_from: .rubocop_todo.yml
