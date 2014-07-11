@@ -25,4 +25,7 @@ Style/SignalException:
 Style/SingleSpaceBeforeFirstArg:
   Enabled: true
 
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml

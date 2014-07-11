@@ -39,7 +39,7 @@ module DMM
 
         hashes = [h].flatten.inject({}) do |hash, params|
           id, key = params["id"].split('_')
-          hash[id] ||= {"id" => id}
+          hash[id] ||= { "id" => id }
           if key
             hash[id].merge!(key => params["name"])
           else

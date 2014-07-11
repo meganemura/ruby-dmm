@@ -64,12 +64,6 @@ Style/RegexpLiteral:
 Style/SingleLineBlockParams:
   Enabled: false
 
-# Offense count: 28
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, EnforcedStyleForEmptyBraces, SupportedStyles.
-Style/SpaceInsideHashLiteralBraces:
-  Enabled: false
-
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/SpecialGlobalVars:
