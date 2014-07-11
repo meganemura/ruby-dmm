@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = DMM::VERSION
   gem.authors       = ["meganemura"]
   gem.email         = ["mura2megane@gmail.com"]
-  gem.description   = %q{Client for the DMM Web Service API 2.0.}
-  gem.summary       = %q{Client for the DMM Web Service API 2.0.}
+  gem.description   = %q(Client for the DMM Web Service API 2.0.)
+  gem.summary       = %q(Client for the DMM Web Service API 2.0.)
   gem.homepage      = ""
 
   gem.files         = `git ls-files -z`.split("\x0")

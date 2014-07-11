@@ -15,4 +15,7 @@ Style/CollectionMethods:
 Style/EmptyLinesAroundBody:
   Enabled: true
 
+Style/PercentLiteralDelimiters:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml

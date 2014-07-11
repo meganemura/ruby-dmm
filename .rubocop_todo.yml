@@ -50,12 +50,6 @@ Style/LineLength:
 Style/MethodLength:
   Max: 23
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: PreferredDelimiters.
-Style/PercentLiteralDelimiters:
-  Enabled: false
-
 # Offense count: 1
 # Configuration parameters: SupportedStyles.
 Style/RaiseArgs:
