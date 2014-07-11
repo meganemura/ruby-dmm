@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Client for the DMM Web Service API 2.0.}
   gem.homepage      = ""
 
-  gem.files         = `git ls-files`.split($/)
+  gem.files         = `git ls-files -z`.split("\x0")
   gem.executables   = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
