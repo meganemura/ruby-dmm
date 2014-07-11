@@ -19,8 +19,18 @@ Gem::Specification.new do |gem|
   gem.licenses      = ["MIT"]
   gem.homepage      = 'https://github.com/meganemura/ruby-dmm'
 
-  gem.add_dependency('faraday', '~> 0.8')
-  gem.add_dependency('faraday_middleware')
-  gem.add_dependency('multi_xml')
-  gem.add_dependency('rash')
+  gem.add_dependency 'faraday', '~> 0.8'
+  gem.add_dependency 'faraday_middleware'
+  gem.add_dependency 'multi_xml'
+  gem.add_dependency 'rash'
+
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'webmock'
+  gem.add_development_dependency 'pry'
+  gem.add_development_dependency 'guard-rspec'
+  gem.add_development_dependency 'ox'
+  gem.add_development_dependency 'rubocop'
+  gem.add_development_dependency 'coveralls'
+  gem.add_development_dependency 'simplecov'
 end
