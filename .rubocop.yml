@@ -43,6 +43,9 @@ Style/SpecialGlobalVars:
 Style/StringLiterals:
   Enabled: true
 
+Style/TrailingComma:
+  Enabled: false
+
 Style/UnneededPercentQ:
   Enabled: true
 

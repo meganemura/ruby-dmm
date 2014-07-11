@@ -49,8 +49,3 @@ Style/RegexpLiteral:
 # Configuration parameters: Methods.
 Style/SingleLineBlockParams:
   Enabled: false
-
-# Offense count: 13
-# Configuration parameters: EnforcedStyleForMultiline, SupportedStyles.
-Style/TrailingComma:
-  Enabled: false
