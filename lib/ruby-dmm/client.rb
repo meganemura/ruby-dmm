@@ -8,14 +8,12 @@ require 'ruby-dmm/response'
 require 'ruby-dmm/client/item_list'
 
 module DMM
-
   DEFAULT_API_VERSION   = '2.00'.freeze
   SITE_DMM_CO_JP        = 'DMM.co.jp'.freeze
   SITE_DMM_COM          = 'DMM.com'.freeze
   DEFAULT_SITE          = SITE_DMM_CO_JP
 
   class Client
-
     include DMM::Client::ItemList
 
     attr_accessor *Configuration::VALID_OPTIONS_KEYS

@@ -4,7 +4,6 @@ require 'rash'
 
 module DMM
   class Rash < ::Hashie::Rash
-
     protected
 
     def underscore_string(str)

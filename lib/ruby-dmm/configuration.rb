@@ -3,7 +3,6 @@ require 'faraday'
 require 'ruby-dmm/version'
 
 module DMM
-
   module Configuration
     VALID_OPTIONS_KEYS = [
       :adapter,

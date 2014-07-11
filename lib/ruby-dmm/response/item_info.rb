@@ -2,7 +2,6 @@
 module DMM
   class Response
     class ItemInfo
-
       # for defining
       #   alias_method :actors, :actor
       PLURAL_MAP = {

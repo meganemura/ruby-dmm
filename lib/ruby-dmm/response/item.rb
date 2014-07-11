@@ -4,7 +4,6 @@ require 'ruby-dmm/response/item_info'
 module DMM
   class Response
     class Item
-
       PREDEFINED_KEYS = [
         :date,
         :iteminfo,

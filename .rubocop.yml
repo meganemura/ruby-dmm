@@ -12,4 +12,7 @@ Style/CollectionMethods:
   PreferredMethods:
     reduce: 'inject'
 
+Style/EmptyLinesAroundBody:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml
