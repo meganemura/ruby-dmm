@@ -34,4 +34,7 @@ Style/SpecialGlobalVars:
 Style/StringLiterals:
   Enabled: true
 
+Style/UnneededPercentQ:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml
