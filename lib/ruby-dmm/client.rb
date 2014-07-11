@@ -75,7 +75,7 @@ module DMM
     end
 
     def encode_params!
-      @params.each do |key, value|
+      @params.each do |_key, value|
         value.encode!(Encoding::EUC_JP) if value.is_a?(String) && !value.frozen?
       end
     end

@@ -1,4 +1,7 @@
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
+Lint/UnusedBlockArgument:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml
