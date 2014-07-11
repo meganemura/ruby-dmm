@@ -28,4 +28,7 @@ Style/SingleSpaceBeforeFirstArg:
 Style/SpaceInsideHashLiteralBraces:
   Enabled: true
 
+Style/SpecialGlobalVars:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml
