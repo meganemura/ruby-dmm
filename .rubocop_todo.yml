@@ -21,11 +21,6 @@ Style/DoubleNegation:
 Style/EachWithObject:
   Enabled: false
 
-# Offense count: 1
-# Configuration parameters: Exclude.
-Style/FileName:
-  Enabled: false
-
 # Offense count: 12
 # Configuration parameters: AllowURI.
 Style/LineLength:

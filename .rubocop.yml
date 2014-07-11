@@ -24,6 +24,9 @@ Style/CollectionMethods:
 Style/EmptyLinesAroundBody:
   Enabled: true
 
+Style/FileName:
+  Enabled: false
+
 Style/PercentLiteralDelimiters:
   Enabled: true
 
