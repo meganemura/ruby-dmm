@@ -33,9 +33,9 @@ describe DMM::Response::ItemInfo do
       subject { DMM::Response::ItemInfo.integrate(complex_hash["actor"]) }
       it 'integrates name and ruby and more (classify etc...) by id' do
         actor = subject.find { |a| a["id"] == "60257" }
-        actor["name"].should     == "ダニエル・ラドクリフ"
-        actor["ruby"].should     == "だにえるらどくりふ"
-        actor["classify"].should == "メガネ君"
+        expect(actor["name"]).to     eq("ダニエル・ラドクリフ")
+        expect(actor["ruby"]).to     eq("だにえるらどくりふ")
+        expect(actor["classify"]).to eq("メガネ君")
       end
     end
 
@@ -43,8 +43,8 @@ describe DMM::Response::ItemInfo do
       subject { DMM::Response::ItemInfo.integrate(simple_hash["label"]) }
       it 'runs collectry' do
         label = subject.first
-        label["id"].should    == "60016"
-        label["name"].should  == "ワーナー・ホーム・ビデオ"
+        expect(label["id"]).to    eq("60016")
+        expect(label["name"]).to  eq("ワーナー・ホーム・ビデオ")
       end
     end
   end
@@ -52,17 +52,21 @@ describe DMM::Response::ItemInfo do
   describe 'define method for any keys' do
     context 'complex_hash' do
       subject { DMM::Response::ItemInfo.new(complex_hash) }
-      its(:actors) { should_not be_empty }
+
+      describe '#actors' do
+        subject { super().actors }
+        it { is_expected.not_to be_empty }
+      end
       describe 'actors' do
         it 'integrates name and ruby by id' do
           actor = subject.actors.find { |a| a["id"] == "60257" }
-          actor["name"].should     == "ダニエル・ラドクリフ"
-          actor["ruby"].should     == "だにえるらどくりふ"
-          actor["classify"].should == "メガネ君"
+          expect(actor["name"]).to     eq("ダニエル・ラドクリフ")
+          expect(actor["ruby"]).to     eq("だにえるらどくりふ")
+          expect(actor["classify"]).to eq("メガネ君")
 
           actor = subject.actors.find { |a| a["id"] == "60074" }
-          actor["name"].should == "エマ・ワトソン"
-          actor["ruby"].should == "えまわとそん"
+          expect(actor["name"]).to eq("エマ・ワトソン")
+          expect(actor["ruby"]).to eq("えまわとそん")
         end
       end
     end
@@ -71,12 +75,12 @@ describe DMM::Response::ItemInfo do
       subject do
         DMM::Response::ItemInfo.new(simple_hash)
       end
-      it { should be }
+      it { is_expected.to be }
 
       describe 'director' do
         it 'respond to given keys' do
           simple_hash.keys.each do |key|
-            subject.should respond_to(key)
+            expect(subject).to respond_to(key)
           end
         end
       end

@@ -7,7 +7,7 @@ describe DMM::Client do
       it "returns response for #{fixture.split('.').first}" do
         stub_get.to_return(xml_response(fixture))
         @item_list = DMM::Client.new.item_list
-        @item_list.should_not be_nil
+        expect(@item_list).not_to be_nil
       end
     end
   end
@@ -20,12 +20,12 @@ describe DMM::Client do
     end
 
     it "returns last response" do
-      @client.last_response.should_not be_nil
+      expect(@client.last_response).not_to be_nil
     end
 
     describe 'request params' do
       subject { @client.params }
-      it { should_not have_key(:result_only) }
+      it { is_expected.not_to have_key(:result_only) }
     end
 
   end
