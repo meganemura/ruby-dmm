@@ -4,4 +4,7 @@ Style/HashSyntax:
 Lint/UnusedBlockArgument:
   Enabled: true
 
+Lint/UnusedMethodArgument:
+  Enabled: true
+
 inherit_from: .rubocop_todo.yml

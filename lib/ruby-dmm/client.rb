@@ -54,7 +54,7 @@ module DMM
 
     private
 
-    def get(path, options = {})
+    def get(_path, options = {})
       encode_params!
       @last_response = connection.get('/', options)
       @last_response.body
