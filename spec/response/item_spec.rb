@@ -9,10 +9,22 @@ describe DMM::Response::Item do
 
   describe '#images' do
     subject { @item.images }
-    it { should be }
-    its([:list])  { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pt.jpg' }
-    its([:small]) { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659ps.jpg' }
-    its([:large]) { should == 'http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pl.jpg' }
+    it { is_expected.to be }
+
+    describe '[:list]' do
+      subject { super()[:list] }
+      it { is_expected.to eq('http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pt.jpg') }
+    end
+
+    describe '[:small]' do
+      subject { super()[:small] }
+      it { is_expected.to eq('http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659ps.jpg') }
+    end
+
+    describe '[:large]' do
+      subject { super()[:large] }
+      it { is_expected.to eq('http://pics.dmm.com/mono/movie/n_616dlr22659/n_616dlr22659pl.jpg') }
+    end
   end
 
   describe 'define alias methods' do
@@ -21,7 +33,7 @@ describe DMM::Response::Item do
       DMM::Response::Item.new(item)
     end
     DMM::Response::Item::ALIAS_METHOD_MAP.values.each do |name|
-      it { should respond_to(name) }
+      it { is_expected.to respond_to(name) }
     end
   end
 
@@ -36,7 +48,11 @@ describe DMM::Response::Item do
       }
       DMM::Response::Item.new(item)
     end
-    its(:large_images) { should == ["http://pics.dmm.co.jp/digital/video/aaa00000/aaa00000jp-9.jpg"] }
+
+    describe '#large_images' do
+      subject { super().large_images }
+      it { is_expected.to eq(["http://pics.dmm.co.jp/digital/video/aaa00000/aaa00000jp-9.jpg"]) }
+    end
   end
 
   describe 'define method for any keys' do
@@ -46,6 +62,6 @@ describe DMM::Response::Item do
       }
       DMM::Response::Item.new(item)
     end
-    it { should respond_to(:not_defined_key) }
+    it { is_expected.to respond_to(:not_defined_key) }
   end
 end
