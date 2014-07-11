@@ -13,6 +13,9 @@ Lint/UnusedBlockArgument:
 Lint/UnusedMethodArgument:
   Enabled: true
 
+Style/ClassAndModuleChildren:
+  Enabled: true
+
 Style/CollectionMethods:
   Enabled: true
   PreferredMethods:
