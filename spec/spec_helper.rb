@@ -1,3 +1,4 @@
+# encoding: utf-8
 require "ruby-dmm"
 require "webmock/rspec"
 
