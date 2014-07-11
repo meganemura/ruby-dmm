@@ -14,7 +14,7 @@ module DMM
     DEFAULT_USER_AGENT    = "ruby-dmm gem #{DMM::VERSION}".freeze
     DEFAULT_API_ENDPOINT  = ENV['DMM_API_ENDPOINT'] || 'http://affiliate-api.dmm.com'.freeze
 
-    attr_accessor *VALID_OPTIONS_KEYS
+    attr_accessor(*VALID_OPTIONS_KEYS)
 
     def self.extended(base)
       base.reset

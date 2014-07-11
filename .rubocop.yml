@@ -1,6 +1,9 @@
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
+Lint/AmbiguousOperator:
+  Enabled: true
+
 Lint/UnusedBlockArgument:
   Enabled: true
 

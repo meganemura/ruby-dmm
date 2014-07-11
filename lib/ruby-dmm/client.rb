@@ -16,7 +16,7 @@ module DMM
   class Client
     include DMM::Client::ItemList
 
-    attr_accessor *Configuration::VALID_OPTIONS_KEYS
+    attr_accessor(*Configuration::VALID_OPTIONS_KEYS)
     attr_accessor :params
     attr_reader :last_response
 

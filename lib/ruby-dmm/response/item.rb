@@ -13,7 +13,7 @@ module DMM
         :prices,
         :small_images,
       ]
-      attr_reader *PREDEFINED_KEYS
+      attr_reader(*PREDEFINED_KEYS)
       alias_method :item_info,  :iteminfo
       alias_method :info,       :iteminfo
 
