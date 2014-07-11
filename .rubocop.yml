@@ -18,4 +18,8 @@ Style/EmptyLinesAroundBody:
 Style/PercentLiteralDelimiters:
   Enabled: true
 
+Style/SignalException:
+  Enabled: true
+  EnforcedStyle: only_raise
+
 inherit_from: .rubocop_todo.yml
