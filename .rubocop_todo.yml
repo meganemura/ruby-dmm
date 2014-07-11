@@ -61,12 +61,6 @@ Style/EmptyLinesAroundBody:
 Style/FileName:
   Enabled: false
 
-# Offense count: 35
-# Cop supports --auto-correct.
-# Configuration parameters: SupportedStyles.
-Style/HashSyntax:
-  EnforcedStyle: hash_rockets
-
 # Offense count: 12
 # Configuration parameters: AllowURI.
 Style/LineLength:
