@@ -3,7 +3,6 @@ require 'multi_xml'
 
 module MultiXml
   class << self
-
     def encoding_values(params, encoding = Encoding::UTF_8)
       case params
       when Hash
@@ -24,6 +23,5 @@ module MultiXml
       hash = original_parse(xml, options)
       encoding_values(hash)
     end
-
   end
 end

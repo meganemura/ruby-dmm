@@ -2,7 +2,6 @@
 module DMM
   class Response
     class ItemInfo
-
       # for defining
       #   alias_method :actors, :actor
       PLURAL_MAP = {
@@ -26,7 +25,7 @@ module DMM
           self.class.class_eval do
             unless method_defined?(key)
               attr_reader key
-              if plural = PLURAL_MAP[key.to_sym]
+              if (plural = PLURAL_MAP[key.to_sym])
                 alias_method plural, key.to_sym
               end
             end
@@ -39,12 +38,12 @@ module DMM
         return nil unless h
 
         hashes = [h].flatten.inject({}) do |hash, params|
-          id, key = params["id"].split('_')
-          hash[id] ||= {"id" => id}
+          id, key = params['id'].split('_')
+          hash[id] ||= { 'id' => id }
           if key
-            hash[id].merge!(key => params["name"])
+            hash[id].merge!(key => params['name'])
           else
-            hash[id].merge!("name" => params["name"])
+            hash[id].merge!('name' => params['name'])
           end
           hash
         end

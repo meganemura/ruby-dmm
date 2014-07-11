@@ -4,7 +4,6 @@ require 'ruby-dmm/response/item_info'
 module DMM
   class Response
     class Item
-
       PREDEFINED_KEYS = [
         :date,
         :iteminfo,
@@ -14,7 +13,7 @@ module DMM
         :prices,
         :small_images,
       ]
-      attr_reader *PREDEFINED_KEYS
+      attr_reader(*PREDEFINED_KEYS)
       alias_method :item_info,  :iteminfo
       alias_method :info,       :iteminfo
 
@@ -40,7 +39,7 @@ module DMM
             self.class.class_eval do
               unless method_defined?(key)
                 attr_reader key
-                if name = ALIAS_METHOD_MAP[key.to_sym]
+                if (name = ALIAS_METHOD_MAP[key.to_sym])
                   alias_method name, key.to_sym
                 end
               end

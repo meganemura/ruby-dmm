@@ -1,17 +1,58 @@
-# This is the configuration used to check the rubocop source code.
+Style/HashSyntax:
+  EnforcedStyle: hash_rockets
 
-inherit_from: rubocop-todo.yml
+Lint/AmbiguousOperator:
+  Enabled: true
 
-AllCops:
-  Includes:
-    - Rakefile
-    - Gemfile
-    - Guardfile
-    - config.ru
-    - ruby-dmm.gemspec
-  Excludes:
-    - db/**
-    - config/**
-    - script/**
-    - gems/**
-    - vendor/**
+Lint/AssignmentInCondition:
+  Enabled: true
+
+Lint/UnusedBlockArgument:
+  Enabled: true
+
+Lint/UnusedMethodArgument:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  Enabled: true
+
+Style/CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    reduce: 'inject'
+
+Style/EmptyLinesAroundBody:
+  Enabled: true
+
+Style/FileName:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: true
+
+Style/SignalException:
+  Enabled: true
+  EnforcedStyle: only_raise
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/SingleSpaceBeforeFirstArg:
+  Enabled: true
+
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: true
+
+Style/SpecialGlobalVars:
+  Enabled: true
+
+Style/StringLiterals:
+  Enabled: true
+
+Style/TrailingComma:
+  Enabled: false
+
+Style/UnneededPercentQ:
+  Enabled: true
+
+inherit_from: .rubocop_todo.yml

@@ -4,19 +4,19 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ruby-dmm/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "ruby-dmm"
+  gem.name          = 'ruby-dmm'
   gem.version       = DMM::VERSION
-  gem.authors       = ["meganemura"]
-  gem.email         = ["mura2megane@gmail.com"]
-  gem.description   = %q{Client for the DMM Web Service API 2.0.}
-  gem.summary       = %q{Client for the DMM Web Service API 2.0.}
-  gem.homepage      = ""
+  gem.authors       = ['meganemura']
+  gem.email         = ['mura2megane@gmail.com']
+  gem.description   = 'Client for the DMM Web Service API 2.0.'
+  gem.summary       = 'Client for the DMM Web Service API 2.0.'
+  gem.homepage      = ''
 
   gem.files         = `git ls-files -z`.split("\x0")
   gem.executables   = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ["lib"]
-  gem.licenses      = ["MIT"]
+  gem.require_paths = ['lib']
+  gem.licenses      = ['MIT']
   gem.homepage      = 'https://github.com/meganemura/ruby-dmm'
 
   gem.add_dependency 'faraday', '~> 0.8'

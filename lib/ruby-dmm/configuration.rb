@@ -3,7 +3,6 @@ require 'faraday'
 require 'ruby-dmm/version'
 
 module DMM
-
   module Configuration
     VALID_OPTIONS_KEYS = [
       :adapter,
@@ -15,7 +14,7 @@ module DMM
     DEFAULT_USER_AGENT    = "ruby-dmm gem #{DMM::VERSION}".freeze
     DEFAULT_API_ENDPOINT  = ENV['DMM_API_ENDPOINT'] || 'http://affiliate-api.dmm.com'.freeze
 
-    attr_accessor *VALID_OPTIONS_KEYS
+    attr_accessor(*VALID_OPTIONS_KEYS)
 
     def self.extended(base)
       base.reset
@@ -30,7 +29,7 @@ module DMM
     end
 
     def api_endpoint=(value)
-      @api_endpoint = File.join(value, "")
+      @api_endpoint = File.join(value, '')
     end
 
     def reset
