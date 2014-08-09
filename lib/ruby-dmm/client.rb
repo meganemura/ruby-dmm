@@ -40,6 +40,8 @@ module DMM
         :timestamp    => Time.now.strftime('%F %T'),
         :site         => DEFAULT_SITE,
       }.merge(params)
+
+      @encode_options = params[:encode_options] || {}
     end
 
     def operation(value)
@@ -74,7 +76,7 @@ module DMM
 
     def encode_params!
       @params.each do |_key, value|
-        value.encode!(Encoding::EUC_JP) if value.is_a?(String) && !value.frozen?
+        value.encode!(Encoding::EUC_JP, @encode_options) if value.is_a?(String) && !value.frozen?
       end
     end
   end
