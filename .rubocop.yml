@@ -1,3 +1,7 @@
+AllCops:
+  Exclude:
+    - 'gems/**/*'
+
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
