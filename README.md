@@ -1,9 +1,9 @@
 # ruby-dmm
-[![Gem Version](https://img.shields.io/gem/v/ruby-dmm.svg)](http://badge.fury.io/rb/ruby-dmm)
-[![Build Status](https://travis-ci.org/meganemura/ruby-dmm.svg?branch=master)](https://travis-ci.org/meganemura/ruby-dmm)
-[![Coverage Status](https://img.shields.io/coveralls/meganemura/ruby-dmm.svg)](https://coveralls.io/r/meganemura/ruby-dmm?branch=master)
-[![Code Climate](https://img.shields.io/codeclimate/github/meganemura/ruby-dmm.svg)](https://codeclimate.com/github/meganemura/ruby-dmm)
-[![Dependency Status](https://gemnasium.com/meganemura/ruby-dmm.svg)](https://gemnasium.com/meganemura/ruby-dmm)
+[![Gem Version](https://img.shields.io/gem/v/ruby-dmm.svg?style=flat)](http://badge.fury.io/rb/ruby-dmm)
+[![Build Status](https://img.shields.io/travis/meganemura/ruby-dmm.svg?style=flat)](https://travis-ci.org/meganemura/ruby-dmm)
+[![Coverage Status](https://img.shields.io/coveralls/meganemura/ruby-dmm.svg?style=flat)](https://coveralls.io/r/meganemura/ruby-dmm?branch=master)
+[![Code Climate](https://img.shields.io/codeclimate/github/meganemura/ruby-dmm.svg?style=flat)](https://codeclimate.com/github/meganemura/ruby-dmm)
+[![Dependency Status](https://img.shields.io/gemnasium/meganemura/ruby-dmm.svg?style=flat)](https://gemnasium.com/meganemura/ruby-dmm)
 
 Client for the DMM Web Service API 2.0.
 
