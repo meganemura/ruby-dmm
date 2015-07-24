@@ -39,7 +39,3 @@ Style/EachWithObject:
 # Configuration parameters: SupportedStyles.
 Style/RaiseArgs:
   EnforcedStyle: compact
-
-# Offense count: 4
-Style/RegexpLiteral:
-  MaxSlashes: 0

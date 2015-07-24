@@ -34,6 +34,9 @@ Style/FileName:
 Style/PercentLiteralDelimiters:
   Enabled: true
 
+Style/RegexpLiteral:
+  MaxSlashes: 0
+
 Style/SignalException:
   Enabled: true
   EnforcedStyle: only_raise
