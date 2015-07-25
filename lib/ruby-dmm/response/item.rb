@@ -25,26 +25,21 @@ module DMM
 
       def initialize(item)
         item.each do |key, value|
+          next unless value
+
           key = key.to_sym
           case key
           when :date
-            @date = Time.parse(value) if value
+            @date = Time.parse(value)
           when :iteminfo
-            @iteminfo = ItemInfo.new(value) if value
+            @iteminfo = ItemInfo.new(value)
           when :sample_image_url
-            @small_images = value[:sample_s][:image] if value
+            @small_images = value[:sample_s][:image]
           when :prices
-            setup_prices(value) if value
+            setup_prices(value)
           else
-            self.class.class_eval do
-              unless method_defined?(key)
-                attr_reader key
-                if (name = ALIAS_METHOD_MAP[key.to_sym])
-                  alias_method name, key.to_sym
-                end
-              end
-            end
-            instance_variable_set("@#{key}", item[key])
+            define_alias(key)
+            instance_variable_set("@#{key}", value)
           end
         end
       end
@@ -63,6 +58,17 @@ module DMM
         @price_all    = prices[:price_all]
         @prices       = prices[:deliveries] && [prices[:deliveries][:delivery]].flatten.inject({}) do |hash, params|
           hash.merge(params[:type] => params[:price].to_i)
+        end
+      end
+
+      def define_alias(key)
+        self.class.class_eval do
+          unless method_defined?(key)
+            attr_reader key
+            if (name = ALIAS_METHOD_MAP[key.to_sym])
+              alias_method name, key.to_sym
+            end
+          end
         end
       end
     end

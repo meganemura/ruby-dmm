@@ -1,6 +1,16 @@
 AllCops:
   Exclude:
     - 'gems/**/*'
+    - 'vendor/bundle/**/*'
+
+Metrics/CyclomaticComplexity:
+  Max: 6
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 17
 
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
@@ -25,6 +35,15 @@ Style/CollectionMethods:
   PreferredMethods:
     reduce: 'inject'
 
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
 Style/EmptyLinesAroundBody:
   Enabled: true
 
@@ -33,6 +52,9 @@ Style/FileName:
 
 Style/PercentLiteralDelimiters:
   Enabled: true
+
+Style/RegexpLiteral:
+  MaxSlashes: 0
 
 Style/SignalException:
   Enabled: true
@@ -58,5 +80,3 @@ Style/TrailingComma:
 
 Style/UnneededPercentQ:
   Enabled: true
-
-inherit_from: .rubocop_todo.yml
