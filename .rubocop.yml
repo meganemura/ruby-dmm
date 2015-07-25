@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - 'gems/**/*'
+    - 'vendor/bundle/**/*'
 
 Metrics/CyclomaticComplexity:
   Max: 6
