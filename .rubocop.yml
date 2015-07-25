@@ -2,6 +2,9 @@ AllCops:
   Exclude:
     - 'gems/**/*'
 
+Metrics/LineLength:
+  Max: 120
+
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
