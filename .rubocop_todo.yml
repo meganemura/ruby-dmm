@@ -30,7 +30,3 @@ Style/Documentation:
 # Offense count: 1
 Style/DoubleNegation:
   Enabled: false
-
-# Offense count: 1
-Style/EachWithObject:
-  Enabled: false
