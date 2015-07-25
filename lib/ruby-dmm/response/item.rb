@@ -37,7 +37,7 @@ module DMM
             setup_prices(value) if value
           else
             define_alias(key)
-            instance_variable_set("@#{key}", item[key])
+            instance_variable_set("@#{key}", value)
           end
         end
       end
