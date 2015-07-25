@@ -8,6 +8,9 @@ Metrics/CyclomaticComplexity:
 Metrics/LineLength:
   Max: 120
 
+Metrics/MethodLength:
+  Max: 17
+
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
