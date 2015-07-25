@@ -25,16 +25,18 @@ module DMM
 
       def initialize(item)
         item.each do |key, value|
+          next unless value
+
           key = key.to_sym
           case key
           when :date
-            @date = Time.parse(value) if value
+            @date = Time.parse(value)
           when :iteminfo
-            @iteminfo = ItemInfo.new(value) if value
+            @iteminfo = ItemInfo.new(value)
           when :sample_image_url
-            @small_images = value[:sample_s][:image] if value
+            @small_images = value[:sample_s][:image]
           when :prices
-            setup_prices(value) if value
+            setup_prices(value)
           else
             define_alias(key)
             instance_variable_set("@#{key}", value)
