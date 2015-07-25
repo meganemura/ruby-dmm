@@ -25,6 +25,9 @@ Style/CollectionMethods:
   PreferredMethods:
     reduce: 'inject'
 
+Style/Documentation:
+  Enabled: false
+
 Style/DoubleNegation:
   Enabled: false
 
