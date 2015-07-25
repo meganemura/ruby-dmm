@@ -26,7 +26,3 @@ Metrics/PerceivedComplexity:
 # Offense count: 15
 Style/Documentation:
   Enabled: false
-
-# Offense count: 1
-Style/DoubleNegation:
-  Enabled: false
