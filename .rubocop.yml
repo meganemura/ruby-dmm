@@ -79,5 +79,3 @@ Style/TrailingComma:
 
 Style/UnneededPercentQ:
   Enabled: true
-
-inherit_from: .rubocop_todo.yml
