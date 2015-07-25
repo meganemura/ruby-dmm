@@ -36,14 +36,7 @@ module DMM
           when :prices
             setup_prices(value) if value
           else
-            self.class.class_eval do
-              unless method_defined?(key)
-                attr_reader key
-                if (name = ALIAS_METHOD_MAP[key.to_sym])
-                  alias_method name, key.to_sym
-                end
-              end
-            end
+            define_alias(key)
             instance_variable_set("@#{key}", item[key])
           end
         end
@@ -63,6 +56,17 @@ module DMM
         @price_all    = prices[:price_all]
         @prices       = prices[:deliveries] && [prices[:deliveries][:delivery]].flatten.inject({}) do |hash, params|
           hash.merge(params[:type] => params[:price].to_i)
+        end
+      end
+
+      def define_alias(key)
+        self.class.class_eval do
+          unless method_defined?(key)
+            attr_reader key
+            if (name = ALIAS_METHOD_MAP[key.to_sym])
+              alias_method name, key.to_sym
+            end
+          end
         end
       end
     end
