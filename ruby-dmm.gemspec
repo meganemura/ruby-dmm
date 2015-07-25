@@ -30,7 +30,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'pry'
   gem.add_development_dependency 'guard-rspec'
   gem.add_development_dependency 'ox'
-  gem.add_development_dependency 'rubocop'
+  gem.add_development_dependency 'rubocop', '~> 0.26.0'
   gem.add_development_dependency 'coveralls'
   gem.add_development_dependency 'simplecov'
 end
