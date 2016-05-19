@@ -3,7 +3,6 @@ require 'faraday'
 require 'faraday/response/raise_dmm_error'
 require 'faraday_middleware'
 require 'faraday_middleware/response/dmm_rashify'
-require 'multi_xml_tweaks'
 require 'ruby-dmm/response'
 require 'ruby-dmm/client/item_list'
 

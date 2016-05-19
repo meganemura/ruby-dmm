@@ -21,7 +21,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'faraday', '~> 0.8'
   gem.add_dependency 'faraday_middleware'
-  gem.add_dependency 'multi_xml'
   gem.add_dependency 'rash'
 
   gem.add_development_dependency 'rake'
