@@ -1,82 +1,66 @@
 # encoding: utf-8
+
 require 'faraday'
-require 'faraday/response/raise_dmm_error'
 require 'faraday_middleware'
-require 'faraday_middleware/response/dmm_rashify'
 require 'ruby-dmm/response'
-require 'ruby-dmm/client/item_list'
+require 'ruby-dmm/version'
 
 module DMM
-  DEFAULT_API_VERSION   = '2.00'.freeze
-  SITE_DMM_CO_JP        = 'DMM.co.jp'.freeze
-  SITE_DMM_COM          = 'DMM.com'.freeze
-  DEFAULT_SITE          = SITE_DMM_CO_JP
-
   class Client
-    include DMM::Client::ItemList
 
-    attr_accessor(*Configuration::VALID_OPTIONS_KEYS)
-    attr_accessor :params
-    attr_reader :last_response
+    BASE_URL = 'https://api.dmm.com/affiliate/v3/'.freeze
+    DEFAULT_USER_AGENT = "ruby-dmm gem #{DMM::VERSION}".freeze
 
-    def initialize(params = {})
-      DMM.options.each do |key, value|
-        # fall back to `DMM::Configuration` module defaults
-        send("#{key}=", params[key] || value)
-      end
-
-      # Symbolize keys
-      params = params.inject({}) do |hash, (key, value)|
-        hash.merge(key.to_sym => value)
-      end
-
-      @result_only = !!params.delete(:result_only)  # Set true to get response.result only.
-      @params = {
-        :api_id       => ENV['DMM_API_ID']        || params[:api_id],       # your own api_id
-        :affiliate_id => ENV['DMM_AFFILIATE_ID']  || params[:affiliate_id], # your own affiliate_id
-        :operation    => nil,
-        :version      => DEFAULT_API_VERSION,
-        :timestamp    => Time.now.strftime('%F %T'),
-        :site         => DEFAULT_SITE,
-      }.merge(params)
-
-      @encode_options = params[:encode_options] || {}
+    def initialize(options = {})
+      @api_id       = (ENV['DMM_API_ID']       || options[:api_id])
+      @affiliate_id = (ENV['DMM_AFFILIATE_ID'] || options[:affiliate_id])
+      @user_agent   = (ENV['DMM_USER_AGENT']   || options[:user_agent] || DEFAULT_USER_AGENT)
     end
 
-    def operation(value)
-      @params.update(:operation => value)
-    end
+    API_MAP = {
+      product: 'ItemList',      # 商品情報
+      floor:   'FloorList',     # フロア
+      actress: 'ActressSearch', # 女優検索
+      genre:   'GenreSearch',   # ジャンル検索
+      maker:   'MakerSearch',   # メーカー検索
+      series:  'SeriesSearch',  # シリーズ検索
+      author:  'AuthorSearch',  # 作者検索
+    }.freeze
 
-    def all
-      @params[:operation] ? get('/', @params) : nil
+    API_MAP.each do |method, path|
+      define_method method do |params = {}|
+        get(path, credentials.merge(params))
+      end
     end
 
     private
 
-    def get(_path, options = {})
-      encode_params!
-      @last_response = connection.get('/', options)
-      @last_response.body
+    def credentials
+      {
+        api_id:       @api_id,
+        affiliate_id: @affiliate_id,
+      }
     end
 
-    def connection(options = {})
-      # TODO: not to create on every request.
-      connection = Faraday.new(api_endpoint, options) do |faraday|
-        faraday.adapter(adapter)
-        faraday.request(:url_encoded)
-        faraday.response(:xml, :content_type => 'text/xml; charset=euc-jp')
-        faraday.use(FaradayMiddleware::DMMRashify)
-        faraday.use(FaradayMiddleware::ParseXml)
-        faraday.use(Faraday::Response::RaiseDMMError)
-      end
-      connection.headers[:user_agent] = user_agent
-      connection
+    def get(path, options = {})
+      Response.new(connection.get(path, options))
     end
 
-    def encode_params!
-      @params.each do |_key, value|
-        value.encode!(Encoding::EUC_JP, @encode_options) if value.is_a?(String) && !value.frozen?
+    def connection
+      @connection ||= Faraday.new(faraday_options) do |faraday|
+        faraday.adapter  Faraday.default_adapter
+        faraday.request  :url_encoded
+        faraday.response :json
       end
+    end
+
+    def faraday_options
+      {
+        url: BASE_URL,
+        headers: {
+          user_agent: @user_agent,
+        },
+      }
     end
   end
 end

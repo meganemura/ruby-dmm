@@ -1,46 +1,29 @@
 # encoding: utf-8
-require 'ruby-dmm/response/item'
+
+require 'active_support/core_ext/hash/keys'
 
 module DMM
   class Response
-    attr_reader :request, :result
-
-    def initialize(response)
-      @request = response[:request][:parameters][:parameter].inject({}) do |hash, params|
-        hash.merge(params[:name].to_sym => params[:value])
-      end
-
-      if response[:result][:message] && response[:result][:errors]
-        @result  = response[:result]
-      else
-        @result  = DMM::Response::Result.new(response[:result])
-      end
+    def initialize(faraday_response)
+      @original_response = faraday_response
     end
 
-    class Result
-      RESULT_KEYS = [
-        :first_position,
-        :items,
-        :result_count,
-        :total_count,
-      ]
-      attr_reader(*RESULT_KEYS)
-      alias_method :offset,     :first_position
-      alias_method :per_result, :result_count
+    attr_reader :original_response
 
-      def initialize(result)
-        RESULT_KEYS.each do |key|
-          case key
-          when :items
-            @items = [result[:items][:item]].flatten.map do |item|
-              DMM::Response::Item.new(item)
-            end if result.key?(:items)
-            @items ||= []
-          else
-            instance_variable_set("@#{key}", result[key].to_i)
-          end
-        end
-      end
+    def body
+      @body ||= original_response.body.deep_symbolize_keys
+    end
+
+    def headers
+      original_response.headers
+    end
+
+    def status
+      original_response.status
+    end
+
+    def result
+      body[:result]
     end
   end
 end
