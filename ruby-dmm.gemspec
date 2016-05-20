@@ -24,12 +24,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'rash'
 
   gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'rspec', '~> 3.1.0'
-  gem.add_development_dependency 'webmock'
+  gem.add_development_dependency 'rspec', '~> 3.4.0'
   gem.add_development_dependency 'pry'
-  gem.add_development_dependency 'guard-rspec'
-  gem.add_development_dependency 'ox'
-  gem.add_development_dependency 'rubocop', '~> 0.26.0'
+  gem.add_development_dependency 'rubocop', '~> 0.40.0'
   gem.add_development_dependency 'coveralls'
   gem.add_development_dependency 'simplecov'
 end
