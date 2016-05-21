@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = DMM::VERSION
   gem.authors       = ['meganemura']
   gem.email         = ['mura2megane@gmail.com']
-  gem.description   = 'Client for the DMM Web Service API 2.0.'
-  gem.summary       = 'Client for the DMM Web Service API 2.0.'
-  gem.homepage      = ''
+  gem.description   = 'Client for the DMM Web Service API 3.0.'
+  gem.summary       = 'Client for the DMM Web Service API 3.0.'
+  gem.homepage      = 'https://github.com/meganemura/ruby-dmm'
 
   gem.files         = `git ls-files -z`.split("\x0")
   gem.executables   = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
@@ -19,18 +19,14 @@ Gem::Specification.new do |gem|
   gem.licenses      = ['MIT']
   gem.homepage      = 'https://github.com/meganemura/ruby-dmm'
 
-  gem.add_dependency 'faraday', '~> 0.8'
+  gem.add_dependency 'activesupport'
+  gem.add_dependency 'faraday', '~> 0.9'
   gem.add_dependency 'faraday_middleware'
-  gem.add_dependency 'multi_xml'
-  gem.add_dependency 'rash'
 
   gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'rspec', '~> 3.1.0'
-  gem.add_development_dependency 'webmock'
+  gem.add_development_dependency 'rspec', '~> 3.4.0'
   gem.add_development_dependency 'pry'
-  gem.add_development_dependency 'guard-rspec'
-  gem.add_development_dependency 'ox'
-  gem.add_development_dependency 'rubocop', '~> 0.26.0'
+  gem.add_development_dependency 'rubocop', '~> 0.40.0'
   gem.add_development_dependency 'coveralls'
   gem.add_development_dependency 'simplecov'
 end

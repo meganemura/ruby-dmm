@@ -5,7 +5,7 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/meganemura/ruby-dmm.svg?style=flat)](https://codeclimate.com/github/meganemura/ruby-dmm)
 [![Dependency Status](https://img.shields.io/gemnasium/meganemura/ruby-dmm.svg?style=flat)](https://gemnasium.com/meganemura/ruby-dmm)
 
-Client for the DMM Web Service API 2.0.
+Client for the DMM Web Service API v3
 
 ## Installation
 
@@ -24,30 +24,32 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-client = DMM.new(:api_id => "your_api_id", :affiliate_id => "your_affiliate_id", :result_only => true)
-response = client.order("date").limit(5).item_list("妄想")
-response.items.map {|item| item.title }
-# => ["ココロ@ファンクション！",
-#     "やらせてっ！てぃーちゃー学園旅行〜やらてぃーが学園を飛び出したァ！？〜（DVDPG）",
-#     "彫刻ボディ 瀧川花音",
-#     "目が奪われる瞬間 vol.02",
-#     "彫刻ボディ 瀧川花音"]
+client = DMM.new(:api_id => "YOUR-API-ID", :affiliate_id => "YOUR-AFFILIATE-ID")
+response = cli.product(:site => 'DMM.com', :keyword => '超能力', :sort => 'rank')
+response.result[:items].map {|x| x[:title] }
+# => ["僕のヒーローアカデミア",
+#     "みんな！エスパーだよ！-欲望だらけのラブ・ウォーズ-",
+#     "血界戦線 Vol.6 （ブルーレイディスク）",
+#     "エルフェンリート",
+#     "学園アリス",
+#     "ストレイヤーズ・クロニクル",
+#     "Honey Bitter",
+#     "MONSTERZ モンスターズ",
+#     "AREA D 異能領域",
+#     "十十虫は夢を見る",
+#     "蝶戦士ピンクフューリーS",
+#     "バビル2世 ザ・リターナー",
+#     "とある科学の超電磁砲",
+#     "裸心の十字架",
+#     "菊池俊輔 作曲50周年 CD-BOX Composer SHUNSUKE KIKUCHI 50th Anniversary",
+#     "アライブ 最終進化的少年",
+#     "恋は光",
+#     "ホムンクルス",
+#     "目隠しの国",
+#     "AKIRA"]
 ```
 
-### Choose your favorite XML Parser
-
-You can use `ox`, `libxml`, `nokogiri` through `multi_xml`.
-
-Add 'ox' and 'nokogiri' to your Gemfile, then it works below.
-
-```ruby
-> require 'ruby-dmm'
-> MultiXml.parser # => MultiXml::Parsers::Ox
-> MultiXml.parser = :nokogiri
-> MultiXml.parser # => MultiXml::Parsers::Nokogiri
-```
-
-See [multi_xml documents](http://rdoc.info/gems/multi_xml).
+DMM::Client interface is very similar to (dmm-js-sdk](https://github.com/DMMcomLabo/dmm-js-sdk).
 
 ## Contributing
 
