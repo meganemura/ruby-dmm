@@ -49,7 +49,7 @@ response.result[:items].map {|x| x[:title] }
 #     "AKIRA"]
 ```
 
-DMM::Client interface is very similar to (dmm-js-sdk](https://github.com/DMMcomLabo/dmm-js-sdk).
+DMM::Client interface is very similar to [dmm-js-sdk](https://github.com/DMMcomLabo/dmm-js-sdk).
 
 ## Contributing
 
