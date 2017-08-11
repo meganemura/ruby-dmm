@@ -24,7 +24,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-client = DMM.new(:api_id => "YOUR-API-ID", :affiliate_id => "YOUR-AFFILIATE-ID")
+cli = DMM.new(:api_id => "YOUR-API-ID", :affiliate_id => "YOUR-AFFILIATE-ID")
 response = cli.product(:site => 'DMM.com', :keyword => '超能力', :sort => 'rank')
 response.result[:items].map {|x| x[:title] }
 # => ["僕のヒーローアカデミア",
