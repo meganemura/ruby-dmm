@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-require 'ruby-dmm/client'
+require_relative 'ruby_dmm/client'
 
 module DMM
   def self.new(options = {})
