@@ -20,8 +20,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/meganemura/ruby-dmm'
 
   gem.add_dependency 'activesupport'
-  gem.add_dependency 'faraday', '~> 0.9'
-  gem.add_dependency 'faraday_middleware'
+  gem.add_dependency 'faraday'
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec', '~> 3.4.0'

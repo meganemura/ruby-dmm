@@ -1,9 +1,8 @@
 # encoding: utf-8
 
 require 'faraday'
-require 'faraday_middleware'
-require 'ruby-dmm/response'
-require 'ruby-dmm/version'
+require_relative 'response'
+require_relative 'version'
 
 module DMM
   class Client
